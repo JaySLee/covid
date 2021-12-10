@@ -227,16 +227,16 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 <!-- p(C|\sim\\!\\!V) &= 0.66\% -->  
 <!-- \end{array}$ -->  
   
-* Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:  
-![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\%) - ![](https://latex.codecogs.com/svg.latex?2.53\%)  
-![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\%) - ![](https://latex.codecogs.com/svg.latex?2.58\%)   
+* Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
+![](https://latex.codecogs.com/svg.latex?p(H|V\\&C)=1.26\%) - ![](https://latex.codecogs.com/svg.latex?2.53\%)  
+![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\\&C)=1.29\%) - ![](https://latex.codecogs.com/svg.latex?2.58\%)   
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
    - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
-<!-- ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.62\%) - ![](https://latex.codecogs.com/svg.latex?2.55\%); ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.65\%) - ![](https://latex.codecogs.com/svg.latex?2.60\%) // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->  
+<!-- ![](https://latex.codecogs.com/svg.latex?p(H|V\\&C)=1.62\%) - ![](https://latex.codecogs.com/svg.latex?2.55\%); ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\\&C)=1.65\%) - ![](https://latex.codecogs.com/svg.latex?2.60\%) // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->  
   
 * Probability of ending up in the ICU (![](https://latex.codecogs.com/svg.latex?I)), given being vaxxed and having covid:    
-![](https://latex.codecogs.com/svg.latex?p(I|V\&C)=0.40\%)  
-![](https://latex.codecogs.com/svg.latex?p(I|\sim\\!\\!V\&C)=0.61\%)  
+![](https://latex.codecogs.com/svg.latex?p(I|V\\&C)=0.40\%)  
+![](https://latex.codecogs.com/svg.latex?p(I|\sim\\!\\!V\\&C)=0.61\%)  
   
 [Assumptions:]{.ul}  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
