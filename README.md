@@ -1,11 +1,12 @@
--*- markdown-command: "pandoc.sh -p -n -y -o" -*-
 ---
 title: COVID-19 in the Netherlands
 author: "_Author: Jay Lee_"
 date: "<i>Last update: JLDATE</i>"
 ---
 <!-- date: "<i>Last update: Nov. 18, 2021 (00:00)</i>" -->
-ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
+<!-- ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png -->
+
+<!-- -*- markdown-command: "pandoc.sh -p -n -y -o" -*- -->
 
 <style>
 @media print {
@@ -71,13 +72,13 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 ![](/fig/cv_nl_nat.png | width=60)
 
-![](/fig/cv_nl_nat.png){:width=20px)
+<!-- ![](/fig/cv_nl_nat.png){:width=20px) {} part shows as text -->
 
 <!-- ![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png | width=60) DONT WORK -->
 
 ![](https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png | width=60)
 
-![](https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png)
+<!-- ![](https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png) works -->
 
 <!-- https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png -->
 
