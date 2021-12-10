@@ -1,12 +1,11 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 10, 2021 11:33:33 PM</i>
+<i>Last update: Fri, Dec 10, 2021 11:34:40 PM</i>
   
   
   
 # Links and notes  
   
-* Latest version: [**HTML**](https://bit.ly/covid_nl_html) (download and open in your own browser), [**PDF**](https://bit.ly/covid_nl_pdf) (view on Dropbox or download from there)  
 * This document will be updated every few days or so.  
 * New additions:  
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
