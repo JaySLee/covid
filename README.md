@@ -241,7 +241,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 [Assumptions:]{.ul}  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
 * The above numbers are based on Nov 13, 2021 covid and hospitalization numbers.  
-  - ![](https://latex.codecogs.com/svg.latex?n_C=13743\text{, }n_{H|C}=(353+1402))  
+  - ![](https://latex.codecogs.com/svg.latex?n_C=13743\text{,&space;}n_{H|C}=(353+1402))  
 * Unless stated otherwise, I use the assumption of there being 10x as many actual infectious people as reported by RIVM (which in its data shows this to be much higher).  
 * Also, Google reported 67.6% of the NL population double vaxxed (when I last checked this number); the 83+% reported by NL times is based on the eligible population.  
   - As of 20.11.21, the vaccination proportion is 0.723.  
