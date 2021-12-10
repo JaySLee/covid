@@ -23,8 +23,8 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 * Latest version: [**HTML**](https://bit.ly/covid_nl_html) (download and open in your own browser), [**PDF**](https://bit.ly/covid_nl_pdf) (view on Dropbox or download from there)  
 * This document will be updated every few days or so.  
 * New additions:  
- -20.11.21-[Hospitalization risk by age](#hospitalization-risk-by-age)  
- -17.11.21-[Covid by age](#covid-by-age)  
+  - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
+  - 17.11.21 - [Covid by age](#covid-by-age)  
   
 ![](https://latex.codecogs.com/svg.latex?\newcommand{\not}{{\Large \textasciitilde}\!})  
 ![](https://latex.codecogs.com/svg.latex?\newcommand{\text}[1]{\text{#1}})  
@@ -49,7 +49,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 <!-- * Latest new cases=21443 (RIVMc), 21552 (RIVMn) -->  
 <!-- * Latest new cases=22154 (RIVMc), 22199 (RIVMn) &rarr; +677 -->  
 <!-- * Latest new cases=18515 (RIVMc), 18588 (RIVMn) &rarr; -3611 -->  
-<!--  -Supposedly this drop is due to IT error (missing some reports). -->  
+<!--   - Supposedly this drop is due to IT error (missing some reports). -->  
 <!-- * Latest new cases=23043 (RIVMc), 23142 (RIVMn) &rarr; +4554 -->  
 <!-- * Latest new cases=21529 (RIVMc), 21612 (RIVMn) &rarr; -1530 -->  
 <!-- * Latest new cases=22613 (RIVMc), 22723 (RIVMn) &rarr; +1111 -->  
@@ -59,13 +59,13 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 <!-- * Latest new cases=18062 (RIVMc), 18144 (RIVMn) &rarr; +127  -->  
 <!-- * Latest new cases=19763 (RIVMc), 19838 (RIVMn) &rarr; +1694 -->  
 * Latest new cases=17471 (RIVMc), 17562 (RIVMn) &rarr; -2276  
- -RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
+  - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
 * We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
 * ~~While the numbers have dropped since yesterday (Friday, Nov. 19, 2021),~~ there's usually a drop in the reported numbers around the weekend, and then a surge in Monday/Tuesday.  
 * Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.  
- -~~For NL on Nov. 15, 2021, this is 19054\*10=\~200K (or over 1% of the NL population).~~  
- -Nov. 18, 2021, 23591*10=~236K=1.35% of NL population  
- -[112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
+  - ~~For NL on Nov. 15, 2021, this is 19054\*10=\~200K (or over 1% of the NL population).~~  
+  - Nov. 18, 2021, 23591*10=~236K=1.35% of NL population  
+  - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
 * Red line indicates last count; green line=7 day moving average  
   
@@ -79,7 +79,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 ## Hospital occupancy trends  
 * [121021:] A few days ago, LCPS split ICU numbers by NL and "International" (i.e. in beds in Germany). Those are combined here.  
- -The latter includes "the number of COVID patients moved abroad from the Netherlands. This currently concerns COVID IC patients who have gone from the Netherlands to a hospital in Germany."  
+  - The latter includes "the number of COVID patients moved abroad from the Netherlands. This currently concerns COVID IC patients who have gone from the Netherlands to a hospital in Germany."  
 * [112721:] Hospitalizations are &#128543;.  
 * [111621:] Hospitalizations are not as dire as earlier this year and last year, but almost there :-/.  
   
@@ -127,22 +127,22 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 ## Cases by age group  
 * Just the age groups of our students, at 3 levels of measurement.  
- -National (NL)  
- -Province (Zuid-Holland)  
- -Local (GGD Rotterdam)  
+  - National (NL)  
+  - Province (Zuid-Holland)  
+  - Local (GGD Rotterdam)  
 * RIVM groups ages by decade.  
 * Smooth curves fit the data points (loess).  
 * Upper plots show 7-day moving average.  
 * Lower plots no moving average (but dates are more restricted for zooming).  
 * Left plots shows **relative** proportion across all age groups.  
 * Right plots shows absolute percentages within population of the age group.  
- -Also, in the right plots: <red>**_the last/rightmost 6-8 points are incomplete (data), thus the sharp drop._**</red>  
- -On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds have covid.  
+  - Also, in the right plots: <red>**_the last/rightmost 6-8 points are incomplete (data), thus the sharp drop._**</red>  
+  - On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds have covid.  
     + They also constitute ~18% of the infected on the same date.  
 * GGD Rotterdam throws up some extreme values for last date.  
 * [Observation:]{.ul}  
- -A recent relative uptick of cases in the two relevant age groups.  
- -The percentages within age groups are more striking.  
+  - A recent relative uptick of cases in the two relevant age groups.  
+  - The percentages within age groups are more striking.  
   
 <img src="/fig/cv_age_case.png" width="49%"> <img src="/fig/cv_age_case2.png" width="49%">  
 <img src="/fig/cv_age_case3.png" width="49%"> <img src="/fig/cv_age_case4.png" width="49%">  
@@ -157,16 +157,16 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 <!-- * Dates of case/age data are offset by +3 days in the plot below. -->  
 <!-- * So two kinds of delays: -->  
-<!--  -RIVM country totals data (of all new cases) is behind the age data by 3 days. -->  
-<!--  -But latest age data is incomplete/delayed significantly. -->  
+<!--   - RIVM country totals data (of all new cases) is behind the age data by 3 days. -->  
+<!--   - But latest age data is incomplete/delayed significantly. -->  
   
 <!-- <p align="center"> <img src="/fig/cv_age_delay.png" width="30%"> </p> -->  
 <!-- <img src="/fig/cv_age_delay.png">{: style="float: right"} // doesn't work -->  
   
 * Dates of case/age data are offset by +3 days in the plot below.  
 * So two kinds of delays:  
- -RIVM country totals data (of all new cases) is behind the age data by 3 days.  
- -But comprehensive age data for the past week is incomplete/delayed significantly.  
+  - RIVM country totals data (of all new cases) is behind the age data by 3 days.  
+  - But comprehensive age data for the past week is incomplete/delayed significantly.  
   
 <div style="page-break-after: always;"></div>  
   
@@ -180,20 +180,20 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 * First two plots show 7-day moving average.  
 * Upper left plot shows relative proportion across all age groups.  
 <!-- * The left plot shows relative proportion across all age groups -->  
- -Young age groups are merged due to misalignment between hospital and case data.  
- -_Relative proportion generally going down largely because of (relatively) more hospitizalizations in the older (not shown) age groups._  
+  - Young age groups are merged due to misalignment between hospital and case data.  
+  - _Relative proportion generally going down largely because of (relatively) more hospitizalizations in the older (not shown) age groups._  
 * Upper right plot shows ratio of hospitalizations to number of cases.  
- -These proportions is an upper bound, as there are far more contagious cases thanindicated by a daily case number and also considering not all cases are registered by RIVM.  
- -_Under that assumption, there is currently < 1% chance of hospitalization after infection._  
- -_The diminishing curves for the older age groups may be indicative of the vaccine's effectiveness._  
+  - These proportions is an upper bound, as there are far more contagious cases thanindicated by a daily case number and also considering not all cases are registered by RIVM.  
+  - _Under that assumption, there is currently < 1% chance of hospitalization after infection._  
+  - _The diminishing curves for the older age groups may be indicative of the vaccine's effectiveness._  
 * The lower two plot shows _percentage_ within population of each age group.  
- -The right plot shows a LOESS regression fit.  
- -Because the recent week's LCPS age data (i.e. most recent date) are incomplete, points are omitted in these two plots.  
- -_Hospitalizations are going up for all age groups._  
+  - The right plot shows a LOESS regression fit.  
+  - Because the recent week's LCPS age data (i.e. most recent date) are incomplete, points are omitted in these two plots.  
+  - _Hospitalizations are going up for all age groups._  
   
 <!-- * [Observations:]{.ul} -->  
-  <!---An uptick in recent (proportional) hospitalization for 15-19, 35-39, and 50-54 (more visible in the loess plot). -->  
-  <!---However, what's unknown is the extent to which these age groups are putting themselves more at risk. -->  
+  <!-- - An uptick in recent (proportional) hospitalization for 15-19, 35-39, and 50-54 (more visible in the loess plot). -->  
+  <!-- - However, what's unknown is the extent to which these age groups are putting themselves more at risk. -->  
   
 <img src="/fig/cv_age_hosp.png" width="49%"> <img src="/fig/cv_age_hosp_covid.png" width="49%">   
   
@@ -214,8 +214,8 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 ![](https://latex.codecogs.com/svg.latex?p(C|V)=0.27\%)  
 ![](https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!V)=0.66\%)  
 * For ages 10-19: ![](https://latex.codecogs.com/svg.latex?1.00\%, 2.50\%) (see `f.cv.bayesv2()`)  
- -Based on Nov. 15, 2021 (peak for age/case data)  
- -Vacc/age v. Case/age groups don't perfectly align (consider interpolation or better data)  
+  - Based on Nov. 15, 2021 (peak for age/case data)  
+  - Vacc/age v. Case/age groups don't perfectly align (consider interpolation or better data)  
   
 <!-- $\begin{align} -->  
 <!-- p(C|V) &= 0.27\% \\ -->  
@@ -228,11 +228,11 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 <!-- \end{array}$ -->  
   
 * <!p>Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
-![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\%-)2.53\%$  
-![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\%-)2.58\%$   
-  -The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
-  -Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
-<!-- ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.62\%)-![](https://latex.codecogs.com/svg.latex?2.55\%); ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.65\%)-![](https://latex.codecogs.com/svg.latex?2.60\%) // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->  
+![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\% - )2.53\%$  
+![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\% - )2.58\%$   
+   - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
+   - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
+<!-- ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.62\%) - ![](https://latex.codecogs.com/svg.latex?2.55\%); ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.65\%) - ![](https://latex.codecogs.com/svg.latex?2.60\%) // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->  
   
 * Probability of ending up in the ICU (![](https://latex.codecogs.com/svg.latex?I)), given being vaxxed and having covid:    
 ![](https://latex.codecogs.com/svg.latex?p(I|V\&C)=0.40\%)  
@@ -241,10 +241,10 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 [Assumptions:]{.ul}  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
 * The above numbers are based on Nov 13, 2021 covid and hospitalization numbers.  
- -![](https://latex.codecogs.com/svg.latex?n_C=13743), ![](https://latex.codecogs.com/svg.latex?n_{H|C}=(353+1402))  
+  - ![](https://latex.codecogs.com/svg.latex?n_C=13743), ![](https://latex.codecogs.com/svg.latex?n_{H|C}=(353+1402))  
 * Unless stated otherwise, I use the assumption of there being 10x as many actual infectious people as reported by RIVM (which in its data shows this to be much higher).  
 * Also, Google reported 67.6% of the NL population double vaxxed (when I last checked this number); the 83+% reported by NL times is based on the eligible population.  
- -As of 20.11.21, the vaccination proportion is 0.723.  
+  - As of 20.11.21, the vaccination proportion is 0.723.  
 * Effectiveness of vaccine (given delta and time) has reportedly dropped to ~60% (pessimistic estimate).  
 * ![](https://latex.codecogs.com/svg.latex?p(V|H)=.45); ![](https://latex.codecogs.com/svg.latex?p(V|I)=.65) (optimistic estimates) based on the following excerpt from an NL times report:  
   
@@ -304,18 +304,18 @@ p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\
   
 7. The personal chances of catching covid over a period of time with multiple contacts:  
 ![](https://latex.codecogs.com/svg.latex?p_\text{C}=(1-(1-p_\text{C1})^k)) ... where ![](https://latex.codecogs.com/svg.latex?k) is number of people I run into.  
-  -The inner part of the equation represents the chances of never running into covid -- after running into ![](https://latex.codecogs.com/svg.latex?k) people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every ![](https://latex.codecogs.com/svg.latex?k) contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).  
+   - The inner part of the equation represents the chances of never running into covid -- after running into ![](https://latex.codecogs.com/svg.latex?k) people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every ![](https://latex.codecogs.com/svg.latex?k) contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).  
   
 8. [Aside:]{.ul} let's see what the avg number of contacts across NL would be then:  
-![](https://latex.codecogs.com/svg.latex?(n_\text{pop}-n_\text{c})(1-(1-p_\text{C})^a)=2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
+![](https://latex.codecogs.com/svg.latex?(n_\text{pop} - n_\text{c})(1-(1-p_\text{C})^a)=2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
 ![](https://latex.codecogs.com/svg.latex?a \approx 2) ... which seems to be a reasonable avg.  
   
 9. If I am proximal to 20 people (inc. students) every time I come to campus over 8 weeks (i.e. 8 instances), my personal risk is:  
 ![](https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})=.118=11.8\%) ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.  
-  -This doesn't take into account that I'm vaccinated, in which case my risk is 6.0\%.  
-  -_This is likely an upper bound as I don't consider students' self-quarantining._  
-  -See [appendix](#personal-risk-calculation-math) for the math on the calculations of that 6.0\%.  
+   - This doesn't take into account that I'm vaccinated, in which case my risk is 6.0\%.  
+   - _This is likely an upper bound as I don't consider students' self-quarantining._  
+   - See [appendix](#personal-risk-calculation-math) for the math on the calculations of that 6.0\%.  
   
 _For those with 2 tutorials:_  
 - A conservative estimate of number of proximal contacts would be 20 (students) + 20 (extra people you might be proximal to each time you commute)=40 people per week &rarr; **18.1%** chance of catching covid over 7 tutorial week, conditioned on your being vaxxed.  
@@ -340,7 +340,7 @@ _For Julia with 4 tutorials_ &rarr; **29.7%** risk.
   
 * Left plot is top 25 countries (in descending order), over the last 60 days.  
 * Right plot contains various countries that came to my attention (e.g., being in the news) or of personal interest.  
- -Ordered by when the country came to my attention, and not by new cases.  
+  - Ordered by when the country came to my attention, and not by new cases.  
 * The orange denotes the latest NL moving average (7 day) and not the latest daily new cases.  
 * Both plots use 7-day moving average ("7day").  
    
@@ -378,14 +378,14 @@ _For Julia with 4 tutorials_ &rarr; **29.7%** risk.
 <!-- Before <div class="OutlineText">Hello world!</div> after -->  
   
 * Top plot:  
- -New infections per 100K  
- -7 day moving average, last 60 days, top 25 states  
- -The <red>red</red>, <div class="OutlineText" display:inline>white</div>, <blue>blue</blue> horizontal line is the national average.  
+  - New infections per 100K  
+  - 7 day moving average, last 60 days, top 25 states  
+  - The <red>red</red>, <div class="OutlineText" display:inline>white</div>, <blue>blue</blue> horizontal line is the national average.  
 * Lower left plot:  
- -New infections per 1M  
- -7 day moving average, whole pandemic (for which there is data)  
+  - New infections per 1M  
+  - 7 day moving average, whole pandemic (for which there is data)  
 * Lower right plot  
- -Same as previous but with deaths data.  
+  - Same as previous but with deaths data.  
   
 <p align="center"><img src="/fig/cv_usa.png" width="100%"></p>  
   
@@ -416,8 +416,8 @@ We also realize the weighted sum using population ![](https://latex.codecogs.com
 Given ![](https://latex.codecogs.com/svg.latex?p(V)=.676) // proportion of population vaxxed  
 ![](https://latex.codecogs.com/svg.latex?(1-p(V))ay + p(V)y=.118)  
 ![](https://latex.codecogs.com/svg.latex?(1-.676)ay + .676y=.118)  
-![](https://latex.codecogs.com/svg.latex?ay-(.676)ay + .676y=.118)  
-![](https://latex.codecogs.com/svg.latex?(a-.676a + .676)y=.118)  
+![](https://latex.codecogs.com/svg.latex?ay - (.676)ay + .676y=.118)  
+![](https://latex.codecogs.com/svg.latex?(a - .676a + .676)y=.118)  
 ![](https://latex.codecogs.com/svg.latex?y=.146)  
 ![](https://latex.codecogs.com/svg.latex?x=.060)  
   
@@ -436,15 +436,15 @@ Vaccine effectiveness=proportion of covid among unvaxxed minus proportion of cov
 * ![](https://latex.codecogs.com/svg.latex?E)=vaccine effectiveness percentage, as a probability. Originally touted to be ~95%, I've reason to assume -- based on some reports -- that it's dropped to 60% due to the delta variant, so that's the value I use here.  
   
 Let ![](https://latex.codecogs.com/svg.latex?p(C)=\frac{n_C}{n}) // proportion of population with covid. One could just use ![](https://latex.codecogs.com/svg.latex?n_C) in lieu of ![](https://latex.codecogs.com/svg.latex?np(C)) below; not sure why I didn't do just that.  
-![](https://latex.codecogs.com/svg.latex?E=\left( \frac{n_\text{c0}}{n(1-p(V))}-\frac{n_\text{c1}}{np(V)} \right) / \left( \frac{n_\text{c0}}{n(1-p(V))} \right)) // vaccine effectiveness  
+![](https://latex.codecogs.com/svg.latex?E=\left( \frac{n_\text{c0}}{n(1-p(V))} - \frac{n_\text{c1}}{np(V)} \right) / \left( \frac{n_\text{c0}}{n(1-p(V))} \right)) // vaccine effectiveness  
 We now want to solve for number of infections within the vaxxed and unvaxxed, ![](https://latex.codecogs.com/svg.latex?n_\text{c1}) and ![](https://latex.codecogs.com/svg.latex?n_\text{c0}), respectively.  
-![](https://latex.codecogs.com/svg.latex?E=1-\frac{n_\text{c1}}{np(V)} / \frac{n_\text{c0}}{n(1-p(V))}) // use a known E to solve for ![](https://latex.codecogs.com/svg.latex?n_\text{c0})  
+![](https://latex.codecogs.com/svg.latex?E=1 - \frac{n_\text{c1}}{np(V)} / \frac{n_\text{c0}}{n(1-p(V))}) // use a known E to solve for ![](https://latex.codecogs.com/svg.latex?n_\text{c0})  
 Let ![](https://latex.codecogs.com/svg.latex?K=\frac{np(V)(1-E)}{n(1-p(V)})  
 Yielding ![](https://latex.codecogs.com/svg.latex?n_\text{c1}=Kn_\text{c0})  
 Given ![](https://latex.codecogs.com/svg.latex?np(C)=n_\text{c1} + n_\text{c0})  
 Then ![](https://latex.codecogs.com/svg.latex?n_\text{c0}=\frac{np(C)}{1+K}) // calculated unvaxxed count given known ![](https://latex.codecogs.com/svg.latex?E, n, p(V), p(C))  
 and &nbsp; $\begin{align}  
-n_\text{c1} &= np(C)-n_\text{c0}\\  
+n_\text{c1} &= np(C) - n_\text{c0}\\  
          &= \frac{Knp(C)}{K+1}  
 \end{align}$  
   
@@ -488,10 +488,10 @@ p(H|A=a)   &= (0.050927754+0.060205290)*(432+1785)/(17.44e6) /(.074+.072) \\
 \end{align}$  
   
 * Given ![](https://latex.codecogs.com/svg.latex?A,C): 10.5x worse than 10-19 stud, more C among studs makes ratio worse  
- -![](https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})})  
+  - ![](https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})})  
 * Given just ![](https://latex.codecogs.com/svg.latex?A): only 6.8x worse b/c more people my age brings this down  
 * For vacc, just use the above number and realize the ![](https://latex.codecogs.com/svg.latex?p(C|V,A)=0.01) and ![](https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!V,A)=0.025).  
- -But not so straightforward given ![](https://latex.codecogs.com/svg.latex?p(V|H)=.45).  
+  - But not so straightforward given ![](https://latex.codecogs.com/svg.latex?p(V|H)=.45).  
   
   
 ## Code  
