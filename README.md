@@ -149,7 +149,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 <!-- <div style="page-break-after: always;"></div> -->
 
-<img style="float: right; width:30%;" src="fig/cv_age_delay.png">
+<!-- <img style="float: right; width:30%;" src="fig/cv_age_delay.png"> -->
+
+<img align="right" src="fig/cv_age_delay.png" width="30%">
 
 ### Delay of age data
 
