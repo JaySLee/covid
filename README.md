@@ -91,7 +91,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 <p align="center"><img src="/fig/cv_lcps.png" width="100%"></p>
 
-<p align="center"><img src="/fig/cv_lcps_60.png" width="49%"></p>
+<p align="center"><img src="/fig/cv_lcps_60.png" width="60%"></p>
 
 * Source: LCPS _(releases data daily between 1pm-2pm CET)_
 
@@ -107,7 +107,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 * [NEW 121021:] Lower plot: provinces
 
 <img src="/fig/cv_nl_top_60.png" width="49%"><img src="/fig/cv_nl_05_60.png" width="49%">
-<p align="center"><img src="/fig/cv_nl_prov_60.png" width="49%"></p>
+<p align="center"><img src="/fig/cv_nl_prov_60.png" width="60%"></p>
 
 * Source: RIVM
 
@@ -117,7 +117,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 * As for countries near us: Belgium, Germany, Austria, and Denmark are also experiencing their own massive peaks, record-breaking for Germany and Austria. France is experiencing a minor surge.
 
 <p align="center"><img src="/fig/cv_nearby.png" width="100%"></p>
-<p align="center"><img src="/fig/cv_nearby_60.png" width="49%"></p>
+<p align="center"><img src="/fig/cv_nearby_60.png" width="60%"></p>
 
 * Source: CSSE (data is one day behind the RIVM and LCPS data)
 
