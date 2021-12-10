@@ -72,9 +72,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 <!-- ![](/fig/cv_nl_nat.png | width=60) dont work -->
 
-![](/fig/cv_nl_nat.png?s=200)
+![](/fig/cv_nl_nat.png?s=30)
 
-![](/fig/cv_nl_nat.png?v=4&s=200)
+![](/fig/cv_nl_nat.png?v=4&s=20)
 
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
