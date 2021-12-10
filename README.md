@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Dec 11, 2021 12:09:44 AM</i>
+<i>Last update: Sat, Dec 11, 2021 12:12:29 AM</i>
 
 Table of Contents
 =================
@@ -58,7 +58,7 @@ Table of Contents
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
 * Red line indicates last count; green line = 7 day moving average  
   
-<p align="center"> <img src="/fig/cv_nl_nat.png" width="100%"> </p>  
+<p align="center"> <img src="/fig/cv_nl_nat.png" width="80%"> </p>  
   
 <p align="center"><img src="/fig/cv_nl_nat_60.png" width="49%"><img src="/fig/cv_nl_deaths.png" width="49%"></p>  
   
@@ -74,9 +74,9 @@ Table of Contents
   
   
   
-<p align="center"><img src="/fig/cv_lcps.png" width="100%"></p>  
+<p align="center"><img src="/fig/cv_lcps.png" width="80%"></p>  
   
-<p align="center"><img src="/fig/cv_lcps_60.png" width="60%"></p>  
+<p align="center"><img src="/fig/cv_lcps_60.png" width="50%"></p>  
   
 * Source: LCPS _(releases data daily between 1pm-2pm CET)_  
   
@@ -92,7 +92,7 @@ Table of Contents
 * [NEW 121021:] Lower plot: provinces  
   
 <img src="/fig/cv_nl_top_60.png" width="49%"><img src="/fig/cv_nl_05_60.png" width="49%">  
-<p align="center"><img src="/fig/cv_nl_prov_60.png" width="60%"></p>  
+<p align="center"><img src="/fig/cv_nl_prov_60.png" width="50%"></p>  
   
 * Source: RIVM  
   
@@ -101,8 +101,8 @@ Table of Contents
   
 * As for countries near us: Belgium, Germany, Austria, and Denmark are also experiencing their own massive peaks, record-breaking for Germany and Austria. France is experiencing a minor surge.  
   
-<p align="center"><img src="/fig/cv_nearby.png" width="100%"></p>  
-<p align="center"><img src="/fig/cv_nearby_60.png" width="60%"></p>  
+<p align="center"><img src="/fig/cv_nearby.png" width="80%"></p>  
+<p align="center"><img src="/fig/cv_nearby_60.png" width="50%"></p>  
   
 * Source: CSSE (data is one day behind the RIVM and LCPS data)  
   
@@ -309,7 +309,7 @@ _Across all 8 tutorial instructors_, average risk is:
 * Lower right plot  
   - Same as previous but with deaths data.  
   
-<p align="center"><img src="/fig/cv_usa.png" width="100%"></p>  
+<p align="center"><img src="/fig/cv_usa.png" width="80%"></p>  
   
 <img src="/fig/cv_nl_v_usa.png" width="49%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="49%">  
   
