@@ -1,39 +1,10 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Dec 11, 2021 12:09:44 AM</i>
-
-Table of Contents
-=================
-
-* [Links and notes](#links-and-notes)
-* [Netherlands](#netherlands)
-   * [National trend](#national-trend)
-   * [Hospital occupancy trends](#hospital-occupancy-trends)
-   * [Within NL cities/towns/provinces](#within-nl-citiestownsprovinces)
-* [Trends in nearby countries](#trends-in-nearby-countries)
-* [Covid by age](#covid-by-age)
-   * [Cases by age group](#cases-by-age-group)
-      * [Delay of age data](#delay-of-age-data)
-   * [Hospitalization by age group](#hospitalization-by-age-group)
-* [Risk calculations](#risk-calculations)
-   * [Hospitalization risk](#hospitalization-risk)
-   * [Personal risk](#personal-risk)
-      * [Summary](#summary)
-      * [The (wonky) math](#the-wonky-math)
-* [Appendix](#appendix)
-   * [Global and other countries](#global-and-other-countries)
-   * [USA](#usa)
-   * [Maths](#maths)
-      * [Personal risk calculation math](#personal-risk-calculation-math)
-      * [Basis for hospitalization risk](#basis-for-hospitalization-risk)
-      * [Hospitalization risk by age](#hospitalization-risk-by-age)
-   * [Code](#code)
-
-  
-  
+<i>Last update: Fri, Dec 10, 2021 11:58:32 PM</i>
   
 # Links and notes  
   
+* [Global and other countries](#global-and-other-countries)  
 * On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
 * This document will be updated every few days or so.  
 * <ins>New additions:</ins>  
