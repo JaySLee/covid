@@ -1,11 +1,12 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 10, 2021 11:45:55 PM</i>
+<i>Last update: Fri, Dec 10, 2021 11:58:32 PM</i>
   
   
   
 # Links and notes  
   
+* [Global and other countries](#global-and-other-countries)  
 * On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
 * This document will be updated every few days or so.  
 * <ins>New additions:</ins>  
