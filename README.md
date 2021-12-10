@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Dec 11, 2021 12:13:54 AM</i>
+<i>Last update: Sat, Dec 11, 2021 12:21:02 AM</i>
 
 Table of Contents
 =================
@@ -91,7 +91,7 @@ Table of Contents
 * Left plot: worst cities; right plot: Largest cities in NL (top 5%)  
 * [NEW 121021:] Lower plot: provinces  
   
-<img src="/fig/cv_nl_top_60.png" width="40%"><img src="/fig/cv_nl_05_60.png" width="40%">  
+<p align="center"><img src="/fig/cv_nl_top_60.png" width="40%"><img src="/fig/cv_nl_05_60.png" width="40%"></p>  
 <p align="center"><img src="/fig/cv_nl_prov_60.png" width="40%"></p>  
   
 * Source: RIVM  
@@ -129,8 +129,8 @@ Table of Contents
   - A recent relative uptick of cases in the two relevant age groups.  
   - The percentages within age groups are more striking.  
   
-<img src="/fig/cv_age_case.png" width="40%"> <img src="/fig/cv_age_case2.png" width="40%">  
-<img src="/fig/cv_age_case3.png" width="40%"> <img src="/fig/cv_age_case4.png" width="40%">  
+<p align="center"><img src="/fig/cv_age_case.png" width="40%"> <img src="/fig/cv_age_case2.png" width="40%"></p>  
+<p align="center"><img src="/fig/cv_age_case3.png" width="40%"> <img src="/fig/cv_age_case4.png" width="40%"></p>  
   
   
   
@@ -168,9 +168,8 @@ Table of Contents
   - _Hospitalizations are going up for all age groups._  
   
   
-<img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%">   
-  
-<img src="/fig/cv_age_hosp2.png" width="40%"> <img src="/fig/cv_age_hosp_loess.png" width="40%">  
+<p align="center"><img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%"></p>  
+<p align="center"><img src="/fig/cv_age_hosp2.png" width="40%"> <img src="/fig/cv_age_hosp_loess.png" width="40%"></p>  
   
   
 # Risk calculations  
@@ -293,7 +292,7 @@ _Across all 8 tutorial instructors_, average risk is:
 * The orange denotes the latest NL moving average (7 day) and not the latest daily new cases.  
 * Both plots use 7-day moving average ("7day").  
    
-<img src="/fig/cv_glob_60.png" width="40%"> <img src="/fig/cv_cos_60.png" width="40%">  
+<p align="center"><img src="/fig/cv_glob_60.png" width="40%"> <img src="/fig/cv_cos_60.png" width="40%"></p>  
   
 ## USA  
   
@@ -311,7 +310,7 @@ _Across all 8 tutorial instructors_, average risk is:
   
 <p align="center"><img src="/fig/cv_usa.png" width="80%"></p>  
   
-<img src="/fig/cv_nl_v_usa.png" width="40%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="40%">  
+<p align="center"><img src="/fig/cv_nl_v_usa.png" width="40%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="40%"></p>  
   
   
 ## Maths  
