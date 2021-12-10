@@ -73,7 +73,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 ![](/fig/cv_nl_nat.png){:width=20px)
 
-<!-- ![](https://github.com/JaySLee/covid/raw/master/fig/cv_nl_nat.png | width=60) -->
+![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png | width=60)
+
+<!-- https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png -->
 
 <a href="url"><img src="/fig/cv_nl_nat.png" align="left" height="70%" width="70%" ></a>
 
