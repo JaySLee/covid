@@ -228,11 +228,11 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 <!-- \end{array}$ -->  
   
 * Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
-![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\%-)2.53\%$  
-![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\%-)2.58\%$   
+![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\%) - ![](https://latex.codecogs.com/svg.latex?2.53\%)  
+![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\%) - ![](https://latex.codecogs.com/svg.latex?2.58\%)   
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
    - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
-<!-- ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.62\%)-![](https://latex.codecogs.com/svg.latex?2.55\%); ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.65\%) - ![](https://latex.codecogs.com/svg.latex?2.60\%) // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->  
+<!-- ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.62\%) - ![](https://latex.codecogs.com/svg.latex?2.55\%); ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.65\%) - ![](https://latex.codecogs.com/svg.latex?2.60\%) // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->  
   
 * Probability of ending up in the ICU (![](https://latex.codecogs.com/svg.latex?I)), given being vaxxed and having covid:    
 ![](https://latex.codecogs.com/svg.latex?p(I|V\&C)=0.40\%)  
