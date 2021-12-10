@@ -69,9 +69,11 @@ $\newcommand{\T}[1]{\text{#1}}$
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).
 * Red line indicates last count; green line = 7 day moving average
 
-![](fig/cv_nl_nat.png | width=60)
+![](/fig/cv_nl_nat.png | width=60)
 
-![](https://github.com/JaySLee/covid/raw/master/fig/cv_nl_nat.png | width=60)
+<!-- ![](https://github.com/JaySLee/covid/raw/master/fig/cv_nl_nat.png | width=60) -->
+
+<a href="url"><img src="/fig/cv_nl_nat.png" align="left" height="48" width="48" ></a>
 
 <!-- <center> ![](fig/cv_nl_nat.png){width=70%} </center> -->
 
