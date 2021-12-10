@@ -227,7 +227,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 <!-- p(C|\sim\\!\\!V) &= 0.66\% -->  
 <!-- \end{array}$ -->  
   
-* Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
+* Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:  
 ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\%) - ![](https://latex.codecogs.com/svg.latex?2.53\%)  
 ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\%) - ![](https://latex.codecogs.com/svg.latex?2.58\%)   
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
