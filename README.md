@@ -228,7 +228,7 @@ For Julia with 4 tutorials &rarr; **29.7%** risk.
 <img src="https://latex.codecogs.com/svg.latex?n_\text{c}&space;=&space;n_\text{c0}&space;\times&space;m"/>  
   
 4. Yielding the proportion of infectious people which estimates the probability of running into an infections person; this doesn't account for clusters of infection (e.g., Limburg):  
-<img src="https://latex.codecogs.com/svg.latex?\begin{align}p_\text{c}&=\frac{n_\text{c}}{n_\text{pop}}\\&=0.00394\end{align}"/>	
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*p_\text{c}&=\frac{n_\text{c}}{n_\text{pop}}\\&=0.00394\end{align*"/>	
   
 5. Next, we have the probability of covid's being transmitted (<img src="https://latex.codecogs.com/svg.latex?T"/>) from an infected individual (<img src="https://latex.codecogs.com/svg.latex?C"/>). I use a more conservative number than the 0.632 reported (for a closed room):  
 <img src="https://latex.codecogs.com/svg.latex?p(T|C)&space;=&space;0.2"/>  
@@ -372,7 +372,7 @@ Let <img src="https://latex.codecogs.com/svg.latex?K&space;=&space;\frac{np(V)(1
 Yielding <img src="https://latex.codecogs.com/svg.latex?n_\text{c1}&space;=&space;Kn_\text{c0}"/>  
 Given <img src="https://latex.codecogs.com/svg.latex?np(C)&space;=&space;n_\text{c1}&space;+&space;n_\text{c0}"/>  
 Then <img src="https://latex.codecogs.com/svg.latex?n_\text{c0}&space;=&space;\frac{np(C)}{1+K}"/> // calculated unvaxxed count given known <img src="https://latex.codecogs.com/svg.latex?E,&space;n,&space;p(V),&space;p(C)"/>  
-and&nbsp;<img src="https://latex.codecogs.com/svg.latex?\begin{align}n_\text{c1}&=np(C)-n_\text{c0}\\&=\frac{Knp(C)}{K+1}\end{align}"/>
+and&nbsp;<img src="https://latex.codecogs.com/svg.latex?\begin{align*n_\text{c1}&=np(C)-n_\text{c0}\\&=\frac{Knp(C)}{K+1}\end{align*"/>
   
 Probability of infection (<img src="https://latex.codecogs.com/svg.latex?C"/>), given vax (<img src="https://latex.codecogs.com/svg.latex?V"/>) or non-vax (<img src="https://latex.codecogs.com/svg.latex?\sim\\!\\!V"/>):  
 <img src="https://latex.codecogs.com/svg.latex?p(C|V)&space;=&space;\frac{n_\text{c1}}{np(V)}"/>  
@@ -381,7 +381,7 @@ Probability of infection (<img src="https://latex.codecogs.com/svg.latex?C"/>), 
 Calculating probability of hospitalization (<img src="https://latex.codecogs.com/svg.latex?H"/>) given vax and covid infection:  
 <img src="https://latex.codecogs.com/svg.latex?p(V,C)&space;=&space;p(C|V)p(V)"/> // both are now known  
 <img src="https://latex.codecogs.com/svg.latex?p(V|H,C)&space;=&space;p(V|H)&space;=&space;0.45"/> // from NL Times and also we're talking just about covid hospitalizations, i.e. we don't have to worry about non-covid hospitalizations since we have the numbers for covid hospitalizations. This makes <img src="https://latex.codecogs.com/svg.latex?p(V|H)&space;=&space;p(V|H,C)"/>. The rest are known.  
-<img src="https://latex.codecogs.com/svg.latex?\begin{align}p(H|V,C)&=\frac{p(V|H,C)p(H,C)}{p(V,C)}\\&=\frac{0.45\timesp(H|C)p(C)}{p(C|V)p(V)}\end{align}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*p(H|V,C)&=\frac{p(V|H,C)p(H,C)}{p(V,C)}\\&=\frac{0.45\timesp(H|C)p(C)}{p(C|V)p(V)}\end{align*"/>
   
   
 ### Hospitalization risk by age   
@@ -394,10 +394,10 @@ Probability of hosp given age and covid
 - page=`f.cv.age()`, cage=111521-112021, summed and normed  
 - <img src="https://latex.codecogs.com/svg.latex?a"/> = age group 10-19  
   
-<img src="https://latex.codecogs.com/svg.latex?\begin{align}p(H|A=a,C)&=p(A=a|H,C)p(H,C)/p(A=a|C)\\		&=(0.003750493+0.009080142)*(432+1785)/(21873)/.164\\		&=0.007929789\\p(H|A=a)&=(0.003750493+0.009080142)*(432+1785)/(17.44e6)/(0.055+0.060)\\		&=1.418305e-05\end{align}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*p(H|A=a,C)&=p(A=a|H,C)p(H,C)/p(A=a|C)\\		&=(0.003750493+0.009080142)*(432+1785)/(21873)/.164\\		&=0.007929789\\p(H|A=a)&=(0.003750493+0.009080142)*(432+1785)/(17.44e6)/(0.055+0.060)\\		&=1.418305e-05\end{align*"/>
   
 Same as above but for <img src="https://latex.codecogs.com/svg.latex?a"/> = ages 50-59  
-<img src="https://latex.codecogs.com/svg.latex?\begin{align}p(H|A=a,C)&=(0.050927754+0.060205290)*(432+1785)/(21873)/.135\\	&=0.08343856\\p(H|A=a)&=(0.050927754+0.060205290)*(432+1785)/(17.44e6)/(.074+.072)\\		&=9.676305e-05\end{align}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*p(H|A=a,C)&=(0.050927754+0.060205290)*(432+1785)/(21873)/.135\\	&=0.08343856\\p(H|A=a)&=(0.050927754+0.060205290)*(432+1785)/(17.44e6)/(.074+.072)\\		&=9.676305e-05\end{align*"/>
   
 * Given <img src="https://latex.codecogs.com/svg.latex?A,C"/>: 10.5x worse than 10-19 stud, more C among studs makes ratio worse  
   - <img src="https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})}"/>  
