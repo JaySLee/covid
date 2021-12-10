@@ -16,7 +16,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 <!-- # COVID-19 plots for Netherlands -->  
 <!-- _Author: Jay Lee_ -->  
-<!-- _Last update: Nov. 16, 2021 (00:52)_ --  
+<!-- _Last update: Nov. 16, 2021 (00:52)_ -->  
   
 # Links and notes  
   
@@ -112,6 +112,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 * Source: RIVM  
   
 <div style="page-break-after: always;"></div>  
+  
 # Trends in nearby countries  
   
 * As for countries near us: Belgium, Germany, Austria, and Denmark are also experiencing their own massive peaks, record-breaking for Germany and Austria. France is experiencing a minor surge.  
@@ -241,7 +242,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 [Assumptions:]{.ul}  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
 * The above numbers are based on Nov 13, 2021 covid and hospitalization numbers.  
-  - ![](https://latex.codecogs.com/svg.latex?n_C=13743\text{,&space;}n_{H|C}=(353+1402))  
+  - ![](https://latex.codecogs.com/svg.latex?n_C=13743\text{, }n_{H|C}=(353+1402))  
 * Unless stated otherwise, I use the assumption of there being 10x as many actual infectious people as reported by RIVM (which in its data shows this to be much higher).  
 * Also, Google reported 67.6% of the NL population double vaxxed (when I last checked this number); the 83+% reported by NL times is based on the eligible population.  
   - As of 20.11.21, the vaccination proportion is 0.723.  
@@ -306,11 +307,10 @@ p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\
 ![](https://latex.codecogs.com/svg.latex?p_\text{C}=(1-(1-p_\text{C1})^k)) ... where ![](https://latex.codecogs.com/svg.latex?k) is number of people I run into.  
    - The inner part of the equation represents the chances of never running into covid -- after running into ![](https://latex.codecogs.com/svg.latex?k) people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every ![](https://latex.codecogs.com/svg.latex?k) contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).  
   
-8. [Aside: ]{.ul} let's see what the avg number of contacts across NL would be then:  
+8. [Aside:]{.ul} let's see what the avg number of contacts across NL would be then:  
 ![](https://latex.codecogs.com/svg.latex?(n_\text{pop}-n_\text{c})(1-(1-p_\text{C})^a)=2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
-![](https://latex.codecogs.com/svg.latex?a \approx 2) ... which seems to be a reasonable avg.  
-<img src="https://latex.codecogs.com/svg.latex?a\approx2" title="1"/> ... which seems to be a reasonable avg.  
+![](https://latex.codecogs.com/svg.latex?a\approx2) ... which seems to be a reasonable avg.  
   
 9. If I am proximal to 20 people (inc. students) every time I come to campus over 8 weeks (i.e. 8 instances), my personal risk is:  
 ![](https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})=.118=11.8\%) ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.  
