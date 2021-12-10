@@ -63,7 +63,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 * We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).
 * ~~While the numbers have dropped since yesterday (Friday, Nov. 19, 2021),~~ there's usually a drop in the reported numbers around the weekend, and then a surge in Monday/Tuesday.
 * Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.
-  - ~~For NL on Nov. 15, 2021, this is 19054\*10 = ~200K (or over 1% of the NL population).~~
+  - ~~For NL on Nov. 15, 2021, this is 19054\*10 = \~200K (or over 1% of the NL population).~~
   - Nov. 18, 2021, 23591*10 = ~236K = 1.35% of NL population
   - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).
@@ -76,6 +76,8 @@ $\newcommand{\T}[1]{\text{#1}}$
 <!-- ![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png | width=60) DONT WORK -->
 
 ![](https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png | width=60)
+
+![](https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png)
 
 <!-- https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png -->
 
