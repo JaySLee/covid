@@ -1,16 +1,7 @@
--*- markdown-command: "pandoc.sh -p -n -y -o" -*-  
----  
-title: COVID-19 in the Netherlands  
-author: "_Author: Jay Lee_"  
-date: "<i>Last update: JLDATE</i>"  
----  
-ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png  
+# COVID-19 in the Netherlands
+_Author: Jay Lee_
+<i>Last update: JLDATE</i>
   
-<style>  
-@media print {  
-  @page { margin: .5cm; }  
-}  
-</style>  
   
   
 # Links and notes  
@@ -280,32 +271,6 @@ _Across all 8 tutorial instructors_, average risk is:
   
 ## USA  
   
-<style type="text/css">  
-.OutlineText {  
-	font: Tahoma, Geneva, sans-serif;  
-	font-size: 13px;  
-    color: white;  
-	display: inline; /* JL: avoids line break */  
-    text-shadow:  
-    /* Outline */  
-  /*  -1px -1px 0 #000000,  
-    1px -1px 0 #000000,  
-    -1px 1px 0 #000000,  
-    1px 1px 0 #000000,    
-    -2px 0 0 #000000,  
-    2px 0 0 #000000,  
-    0 2px 0 #000000,  
-    0 -2px 0 #000000;*/ /* Terminate with a semi-colon */  
-    -1px -1px 0 #000000, /* .5px a bit too thin */  
-    1px -1px 0 #000000,  
-    -1px 1px 0 #000000,  
-    1px 1px 0 #000000,    
-   -1px 0 0 #000000,  
-    1px 0 0 #000000,  
-    0 1px 0 #000000,  
-    0 -1px 0 #000000;  
-}  
-</style>  
   
   
 * Top plot:  
