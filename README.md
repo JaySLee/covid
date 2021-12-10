@@ -26,8 +26,8 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)
   - 17.11.21 - [Covid by age](#covid-by-age)
 
-$\newcommand{\not}{{\Large \textasciitilde}\!}![](https://latex.codecogs.com/svg.latex?)
-$\newcommand{\text}[1]{\text{#1}}![](https://latex.codecogs.com/svg.latex?)
+$\newcommand{\not}{{\Large \textasciitilde}\!}$
+$\newcommand{\text}[1]{\text{#1}}$
 
 <!-- https://www.dropbox.com/s/l0gzijia7uz58ia/COVID_NL.html?dl=1 -->
 <!-- https://bit.ly/30pRtPZ -->
@@ -210,43 +210,43 @@ $\newcommand{\text}[1]{\text{#1}}![](https://latex.codecogs.com/svg.latex?)
 
 These calculations are based on Nov. 13, 2021 numbers and some simplifying assumptions, that perhaps render the numbers below as upper bounds.
 
-* Probability of getting covid ($C$), given being double vaxxed ($V$) vs. non-double vaxxed ($\not V![](https://latex.codecogs.com/svg.latex?):  )
-$p(C|V) = 0.27\%![](https://latex.codecogs.com/svg.latex?)
-$p(C|\not V) = 0.66\%![](https://latex.codecogs.com/svg.latex?)
-* For ages 10-19: $1.00\%, 2.50\%![](https://latex.codecogs.com/svg.latex? (see `f.cv.bayesv2()`))
+* Probability of getting covid (![](https://latex.codecogs.com/svg.latex?C)), given being double vaxxed (![](https://latex.codecogs.com/svg.latex?V)) vs. non-double vaxxed ($\not V$):  
+$p(C|V) = 0.27\%$
+$p(C|\not V) = 0.66\%$
+* For ages 10-19: $1.00\%, 2.50\%$ (see `f.cv.bayesv2()`)
   - Based on Nov. 15, 2021 (peak for age/case data)
   - Vacc/age v. Case/age groups don't perfectly align (consider interpolation or better data)
 
-<!-- ![](https://latex.codecogs.com/svg.latex?\begin{align} -->)
+<!-- $\begin{align} -->
 <!-- p(C|V) &= 0.27\% \\ -->
 <!-- p(C|\not V) &= 0.66\% -->
-<!-- \end{align}![](https://latex.codecogs.com/svg.latex? DOESNT LOOK QUITE GOOD-->)
+<!-- \end{align}$ DOESNT LOOK QUITE GOOD-->
 
-<!-- ![](https://latex.codecogs.com/svg.latex?\begin{array}{r@{=}l} -->)
+<!-- $\begin{array}{r@{=}l} -->
 <!-- p(C|V) &= 0.27\% \\ -->
 <!-- p(C|\not V) &= 0.66\% -->
-<!-- \end{array}![](https://latex.codecogs.com/svg.latex? -->)
+<!-- \end{array}$ -->
 
-* <!p>Probability of ending up hospitalized ($H![](https://latex.codecogs.com/svg.latex?), given being (double) vaxxed and having covid:  )
-$p(H|V\&C) = 1.26\%$ - $2.53\%![](https://latex.codecogs.com/svg.latex?)
-$p(H|\not V\&C) = 1.29\%$ - $2.58\%![](https://latex.codecogs.com/svg.latex? )
+* <!p>Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:  
+$p(H|V\&C) = 1.26\%![](https://latex.codecogs.com/svg.latex? - )2.53\%$
+$p(H|\not V\&C) = 1.29\%![](https://latex.codecogs.com/svg.latex? - )2.58\%$ 
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.
    - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).
-<!-- $p(H|V\&C) = 1.62\%$ - $2.55\%$; $p(H|\not V\&C) = 1.65\%$ - $2.60\%![](https://latex.codecogs.com/svg.latex? // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->)
+<!-- $p(H|V\&C) = 1.62\%![](https://latex.codecogs.com/svg.latex? - )2.55\%![](https://latex.codecogs.com/svg.latex?; )p(H|\not V\&C) = 1.65\%![](https://latex.codecogs.com/svg.latex? - )2.60\%$ // nearly equivalent NOT SURE HOW IT GOT 1.62 AND 1.65, I CAN SORT OF SEE WHERE -->
 
-* Probability of ending up in the ICU ($I![](https://latex.codecogs.com/svg.latex?), given being vaxxed and having covid:  )
-$p(I|V\&C) = 0.40\%![](https://latex.codecogs.com/svg.latex?)
-$p(I|\not V\&C) = 0.61\%![](https://latex.codecogs.com/svg.latex?)
+* Probability of ending up in the ICU (![](https://latex.codecogs.com/svg.latex?I)), given being vaxxed and having covid:  
+$p(I|V\&C) = 0.40\%$
+$p(I|\not V\&C) = 0.61\%$
 
 [Assumptions:]{.ul}
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.
 * The above numbers are based on Nov 13, 2021 covid and hospitalization numbers.
-  - $n_C = 13743$, $n_{H|C} = (353+1402)![](https://latex.codecogs.com/svg.latex?)
+  - ![](https://latex.codecogs.com/svg.latex?n_C = 13743), ![](https://latex.codecogs.com/svg.latex?n_{H|C} = (353+1402))
 * Unless stated otherwise, I use the assumption of there being 10x as many actual infectious people as reported by RIVM (which in its data shows this to be much higher).
 * Also, Google reported 67.6% of the NL population double vaxxed (when I last checked this number); the 83+% reported by NL times is based on the eligible population.
   - As of 20.11.21, the vaccination proportion is 0.723.
 * Effectiveness of vaccine (given delta and time) has reportedly dropped to ~60% (pessimistic estimate).
-* $p(V|H) = .45$; $p(V|I) = .65![](https://latex.codecogs.com/svg.latex? (optimistic estimates) based on the following excerpt from an NL times report:)
+* ![](https://latex.codecogs.com/svg.latex?p(V|H) = .45); ![](https://latex.codecogs.com/svg.latex?p(V|I) = .65) (optimistic estimates) based on the following excerpt from an NL times report:
 
 > In October, just over half of all Covid-19 patients in the hospital were not or only partially vaccinated ... In ICU, the proportion of unvaccinated patients dropped from over 80 percent in September to about 70 percent in October.
 
@@ -254,7 +254,7 @@ $p(I|\not V\&C) = 0.61\%![](https://latex.codecogs.com/svg.latex?)
 
 ## Personal risk
 
-<!-- ![](https://latex.codecogs.com/svg.latex?\begin{align} -->)
+<!-- $\begin{align} -->
 <!-- n_\text{pop} &= 17.44M & \text{// population of NL} \\ -->
 <!-- n_\text{c0} &= 13743 & \text{// number of reported new cases on Nov. 13, 2021} \\ -->
 <!-- m &= 5 & \text{// multiplier (inc. \# of days a person could be infections and unreported cases*)} \\ -->
@@ -263,8 +263,8 @@ $p(I|\not V\&C) = 0.61\%![](https://latex.codecogs.com/svg.latex?)
 <!--     &= 0.00394\\ -->
 <!-- p_T &= .2 &\text{// conservative est. of probability of transmission (in a closed room, this is estimated to be .632)}\\ -->
 <!-- p_C &= p_cp_T &\text{// probability of catching covid} -->
-<!-- \end{align}![](https://latex.codecogs.com/svg.latex? -->)
-<!-- For some reason Chrome kills the math in combination with the non $![](https://latex.codecogs.com/svg.latex? raw math below -->)
+<!-- \end{align}$ -->
+<!-- For some reason Chrome kills the math in combination with the non ![](https://latex.codecogs.com/svg.latex?) raw math below -->
 [**_Caveats:_**]{.ul}
 * Some simplifying assumptions used here.
 * Covid numbers from Nov. 13, 2021.
@@ -284,35 +284,35 @@ For Julia with 4 tutorials &rarr; **29.7%** risk.
 ### The (wonky) math
 
 1. First, we have the population of NL:
-$n_\text{pop} = 17.44M![](https://latex.codecogs.com/svg.latex?)
+$n_\text{pop} = 17.44M$
 2. Next, the reported number of new cases (on Nov. 13, 2021):
-$n_\text{c0} = 13743![](https://latex.codecogs.com/svg.latex?)
-$m = 5![](https://latex.codecogs.com/svg.latex? ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.)
+$n_\text{c0} = 13743$
+![](https://latex.codecogs.com/svg.latex?m = 5) ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.
 3. This gives us conservative estimate of total covid infectious people:
-$n_\text{c} = n_\text{c0} \times m![](https://latex.codecogs.com/svg.latex?)
+$n_\text{c} = n_\text{c0} \times m$
 
 4. Yielding the proportion of infectious people which estimates the probability of running into an infections person; this doesn't account for clusters of infection (e.g., Limburg):
-![](https://latex.codecogs.com/svg.latex?\begin{align})
+$\begin{align}
 p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\
     &= 0.00394
-\end{align}![](https://latex.codecogs.com/svg.latex?	 )
+\end{align}$	 
 
-5. Next, we have the probability of covid's being transmitted ($T$) from an infected individual ($C![](https://latex.codecogs.com/svg.latex?). I use a more conservative number than the 0.632 reported (for a closed room):)
-$p(T|C) = 0.2![](https://latex.codecogs.com/svg.latex?)
+5. Next, we have the probability of covid's being transmitted (![](https://latex.codecogs.com/svg.latex?T)) from an infected individual (![](https://latex.codecogs.com/svg.latex?C)). I use a more conservative number than the 0.632 reported (for a closed room):
+![](https://latex.codecogs.com/svg.latex?p(T|C) = 0.2)
 6. So then, the probability of catching covid is (from any one person):
-$p_\text{C1} = p(T|C)\times p(C) = p(T|C)p_c![](https://latex.codecogs.com/svg.latex?)
+$p_\text{C1} = p(T|C)\times p(C) = p(T|C)p_c$
 
 7. The personal chances of catching covid over a period of time with multiple contacts:
-$p_\text{C} = (1-(1-p_\text{C1})^k)$ ... where $k![](https://latex.codecogs.com/svg.latex? is number of people I run into.)
-   - The inner part of the equation represents the chances of never running into covid -- after running into $k$ people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every $k![](https://latex.codecogs.com/svg.latex? contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).)
+$p_\text{C} = (1-(1-p_\text{C1})^k)![](https://latex.codecogs.com/svg.latex? ... where )k$ is number of people I run into.
+   - The inner part of the equation represents the chances of never running into covid -- after running into ![](https://latex.codecogs.com/svg.latex?k) people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every ![](https://latex.codecogs.com/svg.latex?k) contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).
 
 8. [Aside:]{.ul} let's see what the avg number of contacts across NL would be then:
-$(n_\text{pop} - n_\text{c})(1-(1-p_\text{C})^a) = 2n_\text{C}$ ... where $a$ is avg number of daily social contacts (avged across all of NL) and $2n_C![](https://latex.codecogs.com/svg.latex? is est. of newly infected daily people (2x b/c of unreported))
+$(n_\text{pop} - n_\text{c})(1-(1-p_\text{C})^a) = 2n_\text{C}![](https://latex.codecogs.com/svg.latex? ... where )a![](https://latex.codecogs.com/svg.latex? is avg number of daily social contacts (avged across all of NL) and )2n_C$ is est. of newly infected daily people (2x b/c of unreported)
 This gives us an average number of contacts (for all in NL):
-$a \approx 2![](https://latex.codecogs.com/svg.latex? ... which seems to be a reasonable avg.)
+$a \approx 2$ ... which seems to be a reasonable avg.
 
 9. If I am proximal to 20 people (inc. students) every time I come to campus over 8 weeks (i.e. 8 instances), my personal risk is:
-$(1-(1-p_\text{C})^{(20\times8)}) = .118 = 11.8\%![](https://latex.codecogs.com/svg.latex? ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.)
+$(1-(1-p_\text{C})^{(20\times8)}) = .118 = 11.8\%$ ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.
    - This doesn't take into account that I'm vaccinated, in which case my risk is 6.0\%.
    - _This is likely an upper bound as I don't consider students' self-quarantining._
    - See [appendix](#personal-risk-calculation-math) for the math on the calculations of that 6.0\%.
@@ -328,10 +328,10 @@ _For Julia with 4 tutorials_ &rarr; **29.7%** risk.
 - Overall risk (for both vaxxed and non-vaxxed) is 58.5%
 
 <!p>_Across all 8 tutorial instructors_, average risk is:
-$(.181\times5+.245\times2+.297\times1)/8 = .211![](https://latex.codecogs.com/svg.latex? or 21.1\% // this approach is rough)
-$1-(1-.211)^8![](https://latex.codecogs.com/svg.latex? = .850 = **85.0% chance at least one of the tutorial instructors will get covid**.)
+$(.181\times5+.245\times2+.297\times1)/8 = .211$ or 21.1\% // this approach is rough
+![](https://latex.codecogs.com/svg.latex?1-(1-.211)^8) = .850 = **85.0% chance at least one of the tutorial instructors will get covid**.
 * But remember this is an upper bound.
-* $(1-.211)^8 = .150![](https://latex.codecogs.com/svg.latex? &rarr; probability that none of the 8 ISA tutorial instructors get covid.)
+* ![](https://latex.codecogs.com/svg.latex?(1-.211)^8 = .150) &rarr; probability that none of the 8 ISA tutorial instructors get covid.
 
 <div style="page-break-after: always;"></div>
 # Appendix
@@ -397,68 +397,68 @@ $1-(1-.211)^8![](https://latex.codecogs.com/svg.latex? = .850 = **85.0% chance a
 ### Personal risk calculation math
 
 Given probability of risk, whether or not I'm vaxxed:
-$(1-(1-p_\text{C})^{(20\times8)}) = .118 = 11.8\%![](https://latex.codecogs.com/svg.latex?)
+$(1-(1-p_\text{C})^{(20\times8)}) = .118 = 11.8\%$
 
 We know the ratio of acquiring covid given vaxxed/non-vaxxed:
-$\frac{p(C|V)}{p(C|\not V)} = \frac{.27}{.66}![](https://latex.codecogs.com/svg.latex?)
+$\frac{p(C|V)}{p(C|\not V)} = \frac{.27}{.66}$
 
-Let $\frac{x}{y} = \frac{.27}{.66}![](https://latex.codecogs.com/svg.latex?)
-Then $x = \frac{.27y}{.66}![](https://latex.codecogs.com/svg.latex?)
-Now, leting $a = \frac{.27}{.66}![](https://latex.codecogs.com/svg.latex?)
-We get $x = ay![](https://latex.codecogs.com/svg.latex?)
+Let $\frac{x}{y} = \frac{.27}{.66}$
+Then $x = \frac{.27y}{.66}$
+Now, leting $a = \frac{.27}{.66}$
+We get ![](https://latex.codecogs.com/svg.latex?x = ay)
 
 <!-- .66x=.27y -->
 <!-- x = .27y/.66 -->
 <!-- let a = .27/.66 -->
 
-We also realize the weighted sum using population $p(V)$ numbers should result in that $.118![](https://latex.codecogs.com/svg.latex?:)
-$(1-p(V))x + p(V)y = .118![](https://latex.codecogs.com/svg.latex?)
-Given $p(V) = .676![](https://latex.codecogs.com/svg.latex? // proportion of population vaxxed)
-$(1-p(V))ay + p(V)y = .118![](https://latex.codecogs.com/svg.latex?)
-$(1-.676)ay + .676y = .118![](https://latex.codecogs.com/svg.latex?)
-$ay - (.676)ay + .676y = .118![](https://latex.codecogs.com/svg.latex?)
-$(a - .676a + .676)y = .118![](https://latex.codecogs.com/svg.latex?)
-$y = .146![](https://latex.codecogs.com/svg.latex?)
-$x = .060![](https://latex.codecogs.com/svg.latex?)
+We also realize the weighted sum using population ![](https://latex.codecogs.com/svg.latex?p(V)) numbers should result in that ![](https://latex.codecogs.com/svg.latex?.118):
+![](https://latex.codecogs.com/svg.latex?(1-p(V))x + p(V)y = .118)
+Given ![](https://latex.codecogs.com/svg.latex?p(V) = .676) // proportion of population vaxxed
+![](https://latex.codecogs.com/svg.latex?(1-p(V))ay + p(V)y = .118)
+![](https://latex.codecogs.com/svg.latex?(1-.676)ay + .676y = .118)
+![](https://latex.codecogs.com/svg.latex?ay - (.676)ay + .676y = .118)
+![](https://latex.codecogs.com/svg.latex?(a - .676a + .676)y = .118)
+![](https://latex.codecogs.com/svg.latex?y = .146)
+![](https://latex.codecogs.com/svg.latex?x = .060)
 
-My risk over 8 weeks is $.060 = 6.0\%![](https://latex.codecogs.com/svg.latex?)
+My risk over 8 weeks is $.060 = 6.0\%$
 
 <div style="page-break-after: always;"></div>
 ### Basis for hospitalization risk
 _112021_
 
 Vaccine effectiveness = proportion of covid among unvaxxed minus proportion of covid among vaxxed, all divided by proportion of covid among unvaxxed.
-* $n_\text{c0}![](https://latex.codecogs.com/svg.latex? = number of unvaxxed people with covid)
-* $n_\text{c1}![](https://latex.codecogs.com/svg.latex? = number of vaxxed people with covid)
-* $n_C![](https://latex.codecogs.com/svg.latex? = number of covid infections)
-* $p(V)$ = proportion of population vaxxed (really should be $\text{Pr}(V)![](https://latex.codecogs.com/svg.latex?))
-* $n![](https://latex.codecogs.com/svg.latex? = NL population)
-* $E![](https://latex.codecogs.com/svg.latex? = vaccine effectiveness percentage, as a probability. Originally touted to be ~95%, I've reason to assume -- based on some reports -- that it's dropped to 60% due to the delta variant, so that's the value I use here.)
+* $n_\text{c0}$ = number of unvaxxed people with covid
+* $n_\text{c1}$ = number of vaxxed people with covid
+* ![](https://latex.codecogs.com/svg.latex?n_C) = number of covid infections
+* ![](https://latex.codecogs.com/svg.latex?p(V)) = proportion of population vaxxed (really should be $\text{Pr}(V)$)
+* ![](https://latex.codecogs.com/svg.latex?n) = NL population
+* ![](https://latex.codecogs.com/svg.latex?E) = vaccine effectiveness percentage, as a probability. Originally touted to be ~95%, I've reason to assume -- based on some reports -- that it's dropped to 60% due to the delta variant, so that's the value I use here.
 
-Let $p(C) = \frac{n_C}{n}$ // proportion of population with covid. One could just use $n_C$ in lieu of $np(C)![](https://latex.codecogs.com/svg.latex? below; not sure why I didn't do just that.)
-$E = \left( \frac{n_\text{c0}}{n(1-p(V))} - \frac{n_\text{c1}}{np(V)} \right) / \left( \frac{n_\text{c0}}{n(1-p(V))} \right)![](https://latex.codecogs.com/svg.latex? // vaccine effectiveness)
-We now want to solve for number of infections within the vaxxed and unvaxxed, $n_\text{c1}$ and $n_\text{c0}![](https://latex.codecogs.com/svg.latex?, respectively.)
-$E = 1 - \frac{n_\text{c1}}{np(V)} / \frac{n_\text{c0}}{n(1-p(V))}$ // use a known E to solve for $n_\text{c0}![](https://latex.codecogs.com/svg.latex?)
-Let $K = \frac{np(V)(1-E)}{n(1-p(V)}![](https://latex.codecogs.com/svg.latex?)
-Yielding $n_\text{c1} = Kn_\text{c0}![](https://latex.codecogs.com/svg.latex?)
-Given $np(C) = n_\text{c1} + n_\text{c0}![](https://latex.codecogs.com/svg.latex?)
-Then $n_\text{c0} = \frac{np(C)}{1+K}$ // calculated unvaxxed count given known $E, n, p(V), p(C)![](https://latex.codecogs.com/svg.latex?)
-and &nbsp; ![](https://latex.codecogs.com/svg.latex?\begin{align})
+Let $p(C) = \frac{n_C}{n}![](https://latex.codecogs.com/svg.latex? // proportion of population with covid. One could just use )n_C![](https://latex.codecogs.com/svg.latex? in lieu of )np(C)$ below; not sure why I didn't do just that.
+$E = \left( \frac{n_\text{c0}}{n(1-p(V))} - \frac{n_\text{c1}}{np(V)} \right) / \left( \frac{n_\text{c0}}{n(1-p(V))} \right)$ // vaccine effectiveness
+We now want to solve for number of infections within the vaxxed and unvaxxed, $n_\text{c1}![](https://latex.codecogs.com/svg.latex? and )n_\text{c0}$, respectively.
+$E = 1 - \frac{n_\text{c1}}{np(V)} / \frac{n_\text{c0}}{n(1-p(V))}![](https://latex.codecogs.com/svg.latex? // use a known E to solve for )n_\text{c0}$
+Let $K = \frac{np(V)(1-E)}{n(1-p(V)}$
+Yielding $n_\text{c1} = Kn_\text{c0}$
+Given $np(C) = n_\text{c1} + n_\text{c0}$
+Then $n_\text{c0} = \frac{np(C)}{1+K}![](https://latex.codecogs.com/svg.latex? // calculated unvaxxed count given known )E, n, p(V), p(C)$
+and &nbsp; $\begin{align}
 n_\text{c1} &= np(C) - n_\text{c0}\\
          &= \frac{Knp(C)}{K+1}
-\end{align}![](https://latex.codecogs.com/svg.latex?)
+\end{align}$
 
-Probability of infection ($C$), given vax ($V$) or non-vax ($\not V![](https://latex.codecogs.com/svg.latex?):)
-$p(C|V) = \frac{n_\text{c1}}{np(V)}![](https://latex.codecogs.com/svg.latex?)
-$p(C|\not V) = \frac{n_\text{c0}}{n(1-p(V))}![](https://latex.codecogs.com/svg.latex?)
+Probability of infection (![](https://latex.codecogs.com/svg.latex?C)), given vax (![](https://latex.codecogs.com/svg.latex?V)) or non-vax ($\not V$):
+$p(C|V) = \frac{n_\text{c1}}{np(V)}$
+$p(C|\not V) = \frac{n_\text{c0}}{n(1-p(V))}$
 
-Calculating probability of hospitalization ($H![](https://latex.codecogs.com/svg.latex?) given vax and covid infection:)
-$p(V,C) = p(C|V)p(V)![](https://latex.codecogs.com/svg.latex? // both are now known)
-$p(V|H,C) = p(V|H) = 0.45$ // from NL Times and also we're talking just about covid hospitalizations, i.e. we don't have to worry about non-covid hospitalizations since we have the numbers for covid hospitalizations. This makes $p(V|H) = p(V|H,C)![](https://latex.codecogs.com/svg.latex?. The rest are known.)
-![](https://latex.codecogs.com/svg.latex?\begin{align})
+Calculating probability of hospitalization (![](https://latex.codecogs.com/svg.latex?H)) given vax and covid infection:
+![](https://latex.codecogs.com/svg.latex?p(V,C) = p(C|V)p(V)) // both are now known
+![](https://latex.codecogs.com/svg.latex?p(V|H,C) = p(V|H) = 0.45) // from NL Times and also we're talking just about covid hospitalizations, i.e. we don't have to worry about non-covid hospitalizations since we have the numbers for covid hospitalizations. This makes ![](https://latex.codecogs.com/svg.latex?p(V|H) = p(V|H,C)). The rest are known.
+$\begin{align}
 p(H|V,C) &= \frac{p(V|H,C)p(H,C)}{p(V,C)} \\
          &= \frac{0.45\times p(H|C)p(C)}{p(C|V)p(V)}
-\end{align}![](https://latex.codecogs.com/svg.latex? )
+\end{align}$ 
 
 <div style="page-break-after: always;"></div>
 ### Hospitalization risk by age 
@@ -469,29 +469,29 @@ _112021_
 Probability of hosp given age and covid
 - LCPS=112021, hage=101121-111521, summed and normed,
 - page=`f.cv.age()`, cage=111521-112021, summed and normed
-- $a![](https://latex.codecogs.com/svg.latex? = age group 10-19)
+- ![](https://latex.codecogs.com/svg.latex?a) = age group 10-19
 
-![](https://latex.codecogs.com/svg.latex?\begin{align})
+$\begin{align}
 p(H|A=a,C) &= p(A=a|H,C)p(H,C) / p(A=a|C) \\ 
 		   &= (0.003750493+0.009080142)*(432+1785)/(21873) / .164 \\
 		   &= 0.007929789\\
 p(H|A=a)   &= (0.003750493+0.009080142)*(432+1785)/(17.44e6)/(0.055+0.060) \\
 		   &= 1.418305e-05 
-\end{align}![](https://latex.codecogs.com/svg.latex?)
+\end{align}$
 
-Same as above but for $a![](https://latex.codecogs.com/svg.latex? = ages 50-59)
-![](https://latex.codecogs.com/svg.latex?\begin{align})
+Same as above but for ![](https://latex.codecogs.com/svg.latex?a) = ages 50-59
+$\begin{align}
 p(H|A=a,C) &= (0.050927754+0.060205290)*(432+1785)/(21873) / .135 \\
 	       &=  0.08343856 \\
 p(H|A=a)   &= (0.050927754+0.060205290)*(432+1785)/(17.44e6) /(.074+.072) \\
 		   &= 9.676305e-05
-\end{align}![](https://latex.codecogs.com/svg.latex?)
+\end{align}$
 
-* Given $A,C![](https://latex.codecogs.com/svg.latex?: 10.5x worse than 10-19 stud, more C among studs makes ratio worse)
-  - $\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})}![](https://latex.codecogs.com/svg.latex?)
-* Given just $A![](https://latex.codecogs.com/svg.latex?: only 6.8x worse b/c more people my age brings this down)
-* For vacc, just use the above number and realize the $p(C|V,A) = 0.01$ and $p(C|\not V,A) = 0.025![](https://latex.codecogs.com/svg.latex?.)
-  - But not so straightforward given $p(V|H) = .45![](https://latex.codecogs.com/svg.latex?.)
+* Given ![](https://latex.codecogs.com/svg.latex?A,C): 10.5x worse than 10-19 stud, more C among studs makes ratio worse
+  - $\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})}$
+* Given just ![](https://latex.codecogs.com/svg.latex?A): only 6.8x worse b/c more people my age brings this down
+* For vacc, just use the above number and realize the ![](https://latex.codecogs.com/svg.latex?p(C|V,A) = 0.01) and $p(C|\not V,A) = 0.025$.
+  - But not so straightforward given ![](https://latex.codecogs.com/svg.latex?p(V|H) = .45).
 
 
 ## Code
