@@ -33,7 +33,8 @@ Table of Contents
   
   
 # Links and notes  
-  
+
+* Git test
 * [121021:] On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
   - But the inline math is bottom-aligned, so a bit ugly.  
 * This document will be updated every few days or so.  
