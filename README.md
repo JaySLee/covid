@@ -41,10 +41,6 @@ Table of Contents
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
   - 17.11.21 - [Covid by age](#covid-by-age)  
   
-  
-  
-  
-  
 # Netherlands  
 ## National trend  
   
