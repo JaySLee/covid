@@ -72,6 +72,8 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 ![](/fig/cv_nl_nat.png | width=60)
 
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+
 <!-- ![](/fig/cv_nl_nat.png){:width=20px) {} part shows as text -->
 
 <!-- ![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png | width=60) DONT WORK -->
