@@ -296,6 +296,8 @@ $\begin{align}
 p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\  
     &= 0.00394  
 \end{align}$	   
+
+![](https://latex.codecogs.com/svg.latex?\begin{align*}x&=y&space;\\&space;&=123\end{align*})
   
 5. Next, we have the probability of covid's being transmitted (![](https://latex.codecogs.com/svg.latex?T)) from an infected individual (![](https://latex.codecogs.com/svg.latex?C)). I use a more conservative number than the 0.632 reported (for a closed room):  
 ![](https://latex.codecogs.com/svg.latex?p(T|C)=0.2)  
