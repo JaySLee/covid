@@ -11,7 +11,8 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   @page { margin: .5cm; }  
 }  
 </style>  
-  
+
+![](https://latex.codecogs.com/svg.latex?\begin{align*}x&=y\\&=123\end{align*})
   
 # Links and notes  
   
@@ -166,9 +167,9 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 These calculations are based on Nov. 13, 2021 numbers and some simplifying assumptions, that perhaps render the numbers below as upper bounds.  
   
-* Probability of getting covid (![](https://latex.codecogs.com/svg.latex?C)), given being double vaxxed (![](https://latex.codecogs.com/svg.latex?V)) vs. non-double vaxxed (![](https://latex.codecogs.com/svg.latex?\not&space;V)):    
+* Probability of getting covid (![](https://latex.codecogs.com/svg.latex?C)), given being double vaxxed (![](https://latex.codecogs.com/svg.latex?V)) vs. non-double vaxxed (![](https://latex.codecogs.com/svg.latex?\sim\\!\\!V)):    
 ![](https://latex.codecogs.com/svg.latex?p(C|V)=0.27\%)  
-![](https://latex.codecogs.com/svg.latex?p(C|\not&space;V)=0.66\%)  
+![](https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!V)=0.66\%)  
 * For ages 10-19: ![](https://latex.codecogs.com/svg.latex?1.00\%,&space;2.50\%) (see `f.cv.bayesv2()`)  
   - Based on Nov. 15, 2021 (peak for age/case data)  
   - Vacc/age v. Case/age groups don't perfectly align (consider interpolation or better data)  
@@ -177,13 +178,13 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
 * Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
 ![](https://latex.codecogs.com/svg.latex?p(H|V\\&C)&space;=&space;1.26\%&space;-&space;2.53\%)  
-![](https://latex.codecogs.com/svg.latex?p(H|\not&space;V\\&C)&space;=&space;1.29\%&space;-&space;2.58\%)   
+![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\\&C)&space;=&space;1.29\%&space;-&space;2.58\%)   
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
    - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
   
 * Probability of ending up in the ICU (![](https://latex.codecogs.com/svg.latex?I)), given being vaxxed and having covid:    
 ![](https://latex.codecogs.com/svg.latex?p(I|V\\&C)&space;=&space;0.40\%)  
-![](https://latex.codecogs.com/svg.latex?p(I|\not&space;V\\&C)&space;=&space;0.61\%)  
+![](https://latex.codecogs.com/svg.latex?p(I|\sim\\!\\!V\\&C)&space;=&space;0.61\%)  
   
 [Assumptions:]{.ul}  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
@@ -335,7 +336,7 @@ Given probability of risk, whether or not I'm vaxxed:
 ![](https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})&space;=&space;.118&space;=&space;11.8\%)  
   
 We know the ratio of acquiring covid given vaxxed/non-vaxxed:  
-![](https://latex.codecogs.com/svg.latex?\frac{p(C|V)}{p(C|\not&space;V)}&space;=&space;\frac{.27}{.66})  
+![](https://latex.codecogs.com/svg.latex?\frac{p(C|V)}{p(C|\sim\\!\\!V)}&space;=&space;\frac{.27}{.66})  
   
 Let ![](https://latex.codecogs.com/svg.latex?\frac{x}{y}&space;=&space;\frac{.27}{.66})  
 Then ![](https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{.27y}{.66})  
@@ -380,9 +381,9 @@ n_\text{c1} &= np(C) - n_\text{c0}\\
          &= \frac{Knp(C)}{K+1}  
 \end{align}$  
   
-Probability of infection (![](https://latex.codecogs.com/svg.latex?C)), given vax (![](https://latex.codecogs.com/svg.latex?V)) or non-vax (![](https://latex.codecogs.com/svg.latex?\not&space;V)):  
+Probability of infection (![](https://latex.codecogs.com/svg.latex?C)), given vax (![](https://latex.codecogs.com/svg.latex?V)) or non-vax (![](https://latex.codecogs.com/svg.latex?\sim\\!\\!V)):  
 ![](https://latex.codecogs.com/svg.latex?p(C|V)&space;=&space;\frac{n_\text{c1}}{np(V)})  
-![](https://latex.codecogs.com/svg.latex?p(C|\not&space;V)&space;=&space;\frac{n_\text{c0}}{n(1-p(V))})  
+![](https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!V)&space;=&space;\frac{n_\text{c0}}{n(1-p(V))})  
   
 Calculating probability of hospitalization (![](https://latex.codecogs.com/svg.latex?H)) given vax and covid infection:  
 ![](https://latex.codecogs.com/svg.latex?p(V,C)&space;=&space;p(C|V)p(V)) // both are now known  
@@ -422,7 +423,7 @@ p(H|A=a)   &= (0.050927754+0.060205290)*(432+1785)/(17.44e6) /(.074+.072) \\
 * Given ![](https://latex.codecogs.com/svg.latex?A,C): 10.5x worse than 10-19 stud, more C among studs makes ratio worse  
   - ![](https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})})  
 * Given just ![](https://latex.codecogs.com/svg.latex?A): only 6.8x worse b/c more people my age brings this down  
-* For vacc, just use the above number and realize the ![](https://latex.codecogs.com/svg.latex?p(C|V,A)&space;=&space;0.01) and ![](https://latex.codecogs.com/svg.latex?p(C|\not&space;V,A)&space;=&space;0.025).  
+* For vacc, just use the above number and realize the ![](https://latex.codecogs.com/svg.latex?p(C|V,A)&space;=&space;0.01) and ![](https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!V,A)&space;=&space;0.025).  
   - But not so straightforward given ![](https://latex.codecogs.com/svg.latex?p(V|H)&space;=&space;.45).  
   
   
