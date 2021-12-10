@@ -73,7 +73,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 <!-- ![](https://github.com/JaySLee/covid/raw/master/fig/cv_nl_nat.png | width=60) -->
 
-<a href="url"><img src="/fig/cv_nl_nat.png" align="left" height="48%" width="48%" ></a>
+<a href="url"><img src="/fig/cv_nl_nat.png" align="left" height="70%" width="70%" ></a>
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 
 <!-- <center> ![](fig/cv_nl_nat.png){width=70%} </center> -->
 
