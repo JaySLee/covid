@@ -227,7 +227,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 <!-- p(C|\sim\\!\\!V) &= 0.66\% -->  
 <!-- \end{array}$ -->  
   
-* <!p>Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
+* Probability of ending up hospitalized (![](https://latex.codecogs.com/svg.latex?H)), given being (double) vaxxed and having covid:    
 ![](https://latex.codecogs.com/svg.latex?p(H|V\&C)=1.26\% - )2.53\%$  
 ![](https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!V\&C)=1.29\% - )2.58\%$   
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
@@ -327,7 +327,7 @@ _For those with 3 tutorials_ &rarr; **24.5%** risk.
 _For Julia with 4 tutorials_ &rarr; **29.7%** risk.  
 - Overall risk (for both vaxxed and non-vaxxed) is 58.5%  
   
-<!p>_Across all 8 tutorial instructors_, average risk is:  
+_Across all 8 tutorial instructors_, average risk is:  
 ![](https://latex.codecogs.com/svg.latex?(.181\times5+.245\times2+.297\times1)/8=.211) or 21.1\% // this approach is rough  
 ![](https://latex.codecogs.com/svg.latex?1-(1-.211)^8)=.850=**85.0% chance at least one of the tutorial instructors will get covid**.  
 * But remember this is an upper bound.  
