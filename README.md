@@ -13,6 +13,8 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 </style>  
 
 ![](https://latex.codecogs.com/svg.latex?\begin{align*}x&=y\\&=123\end{align*})
+
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}x&=y\\&=123\end{align*}"/>
   
 # Links and notes  
   
