@@ -73,7 +73,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 ![](/fig/cv_nl_nat.png){:width=20px)
 
-![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png | width=60)
+<!-- ![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png | width=60) DONT WORK -->
+
+![](https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png | width=60)
 
 <!-- https://raw.githubusercontent.com/JaySLee/covid/main/fig/cv_nl_nat.png -->
 
