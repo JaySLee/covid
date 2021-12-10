@@ -295,6 +295,9 @@ For Julia with 4 tutorials &rarr; **29.7%** risk.
 
 <img src="https://latex.codecogs.com/svg.latex?n_\text{c}=n_\text{c0}&space;\times&space;m"/>
 
+
+<p><img src="https://latex.codecogs.com/svg.latex?n_\text{c}=n_\text{c0} \times m"/></p>
+
 4. Yielding the proportion of infectious people which estimates the probability of running into an infections person; this doesn't account for clusters of infection (e.g., Limburg):  
 $\begin{align}  
 p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\  
