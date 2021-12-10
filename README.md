@@ -1,11 +1,12 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 10, 2021 11:34:40 PM</i>
+<i>Last update: Fri, Dec 10, 2021 11:35:34 PM</i>
   
   
   
 # Links and notes  
   
+* On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
 * This document will be updated every few days or so.  
 * New additions:  
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
