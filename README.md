@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Dec 11, 2021 12:27:12 AM</i>
+<i>Last update: Sat, Dec 11, 2021 12:31:03 AM</i>
 
 Table of Contents
 =================
@@ -357,7 +357,7 @@ Let ![](https://latex.codecogs.com/svg.latex?p(C)&space;=&space;\frac{n_C}{n}) /
 ![](https://latex.codecogs.com/svg.latex?E&space;=&space;\left(&space;\frac{n_\text{c0}}{n(1-p(V))}&space;-&space;\frac{n_\text{c1}}{np(V)}&space;\right)&space;/&space;\left(&space;\frac{n_\text{c0}}{n(1-p(V))}&space;\right)) // vaccine effectiveness  
 We now want to solve for number of infections within the vaxxed and unvaxxed, ![](https://latex.codecogs.com/svg.latex?n_\text{c1}) and ![](https://latex.codecogs.com/svg.latex?n_\text{c0}), respectively.  
 ![](https://latex.codecogs.com/svg.latex?E&space;=&space;1&space;-&space;\frac{n_\text{c1}}{np(V)}&space;/&space;\frac{n_\text{c0}}{n(1-p(V))}) // use a known E to solve for ![](https://latex.codecogs.com/svg.latex?n_\text{c0})  
-Let ![](https://latex.codecogs.com/svg.latex?K&space;=&space;\frac{np(V)(1-E)}{n(1-p(V)})  
+Let ![](https://latex.codecogs.com/svg.latex?K&space;=&space;\frac{np(V)(1-E)}{n(1-p(V))})  
 Yielding ![](https://latex.codecogs.com/svg.latex?n_\text{c1}&space;=&space;Kn_\text{c0})  
 Given ![](https://latex.codecogs.com/svg.latex?np(C)&space;=&space;n_\text{c1}&space;+&space;n_\text{c0})  
 Then ![](https://latex.codecogs.com/svg.latex?n_\text{c0}&space;=&space;\frac{np(C)}{1+K}) // calculated unvaxxed count given known ![](https://latex.codecogs.com/svg.latex?E,&space;n,&space;p(V),&space;p(C))  
