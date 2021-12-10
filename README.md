@@ -72,7 +72,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 <!-- ![](/fig/cv_nl_nat.png | width=60) dont work -->
 
-![](/fig/cv_nl_nat.png?s=30)
+![](https://github.com/JaySLee/covid/raw/main/fig/cv_nl_nat.png?s=30)
 
 ![](/fig/cv_nl_nat.png?v=4&s=20)
 
