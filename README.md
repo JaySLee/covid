@@ -306,7 +306,7 @@ p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\
 ![](https://latex.codecogs.com/svg.latex?p_\text{C}=(1-(1-p_\text{C1})^k)) ... where ![](https://latex.codecogs.com/svg.latex?k) is number of people I run into.  
    - The inner part of the equation represents the chances of never running into covid -- after running into ![](https://latex.codecogs.com/svg.latex?k) people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every ![](https://latex.codecogs.com/svg.latex?k) contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).  
   
-8. [Aside:]{.ul} let's see what the avg number of contacts across NL would be then:  
+8. [Aside: ]{.ul} let's see what the avg number of contacts across NL would be then:  
 ![](https://latex.codecogs.com/svg.latex?(n_\text{pop}-n_\text{c})(1-(1-p_\text{C})^a)=2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
 ![](https://latex.codecogs.com/svg.latex?a \approx 2) ... which seems to be a reasonable avg.  
