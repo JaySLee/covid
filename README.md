@@ -225,24 +225,20 @@ For Julia with 4 tutorials &rarr; **29.7%** risk.
 <img src="https://latex.codecogs.com/svg.latex?n_\text{c0}\&space;=\&space;13743"/>  
 <img src="https://latex.codecogs.com/svg.latex?m\&space;=\&space;5"/> ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.  
 3. This gives us conservative estimate of total covid infectious people:  
-<img src="https://latex.codecogs.com/svg.latex?n_\text{c}\&space;=\&space;n_\text{c0}\&space;\times\&space;m"/>    
+<img src="https://latex.codecogs.com/svg.latex?n_\text{c}\&space;=\&space;n_\text{c0}\&space;\times\&space;m"/>  
 4. Yielding the proportion of infectious people which estimates the probability of running into an infections person; this doesn't account for clusters of infection (e.g., Limburg):  
 <img src="https://latex.codecogs.com/svg.latex?\begin{align*}p_\text{c}&space;&=&space;\frac{n_\text{c}}{n_\text{pop}}\\&=&space;0.00394\end{align*}"/>
-  
 5. Next, we have the probability of covid's being transmitted (<img src="https://latex.codecogs.com/svg.latex?T"/>) from an infected individual (<img src="https://latex.codecogs.com/svg.latex?C"/>). I use a more conservative number than the 0.632 reported (for a closed room):  
 <img src="https://latex.codecogs.com/svg.latex?p(T|C)\&space;=\&space;0.2"/>  
 6. So then, the probability of catching covid is (from any one person):  
 <img src="https://latex.codecogs.com/svg.latex?p_\text{C1}\&space;=\&space;p(T|C)\times\&space;p(C)\&space;=\&space;p(T|C)p_c"/>  
-  
 7. The personal chances of catching covid over a period of time with multiple contacts:  
 <img src="https://latex.codecogs.com/svg.latex?p_\text{C}\&space;=\&space;(1-(1-p_\text{C1})^k)"/> ... where <img src="https://latex.codecogs.com/svg.latex?k"/> is number of people I run into.  
    - The inner part of the equation represents the chances of never running into covid -- after running into <img src="https://latex.codecogs.com/svg.latex?k"/> people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every <img src="https://latex.codecogs.com/svg.latex?k"/> contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).  
-  
 8. [Aside:]{.ul} let's see what the avg number of contacts across NL would be then:  
 <img src="https://latex.codecogs.com/svg.latex?(n_\text{pop}\&space;-\&space;n_\text{c})(1-(1-p_\text{C})^a)\&space;=\&space;2n_\text{C}"/> ... where <img src="https://latex.codecogs.com/svg.latex?a"/> is avg number of daily social contacts (avged across all of NL) and <img src="https://latex.codecogs.com/svg.latex?2n_C"/> is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
 <img src="https://latex.codecogs.com/svg.latex?a\approx2"/> ... which seems to be a reasonable avg.  
-  
 9. If I am proximal to 20 people (inc. students) every time I come to campus over 8 weeks (i.e. 8 instances), my personal risk is:  
 <img src="https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})\&space;=\&space;.118\&space;=\&space;11.8\%"/> ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.  
    - This doesn't take into account that I'm vaccinated, in which case my risk is 6.0\%.  
