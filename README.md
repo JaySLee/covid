@@ -71,7 +71,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 ![](/fig/cv_nl_nat.png | width=60)
 
-![](/fig/cv_nl_nat.png){:width=100px)
+![](/fig/cv_nl_nat.png){:width=20px)
 
 <!-- ![](https://github.com/JaySLee/covid/raw/master/fig/cv_nl_nat.png | width=60) -->
 
