@@ -70,6 +70,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 * Red line indicates last count; green line = 7 day moving average
 
 ![](fig/cv_nl_nat.png | width=60)
+
+![](https://github.com/JaySLee/covid/blob/main/fig/cv_nl_nat.png?raw=true | width=60)
+
 <!-- <center> ![](fig/cv_nl_nat.png){width=70%} </center> -->
 
 <div style="text-align: center;">
