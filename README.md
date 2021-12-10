@@ -71,9 +71,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 <center> <img src="/fig/cv_nl_nat.png">{width=70%} </center>
 
-<div style="text-align: center;">
-<img src="/fig/cv_nl_nat_60.png">{width=40%}<img src="/fig/cv_nl_deaths.png">{width=40%} 
-</div>
+<img src="/fig/cv_nl_nat_60.png"><img src="/fig/cv_nl_deaths.png">
 
 * Source: RIVM _(releases updated data daily at 15:15 CET)_
 
