@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 10, 2021 11:32:54 PM</i>
+<i>Last update: Fri, Dec 10, 2021 11:33:33 PM</i>
   
   
   
@@ -12,8 +12,6 @@ _Author: Jay Lee_
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
   - 17.11.21 - [Covid by age](#covid-by-age)  
   
-![](https://latex.codecogs.com/svg.latex?\newcommand{\sim\\!\\!}{{\Large\&space;\textasciitilde}\!})  
-![](https://latex.codecogs.com/svg.latex?\newcommand{\text}[1]{\text{#1}})  
   
   
   
