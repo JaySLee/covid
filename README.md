@@ -91,7 +91,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 <img src="/fig/cv_lcps.png">{width=70%}
 </div>
 
+<div style="text-align: center;">
 <center><img align="center" src="/fig/cv_lcps_60.png">{width=40%}</center>
+</div>
 
 * Source: LCPS _(releases data daily between 1pm-2pm CET)_
 
