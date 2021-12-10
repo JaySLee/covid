@@ -36,7 +36,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 <!-- https://bit.ly/3DmPydh -->  
 <!-- https://bit.ly/covid_nl_pdf -->  
   
-<div style="page-break-after: always;"></div>  
+  
   
 # Netherlands  
 ## National trend  
@@ -75,7 +75,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 * Source: RIVM _(releases updated data daily at 15:15 CET)_  
   
-<div style="page-break-after: always;"></div>  
+  
   
 ## Hospital occupancy trends  
 * [121021:] A few days ago, LCPS split ICU numbers by NL and "International" (i.e. in beds in Germany). Those are combined here.  
@@ -95,7 +95,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 * Source: LCPS _(releases data daily between 1pm-2pm CET)_  
   
-<div style="page-break-after: always;"></div>  
+  
   
 ## Within NL cities/towns/provinces  
   
@@ -111,7 +111,6 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 * Source: RIVM  
   
-<div style="page-break-after: always;"></div>  
   
 # Trends in nearby countries  
   
@@ -122,7 +121,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 * Source: CSSE (data is one day behind the RIVM and LCPS data)  
   
-<div style="page-break-after: always;"></div>  
+  
   
 # Covid by age  
   
@@ -148,7 +147,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 <img src="/fig/cv_age_case.png" width="49%"> <img src="/fig/cv_age_case2.png" width="49%">  
 <img src="/fig/cv_age_case3.png" width="49%"> <img src="/fig/cv_age_case4.png" width="49%">  
   
-<!-- <div style="page-break-after: always;"></div> -->  
+<!--  -->  
   
 <!-- <img style="float: right; width:30%;" src="fig/cv_age_delay.png"> -->  
   
@@ -169,7 +168,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   - RIVM country totals data (of all new cases) is behind the age data by 3 days.  
   - But comprehensive age data for the past week is incomplete/delayed significantly.  
   
-<div style="page-break-after: always;"></div>  
+  
   
 ## Hospitalization by age group  
   
@@ -200,7 +199,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
   
 <img src="/fig/cv_age_hosp2.png" width="49%"> <img src="/fig/cv_age_hosp_loess.png" width="49%">  
   
-<div style="page-break-after: always;"></div>  
+  
 # Risk calculations  
 ## Hospitalization risk  
   
@@ -251,7 +250,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
 > In October, just over half of all Covid-19 patients in the hospital were not or only partially vaccinated ... In ICU, the proportion of unvaccinated patients dropped from over 80 percent in September to about 70 percent in October.  
   
-<div style="page-break-after: always;"></div>  
+  
   
 ## Personal risk  
   
@@ -334,7 +333,7 @@ _Across all 8 tutorial instructors_, average risk is:
 * But remember this is an upper bound.  
 * ![](https://latex.codecogs.com/svg.latex?(1-.211)^8=.150) &rarr; probability that none of the 8 ISA tutorial instructors get covid.  
   
-<div style="page-break-after: always;"></div>  
+  
 # Appendix  
   
 ## Global and other countries  
@@ -392,7 +391,7 @@ _Across all 8 tutorial instructors_, average risk is:
   
 <img src="/fig/cv_nl_v_usa.png" width="49%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="49%">  
   
-<div style="page-break-after: always;"></div>  
+  
 ## Maths  
   
 ### Personal risk calculation math  
@@ -424,7 +423,7 @@ Given ![](https://latex.codecogs.com/svg.latex?p(V)=.676) // proportion of popul
   
 My risk over 8 weeks is ![](https://latex.codecogs.com/svg.latex?.060=6.0\%)  
   
-<div style="page-break-after: always;"></div>  
+  
 ### Basis for hospitalization risk  
 _112021_  
   
@@ -461,7 +460,7 @@ p(H|V,C) &= \frac{p(V|H,C)p(H,C)}{p(V,C)} \\
          &= \frac{0.45\times p(H|C)p(C)}{p(C|V)p(V)}  
 \end{align}$   
   
-<div style="page-break-after: always;"></div>  
+  
 ### Hospitalization risk by age   
 _112021_  
   
