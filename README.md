@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 10, 2021 11:45:26 PM</i>
+<i>Last update: Fri, Dec 10, 2021 11:45:55 PM</i>
   
   
   
@@ -8,7 +8,7 @@ _Author: Jay Lee_
   
 * On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
 * This document will be updated every few days or so.  
-* New additions:  
+* <ins>New additions:</ins>  
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
   - 17.11.21 - [Covid by age](#covid-by-age)  
   
@@ -97,7 +97,7 @@ _Author: Jay Lee_
   - On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds have covid.  
     + They also constitute ~18% of the infected on the same date.  
 * GGD Rotterdam throws up some extreme values for last date.  
-* <ins>Observation:</ins>  
+* <ins>Observations:</ins>  
   - A recent relative uptick of cases in the two relevant age groups.  
   - The percentages within age groups are more striking.  
   
