@@ -1,14 +1,14 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 10, 2021 11:37:05 PM</i>
+<i>Last update: Fri, Dec 10, 2021 11:44:05 PM</i>
   
   
   
 # Links and notes  
   
 * On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
-* <u>This document</u> will be updated every few days or so.  
-* <ins>New additions:</ins>  
+* This document will be updated every few days or so.  
+* New additions:  
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
   - 17.11.21 - [Covid by age](#covid-by-age)  
   
@@ -148,7 +148,7 @@ _Author: Jay Lee_
 # Risk calculations  
 ## Hospitalization risk  
   
-[**tl;dr:**]{.ul} (based on Nov 13, 2021 numbers)  
+<ins>**tl;dr:**</ins> (based on Nov 13, 2021 numbers)  
 * Risk of getting covid, while being double vaxxed = 0.27%  
 * Risk of hospitalization, given getting covid and vaxxed = 1.26% -- 2.53%  
 * Risk of ICU, given getting covid and vaxxed = 0.40%  
@@ -174,7 +174,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 ![](https://latex.codecogs.com/svg.latex?p(I|V\\&C)\&space;=\&space;0.40\%)  
 ![](https://latex.codecogs.com/svg.latex?p(I|\sim\\!\\!\&space;V\\&C)\&space;=\&space;0.61\%)  
   
-[Assumptions:]{.ul}  
+<ins>Assumptions:</ins>  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
 * The above numbers are based on Nov 13, 2021 covid and hospitalization numbers.  
   - ![](https://latex.codecogs.com/svg.latex?n_C\&space;=\&space;13743\text{,\&space;}n_{H|C}\&space;=\&space;(353+1402))  
@@ -190,13 +190,13 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
 ## Personal risk  
   
-[**_Caveats:_**]{.ul}  
+<ins>**_Caveats:_**</ins>  
 * Some simplifying assumptions used here.  
 * Covid numbers from Nov. 13, 2021.  
   
 ### Summary  
   
-[tl;dr: (too long didn't read):]{.ul}  
+<ins>tl;dr: (too long didn't read):</ins>  
   
 For those with 2 tutorials, the risk is a **18.1%** chance of catching covid over 8 weeks, conditioned on your being vaxxed.  
 For those with 3 tutorials &rarr; **24.5%** risk.  
@@ -227,7 +227,7 @@ For JdV with 4 tutorials &rarr; **29.7%** risk.
 ![](https://latex.codecogs.com/svg.latex?p_\text{C}\&space;=\&space;(1-(1-p_\text{C1})^k)) ... where ![](https://latex.codecogs.com/svg.latex?k) is number of people I run into.  
    - The inner part of the equation represents the chances of never running into covid -- after running into ![](https://latex.codecogs.com/svg.latex?k) people -- and having it be transmitted. The more enumerated version of this where I consider tramission probability for every ![](https://latex.codecogs.com/svg.latex?k) contact, i.e. chances with 1 contact, chances with 2 contacts, etc. ends up being equal to the above equation (math is funny!).  
   
-8. [Aside:]{.ul} let's see what the avg number of contacts across NL would be then:  
+8. <ins>Aside:</ins> let's see what the avg number of contacts across NL would be then:  
 ![](https://latex.codecogs.com/svg.latex?(n_\text{pop}\&space;-\&space;n_\text{c})(1-(1-p_\text{C})^a)\&space;=\&space;2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
 ![](https://latex.codecogs.com/svg.latex?a\approx2) ... which seems to be a reasonable avg.  
