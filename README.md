@@ -16,7 +16,7 @@ ICON file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png
 
 <!-- # COVID-19 plots for Netherlands -->
 <!-- _Author: Jay Lee_ -->
-<!-- _Last update: Nov. 16, 2021 (00:52)_ -->
+<!-- _Last update: Nov. 16, 2021 (00:52)_ --
 
 # Links and notes
 
@@ -63,15 +63,15 @@ $\newcommand{\T}[1]{\text{#1}}$
 * We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).
 * ~~While the numbers have dropped since yesterday (Friday, Nov. 19, 2021),~~ there's usually a drop in the reported numbers around the weekend, and then a surge in Monday/Tuesday.
 * Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.
-  - ~~For NL on Nov. 15, 2021, this is 19054\*10 = ~200K (or over 1% of the NL population).~~
+  - ~~For NL on Nov. 15, 2021, this is 19054\*10 = \~200K (or over 1% of the NL population).~~
   - Nov. 18, 2021, 23591*10 = ~236K = 1.35% of NL population
   - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).
 * Red line indicates last count; green line = 7 day moving average
 
-<center> <img src="/fig/cv_nl_nat.png">{width=70%} </center>
+<p align="center"> <img src="/fig/cv_nl_nat.png" width="70%"> </p>
 
-<img src="/fig/cv_nl_nat_60.png" width="50%"><img src="/fig/cv_nl_deaths.png" width="50%">
+<p align="center"><img src="/fig/cv_nl_nat_60.png" width="40%"><img src="/fig/cv_nl_deaths.png" width="40%"></p>
 
 * Source: RIVM _(releases updated data daily at 15:15 CET)_
 
@@ -83,15 +83,15 @@ $\newcommand{\T}[1]{\text{#1}}$
 * [112721:] Hospitalizations are &#128543;.
 * [111621:] Hospitalizations are not as dire as earlier this year and last year, but almost there :-/.
 
-<!-- <center><img src="/fig/cv_lcps.png">{width=70%}</center> -->
+<!-- <p align="center"><img src="/fig/cv_lcps.png" width="70%"></p> -->
 
-<div style="text-align: center;">
-<img src="/fig/cv_lcps.png">{width=70%}
-</div>
+<!-- <div style="text-align: center;"> -->
+<!-- <img src="/fig/cv_lcps.png" width="70%"> -->
+<!-- </div> -->
 
-<p align="center">
-<img align="center" src="/fig/cv_lcps_60.png">
-</p>
+<p align="center"><img src="/fig/cv_lcps.png" width="70%"></p>
+
+<p align="center"><img src="/fig/cv_lcps_60.png" width="40%"></p>
 
 * Source: LCPS _(releases data daily between 1pm-2pm CET)_
 
@@ -106,8 +106,8 @@ $\newcommand{\T}[1]{\text{#1}}$
 * Left plot: worst cities; right plot: Largest cities in NL (top 5%)
 * [NEW 121021:] Lower plot: provinces
 
-<img src="/fig/cv_nl_top_60.png">{width=48%}<img src="/fig/cv_nl_05_60.png">{width=48%}
-<center><img src="/fig/cv_nl_prov_60.png">{width=48%}</center>
+<img src="/fig/cv_nl_top_60.png" width="48%"><img src="/fig/cv_nl_05_60.png" width="48%">
+<p align="center"><img src="/fig/cv_nl_prov_60.png" width="48%"></p>
 
 * Source: RIVM
 
@@ -116,8 +116,8 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 * As for countries near us: Belgium, Germany, Austria, and Denmark are also experiencing their own massive peaks, record-breaking for Germany and Austria. France is experiencing a minor surge.
 
-<center><img src="/fig/cv_nearby.png">{width=70%}</center>
-<center><img src="/fig/cv_nearby_60.png">{width=40%}</center>
+<p align="center"><img src="/fig/cv_nearby.png" width="70%"></p>
+<p align="center"><img src="/fig/cv_nearby_60.png" width="40%"></p>
 
 * Source: CSSE (data is one day behind the RIVM and LCPS data)
 
@@ -144,8 +144,8 @@ $\newcommand{\T}[1]{\text{#1}}$
   - A recent relative uptick of cases in the two relevant age groups.
   - The percentages within age groups are more striking.
 
-<img src="/fig/cv_age_case.png">{width=48%} <img src="/fig/cv_age_case2.png">{width=48%}
-<img src="/fig/cv_age_case3.png">{width=48%} <img src="/fig/cv_age_case4.png">{width=48%}
+<img src="/fig/cv_age_case.png" width="48%"> <img src="/fig/cv_age_case2.png" width="48%">
+<img src="/fig/cv_age_case3.png" width="48%"> <img src="/fig/cv_age_case4.png" width="48%">
 
 <!-- <div style="page-break-after: always;"></div> -->
 
@@ -158,7 +158,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 <!--   - RIVM country totals data (of all new cases) is behind the age data by 3 days. -->
 <!--   - But latest age data is incomplete/delayed significantly. -->
 
-<!-- <center> <img src="/fig/cv_age_delay.png">{width=30%} </center> -->
+<!-- <p align="center"> <img src="/fig/cv_age_delay.png" width="30%"> </p> -->
 <!-- <img src="/fig/cv_age_delay.png">{: style="float: right"} // doesn't work -->
 
 * Dates of case/age data are offset by +3 days in the plot below.
@@ -193,9 +193,9 @@ $\newcommand{\T}[1]{\text{#1}}$
   <!-- - An uptick in recent (proportional) hospitalization for 15-19, 35-39, and 50-54 (more visible in the loess plot). -->
   <!-- - However, what's unknown is the extent to which these age groups are putting themselves more at risk. -->
 
-<img src="/fig/cv_age_hosp.png">{width=48%} <img src="/fig/cv_age_hosp_covid.png">{width=48%} 
+<img src="/fig/cv_age_hosp.png" width="48%"> <img src="/fig/cv_age_hosp_covid.png" width="48%"> 
 
-<img src="/fig/cv_age_hosp2.png">{width=48%} <img src="/fig/cv_age_hosp_loess.png">{width=48%}
+<img src="/fig/cv_age_hosp2.png" width="48%"> <img src="/fig/cv_age_hosp_loess.png" width="48%">
 
 <div style="page-break-after: always;"></div>
 # Risk calculations
@@ -342,7 +342,7 @@ $1-(1-.211)^8$ = .850 = **85.0% chance at least one of the tutorial instructors 
 * The orange denotes the latest NL moving average (7 day) and not the latest daily new cases.
 * Both plots use 7-day moving average ("7day").
  
-<img src="/fig/cv_glob_60.png">{width=48%} <img src="/fig/cv_cos_60.png">{width=48%}
+<img src="/fig/cv_glob_60.png" width="48%"> <img src="/fig/cv_cos_60.png" width="48%">
 
 ## USA
 
@@ -385,9 +385,9 @@ $1-(1-.211)^8$ = .850 = **85.0% chance at least one of the tutorial instructors 
 * Lower right plot
   - Same as previous but with deaths data.
 
-<center><img src="/fig/cv_usa.png">{width=70%}</center>
+<p align="center"><img src="/fig/cv_usa.png" width="70%"></p>
 
-<img src="/fig/cv_nl_v_usa.png">{width=48%} <img src="/fig/cv_nl_v_usa_deaths.png">{width=48%}
+<img src="/fig/cv_nl_v_usa.png" width="48%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="48%">
 
 <div style="page-break-after: always;"></div>
 ## Maths
