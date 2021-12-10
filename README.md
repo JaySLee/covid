@@ -69,9 +69,9 @@ $\newcommand{\T}[1]{\text{#1}}$
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).
 * Red line indicates last count; green line = 7 day moving average
 
-<p align="center"> <img src="/fig/cv_nl_nat.png" width="70%"> </p>
+<p align="center"> <img src="/fig/cv_nl_nat.png" width="100%"> </p>
 
-<p align="center"><img src="/fig/cv_nl_nat_60.png" width="40%"><img src="/fig/cv_nl_deaths.png" width="40%"></p>
+<p align="center"><img src="/fig/cv_nl_nat_60.png" width="50%"><img src="/fig/cv_nl_deaths.png" width="50%"></p>
 
 * Source: RIVM _(releases updated data daily at 15:15 CET)_
 
@@ -83,15 +83,15 @@ $\newcommand{\T}[1]{\text{#1}}$
 * [112721:] Hospitalizations are &#128543;.
 * [111621:] Hospitalizations are not as dire as earlier this year and last year, but almost there :-/.
 
-<!-- <p align="center"><img src="/fig/cv_lcps.png" width="70%"></p> -->
+<!-- <p align="center"><img src="/fig/cv_lcps.png" width="100%"></p> -->
 
 <!-- <div style="text-align: center;"> -->
-<!-- <img src="/fig/cv_lcps.png" width="70%"> -->
+<!-- <img src="/fig/cv_lcps.png" width="100%"> -->
 <!-- </div> -->
 
-<p align="center"><img src="/fig/cv_lcps.png" width="70%"></p>
+<p align="center"><img src="/fig/cv_lcps.png" width="100%"></p>
 
-<p align="center"><img src="/fig/cv_lcps_60.png" width="40%"></p>
+<p align="center"><img src="/fig/cv_lcps_60.png" width="50%"></p>
 
 * Source: LCPS _(releases data daily between 1pm-2pm CET)_
 
@@ -106,8 +106,8 @@ $\newcommand{\T}[1]{\text{#1}}$
 * Left plot: worst cities; right plot: Largest cities in NL (top 5%)
 * [NEW 121021:] Lower plot: provinces
 
-<img src="/fig/cv_nl_top_60.png" width="48%"><img src="/fig/cv_nl_05_60.png" width="48%">
-<p align="center"><img src="/fig/cv_nl_prov_60.png" width="48%"></p>
+<img src="/fig/cv_nl_top_60.png" width="60%"><img src="/fig/cv_nl_05_60.png" width="60%">
+<p align="center"><img src="/fig/cv_nl_prov_60.png" width="60%"></p>
 
 * Source: RIVM
 
@@ -116,8 +116,8 @@ $\newcommand{\T}[1]{\text{#1}}$
 
 * As for countries near us: Belgium, Germany, Austria, and Denmark are also experiencing their own massive peaks, record-breaking for Germany and Austria. France is experiencing a minor surge.
 
-<p align="center"><img src="/fig/cv_nearby.png" width="70%"></p>
-<p align="center"><img src="/fig/cv_nearby_60.png" width="40%"></p>
+<p align="center"><img src="/fig/cv_nearby.png" width="100%"></p>
+<p align="center"><img src="/fig/cv_nearby_60.png" width="50%"></p>
 
 * Source: CSSE (data is one day behind the RIVM and LCPS data)
 
@@ -144,8 +144,8 @@ $\newcommand{\T}[1]{\text{#1}}$
   - A recent relative uptick of cases in the two relevant age groups.
   - The percentages within age groups are more striking.
 
-<img src="/fig/cv_age_case.png" width="48%"> <img src="/fig/cv_age_case2.png" width="48%">
-<img src="/fig/cv_age_case3.png" width="48%"> <img src="/fig/cv_age_case4.png" width="48%">
+<img src="/fig/cv_age_case.png" width="60%"> <img src="/fig/cv_age_case2.png" width="60%">
+<img src="/fig/cv_age_case3.png" width="60%"> <img src="/fig/cv_age_case4.png" width="60%">
 
 <!-- <div style="page-break-after: always;"></div> -->
 
@@ -195,9 +195,9 @@ $\newcommand{\T}[1]{\text{#1}}$
   <!-- - An uptick in recent (proportional) hospitalization for 15-19, 35-39, and 50-54 (more visible in the loess plot). -->
   <!-- - However, what's unknown is the extent to which these age groups are putting themselves more at risk. -->
 
-<img src="/fig/cv_age_hosp.png" width="48%"> <img src="/fig/cv_age_hosp_covid.png" width="48%"> 
+<img src="/fig/cv_age_hosp.png" width="60%"> <img src="/fig/cv_age_hosp_covid.png" width="60%"> 
 
-<img src="/fig/cv_age_hosp2.png" width="48%"> <img src="/fig/cv_age_hosp_loess.png" width="48%">
+<img src="/fig/cv_age_hosp2.png" width="60%"> <img src="/fig/cv_age_hosp_loess.png" width="60%">
 
 <div style="page-break-after: always;"></div>
 # Risk calculations
@@ -344,7 +344,7 @@ $1-(1-.211)^8$ = .850 = **85.0% chance at least one of the tutorial instructors 
 * The orange denotes the latest NL moving average (7 day) and not the latest daily new cases.
 * Both plots use 7-day moving average ("7day").
  
-<img src="/fig/cv_glob_60.png" width="48%"> <img src="/fig/cv_cos_60.png" width="48%">
+<img src="/fig/cv_glob_60.png" width="60%"> <img src="/fig/cv_cos_60.png" width="60%">
 
 ## USA
 
@@ -387,9 +387,9 @@ $1-(1-.211)^8$ = .850 = **85.0% chance at least one of the tutorial instructors 
 * Lower right plot
   - Same as previous but with deaths data.
 
-<p align="center"><img src="/fig/cv_usa.png" width="70%"></p>
+<p align="center"><img src="/fig/cv_usa.png" width="100%"></p>
 
-<img src="/fig/cv_nl_v_usa.png" width="48%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="48%">
+<img src="/fig/cv_nl_v_usa.png" width="60%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="60%">
 
 <div style="page-break-after: always;"></div>
 ## Maths
