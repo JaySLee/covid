@@ -223,7 +223,7 @@ For Julia with 4 tutorials &rarr; **29.7%** risk.
 <img src="https://latex.codecogs.com/svg.latex?n_\text{pop}\&space;=\&space;17.44M"/>  
 2. Next, the reported number of new cases (on Nov. 13, 2021):  
 <img src="https://latex.codecogs.com/svg.latex?n_\text{c0}\&space;=\&space;13743"/> 
-<img src="https://latex.codecogs.com/svg.latex?m\&space;=\&space;5"/>
+<img src="https://latex.codecogs.com/svg.latex?m\&space;=\&space;5"/> ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.
 
 ![](https://latex.codecogs.com/svg.latex?m\&space;=\&space;5) ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.
 
