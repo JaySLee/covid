@@ -310,7 +310,7 @@ p_\text{c} &= \frac{n_\text{c}}{n_\text{pop}}\\
 ![](https://latex.codecogs.com/svg.latex?(n_\text{pop}-n_\text{c})(1-(1-p_\text{C})^a)=2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
 ![](https://latex.codecogs.com/svg.latex?a \approx 2) ... which seems to be a reasonable avg.  
-<img src="https://latex.codecogs.com/svg.latex?a \approx 2"> ... which seems to be a reasonable avg.  
+<img src="https://latex.codecogs.com/svg.latex?a \approx 2"/> ... which seems to be a reasonable avg.  
   
 9. If I am proximal to 20 people (inc. students) every time I come to campus over 8 weeks (i.e. 8 instances), my personal risk is:  
 ![](https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})=.118=11.8\%) ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.  
