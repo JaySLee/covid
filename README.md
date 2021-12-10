@@ -7,7 +7,7 @@ _Author: Jay Lee_
 # Links and notes  
   
 * On [Github](https://github.com/JaySLee/covid/blob/main/README.md)  
-* This document will be updated every few days or so.  
+* <u>This document</u> will be updated every few days or so.  
 * <ins>New additions:</ins>  
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
   - 17.11.21 - [Covid by age](#covid-by-age)  
