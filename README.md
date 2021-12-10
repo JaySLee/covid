@@ -223,7 +223,8 @@ For Julia with 4 tutorials &rarr; **29.7%** risk.
 <img src="https://latex.codecogs.com/svg.latex?n_\text{pop}\&space;=\&space;17.44M"/>  
 2. Next, the reported number of new cases (on Nov. 13, 2021):  
 <img src="https://latex.codecogs.com/svg.latex?n_\text{c0}\&space;=\&space;13743"/>  
-<img src="https://latex.codecogs.com/svg.latex?m\&space;=\&space;5"/> ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.  
+<img src="https://latex.codecogs.com/svg.latex?m\&space;=\&space;5"/> ... the multiplier that accounts for the number days a person could be infections and unreported cases; I'm conservative here as the rule of thumb is more like 10x.
+
 3. This gives us conservative estimate of total covid infectious people:  
 <img src="https://latex.codecogs.com/svg.latex?n_\text{c}\&space;=\&space;n_\text{c0}\&space;\times\&space;m"/>  
 4. Yielding the proportion of infectious people which estimates the probability of running into an infections person; this doesn't account for clusters of infection (e.g., Limburg):  
