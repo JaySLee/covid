@@ -69,7 +69,7 @@ $\newcommand{\T}[1]{\text{#1}}$
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).
 * Red line indicates last count; green line = 7 day moving average
 
-<center> ![](fig/cv_nl_nat.png){width=70%} </center>
+<center> ![](/fig/cv_nl_nat.png){width=70%} </center>
 
 <div style="text-align: center;">
 ![](fig/cv_nl_nat_60.png){width=40%}![](fig/cv_nl_deaths.png){width=40%} 
