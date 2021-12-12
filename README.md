@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sun, Dec 12, 2021  2:47:32 PM</i>
+<i>Last update: Sun, Dec 12, 2021  3:32:46 PM</i>
 
 Table of Contents
 =================
@@ -48,9 +48,8 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* <orange>Netherlands</orange>  
-* Latest new cases = 17712 (RIVMc), 17828 (RIVMn) &rarr; +266  
-  - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
+* Latest new cases = 16588 (RIVMc), 16671 (RIVMn) &rarr; -1157  
+- RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
 * We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
 * ~~While the numbers have dropped since yesterday (Friday, Nov. 19, 2021),~~ there's usually a drop in the reported numbers around the weekend, and then a surge in Monday/Tuesday.  
 * Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.  
