@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Dec 11, 2021  4:55:02 PM</i>
+<i>Last update: Sun, Dec 12, 2021 12:59:27 AM</i>
 
 Table of Contents
 =================
@@ -35,7 +35,7 @@ Table of Contents
 # Links and notes  
   
 * [121021:] [Report is now on GitHub](https://github.com/JaySLee/covid/blob/main/README.md)  
-  - But the inline math is bottom-aligned, so a bit ugly.  
+  - But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.  
 * This document will be updated every few days or so.  
 * <ins>New additions:</ins>  
   - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
