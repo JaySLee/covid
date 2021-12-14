@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Dec 13, 2021  4:42:37 PM</i>
+<i>Last update: Tue, Dec 14, 2021  3:33:54 PM</i>
 
 Table of Contents
 =================
@@ -48,13 +48,16 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 13783 (RIVMc), 13844 (RIVMn) &rarr; -2827  
-- RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
-* We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
+* Latest new cases = 12760 (RIVMc), 12852 (RIVMn) &rarr; -922  
+  - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
+* [121421:] Dropping numbers may be deceiving. Dutchnews.nl:  
+> However, changes in the testing regime may have had an impact on the number of official cases. People with mild symptoms are now being told to take a self test first and only report to the regional health board testing centres if that test is positive. It is not yet clear if everyone who has a positive self test is following the new guidelines and requesting a confirmation check.  
+  
+* [ca.120121:] We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
 * ~~While the numbers have dropped since yesterday (Friday, Nov. 19, 2021),~~ there's usually a drop in the reported numbers around the weekend, and then a surge in Monday/Tuesday.  
 * Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.  
   - ~~For NL on Nov. 15, 2021, this is 19054\*10 = \~200K (or over 1% of the NL population).~~  
-  - Nov. 18, 2021, 23591*10 = ~236K = 1.35% of NL population  
+  - [111821:] 23591*10 = ~236K = 1.35% of NL population  
   - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
 * Red line indicates last count; green line = 7 day moving average  
