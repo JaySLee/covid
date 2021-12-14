@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Dec 14, 2021  3:33:54 PM</i>
+<i>Last update: Tue, Dec 14, 2021  3:39:09 PM</i>
 
 Table of Contents
 =================
@@ -15,14 +15,15 @@ Table of Contents
    * [Cases by age group](#cases-by-age-group)
       * [Delay of age data](#delay-of-age-data)
    * [Hospitalization by age group](#hospitalization-by-age-group)
+* [Other countries](#other-countries)
+   * [Global and other countries](#global-and-other-countries)
+   * [USA v. NL](#usa-v-nl)
 * [Risk calculations](#risk-calculations)
    * [Hospitalization risk](#hospitalization-risk)
    * [Personal risk](#personal-risk)
       * [Summary](#summary)
       * [The (wonky) math](#the-wonky-math)
 * [Appendix](#appendix)
-   * [Global and other countries](#global-and-other-countries)
-   * [USA](#usa)
    * [Maths](#maths)
       * [Personal risk calculation math](#personal-risk-calculation-math)
       * [Basis for hospitalization risk](#basis-for-hospitalization-risk)
@@ -48,7 +49,8 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 12760 (RIVMc), 12852 (RIVMn) &rarr; -922  
+* Latest new cases = 13783 (RIVMc), 13844 (RIVMn) &rarr; -2827  
+  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
 * [121421:] Dropping numbers may be deceiving. Dutchnews.nl:  
 > However, changes in the testing regime may have had an impact on the number of official cases. People with mild symptoms are now being told to take a self test first and only report to the regional health board testing centres if that test is positive. It is not yet clear if everyone who has a positive self test is following the new guidelines and requesting a confirmation check.  
@@ -176,6 +178,37 @@ Table of Contents
 <p align="center"><img src="/fig/cv_age_hosp2.png" width="40%"> <img src="/fig/cv_age_hosp_loess.png" width="40%"></p>  
   
   
+# Other countries  
+## Global and other countries  
+  
+* Left plot is top 25 countries (in descending order), over the last 60 days.  
+* Right plot contains various countries that came to my attention (e.g., being in the news) or of personal interest.  
+  - Ordered by when the country came to my attention, and not by new cases.  
+* The orange denotes the latest NL moving average (7 day) and not the latest daily new cases.  
+* Both plots use 7-day moving average ("7day").  
+   
+<p align="center"><img src="/fig/cv_glob_60.png" width="40%"> <img src="/fig/cv_cos_60.png" width="40%"></p>  
+  
+## USA v. NL  
+  
+  
+  
+* Top plot:  
+  - New infections per 100K  
+  - 7 day moving average, last 60 days, top 25 states  
+  - The <red>red</red>, <div class="OutlineText" display:inline>white</div>, <blue>blue</blue> horizontal line is the national average.  
+* Lower left plot:  
+  - New infections per 1M  
+  - 7 day moving average, whole pandemic (for which there is data)  
+* Lower right plot  
+  - Same as previous but with deaths data.  
+  
+<p align="center"><img src="/fig/cv_usa.png" width="80%"></p>  
+  
+<p align="center"><img src="/fig/cv_nl_v_usa.png" width="40%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="40%"></p>  
+  
+  
+  
 # Risk calculations  
 ## Hospitalization risk  
   
@@ -287,35 +320,6 @@ _Across all 8 tutorial instructors_, average risk is:
   
   
 # Appendix  
-  
-## Global and other countries  
-  
-* Left plot is top 25 countries (in descending order), over the last 60 days.  
-* Right plot contains various countries that came to my attention (e.g., being in the news) or of personal interest.  
-  - Ordered by when the country came to my attention, and not by new cases.  
-* The orange denotes the latest NL moving average (7 day) and not the latest daily new cases.  
-* Both plots use 7-day moving average ("7day").  
-   
-<p align="center"><img src="/fig/cv_glob_60.png" width="40%"> <img src="/fig/cv_cos_60.png" width="40%"></p>  
-  
-## USA  
-  
-  
-  
-* Top plot:  
-  - New infections per 100K  
-  - 7 day moving average, last 60 days, top 25 states  
-  - The <red>red</red>, <div class="OutlineText" display:inline>white</div>, <blue>blue</blue> horizontal line is the national average.  
-* Lower left plot:  
-  - New infections per 1M  
-  - 7 day moving average, whole pandemic (for which there is data)  
-* Lower right plot  
-  - Same as previous but with deaths data.  
-  
-<p align="center"><img src="/fig/cv_usa.png" width="80%"></p>  
-  
-<p align="center"><img src="/fig/cv_nl_v_usa.png" width="40%"> <img src="/fig/cv_nl_v_usa_deaths.png" width="40%"></p>  
-  
   
 ## Maths  
   
