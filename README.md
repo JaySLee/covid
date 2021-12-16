@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Dec 14, 2021  3:49:52 PM</i>
+<i>Last update: Thu, Dec 16, 2021  2:10:20 AM</i>
 
 Table of Contents
 =================
@@ -50,10 +50,10 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 13783 (RIVMc), 13844 (RIVMn) &rarr; -2827  
-  
+* Latest new cases = 13469 (RIVMc), 13557 (RIVMn) &rarr; +705  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
-* [121421:] Dropping numbers may be deceiving. Dutchnews.nl:  
+  - Difference may not match graph as numbers seem retroactively updated.  
+* [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
 > However, changes in the testing regime may have had an impact on the number of official cases. People with mild symptoms are now being told to take a self test first and only report to the regional health board testing centres if that test is positive. It is not yet clear if everyone who has a positive self test is following the new guidelines and requesting a confirmation check.  
   
 * [ca.120121:] We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
