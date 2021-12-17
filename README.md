@@ -232,8 +232,8 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
   
 * Probability of ending up hospitalized (<img valign="middle" src="https://latex.codecogs.com/svg.latex?H">), given being (double) vaxxed and having covid:    
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|V\&C)&space;=&space;1.26\%&space;-&space;2.53\%">  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|\sim\!\!&space;V\&C)&space;=&space;1.29\%&space;-&space;2.58\%">   
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|V\&C)&space;=&space;1.26\%&space;-&space;2.53\%">
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|\sim\!\!&space;V\&C)&space;=&space;1.29\%&space;-&space;2.58\%">
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
    - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
   
