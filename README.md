@@ -221,7 +221,7 @@ Table of Contents
   
 These calculations are based on Nov. 13, 2021 numbers and some simplifying assumptions, that perhaps render the numbers below as upper bounds.  
   
-* Probability of getting covid (<img valign="middle" src="https://latex.codecogs.com/svg.latex?C">), given being double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?V">) vs. non-double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?\sim\\!\\!&space;V">):    
+* Probability of getting covid (<img valign="middle" src="https://latex.codecogs.com/svg.latex?C">), given being double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?V">) vs. non-double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?\sim\!\!&space;V">):    
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|V)=0.27\%">  
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!&space;V)=0.66\%">  
 * For ages 10-19: <img valign="middle" src="https://latex.codecogs.com/svg.latex?1.00\%,&space;2.50\%"> (see `f.cv.bayesv2()`)  
