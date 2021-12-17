@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 17, 2021  4:08:17 PM</i>
+<i>Last update: Fri, Dec 17, 2021  4:12:05 PM</i>
 
 Table of Contents
 =================
@@ -223,7 +223,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
 * Probability of getting covid (<img valign="middle" src="https://latex.codecogs.com/svg.latex?C">), given being double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?V">) vs. non-double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?\sim\!\!&space;V">):    
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|V)=0.27\%">  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!&space;V)=0.66\%">  
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\!\!&space;V)=0.66\%">  
 * For ages 10-19: <img valign="middle" src="https://latex.codecogs.com/svg.latex?1.00\%,&space;2.50\%"> (see `f.cv.bayesv2()`)  
   - Based on Nov. 15, 2021 (peak for age/case data)  
   - Vacc/age v. Case/age groups don't perfectly align (consider interpolation or better data)  
@@ -232,13 +232,13 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
 * Probability of ending up hospitalized (<img valign="middle" src="https://latex.codecogs.com/svg.latex?H">), given being (double) vaxxed and having covid:    
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|V\\&C)&space;=&space;1.26\%&space;-&space;2.53\%">  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|\sim\\!\\!&space;V\\&C)&space;=&space;1.29\%&space;-&space;2.58\%">   
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(H|\sim\!\!&space;V\\&C)&space;=&space;1.29\%&space;-&space;2.58\%">   
    - The ranges are nearly equivalent largely b/c there are more people vaxxed than not. When hospital numbers -- between vax and non-vaxxed -- are near even but the vaxxed rate in the population goes higher, this means the vax is offering diminishing protection.  
    - Range is based on (perhaps severe) uncertainty over how many covid cases could be bound for hospital at any given time (10x v. 5x current new cases).  
   
 * Probability of ending up in the ICU (<img valign="middle" src="https://latex.codecogs.com/svg.latex?I">), given being vaxxed and having covid:    
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(I|V\\&C)&space;=&space;0.40\%">  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(I|\sim\\!\\!&space;V\\&C)&space;=&space;0.61\%">  
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(I|\sim\!\!&space;V\\&C)&space;=&space;0.61\%">  
   
 <ins>Assumptions:</ins>  
 * Does not take into account clusters/heterogeneity of contacts and other factors, e.g., sociodemographics (namely **age**), students' self-quarantining, etc.  
@@ -331,7 +331,7 @@ Given probability of risk, whether or not I'm vaxxed:
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})&space;=&space;.118&space;=&space;11.8\%">  
   
 We know the ratio of acquiring covid given vaxxed/non-vaxxed:  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?\frac{p(C|V)}{p(C|\sim\\!\\!&space;V)}&space;=&space;\frac{.27}{.66}">  
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?\frac{p(C|V)}{p(C|\sim\!\!&space;V)}&space;=&space;\frac{.27}{.66}">  
   
 Let <img valign="middle" src="https://latex.codecogs.com/svg.latex?\frac{x}{y}&space;=&space;\frac{.27}{.66}">  
 Then <img valign="middle" src="https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{.27y}{.66}">  
@@ -373,9 +373,9 @@ Given <img valign="middle" src="https://latex.codecogs.com/svg.latex?np(C)&space
 Then <img valign="middle" src="https://latex.codecogs.com/svg.latex?n_\text{c0}&space;=&space;\frac{np(C)}{1+K}"> // calculated unvaxxed count given known <img valign="middle" src="https://latex.codecogs.com/svg.latex?E,&space;n,&space;p(V),&space;p(C)">  
 and &nbsp; <img valign="middle" src="https://latex.codecogs.com/svg.latex?\begin{align*}n_\text{c1}&space;&=&space;np(C)&space;-&space;n_\text{c0}\\&=&space;\frac{Knp(C)}{K+1}\end{align*}"/>
   
-Probability of infection (<img valign="middle" src="https://latex.codecogs.com/svg.latex?C">), given vax (<img valign="middle" src="https://latex.codecogs.com/svg.latex?V">) or non-vax (<img valign="middle" src="https://latex.codecogs.com/svg.latex?\sim\\!\\!&space;V">):  
+Probability of infection (<img valign="middle" src="https://latex.codecogs.com/svg.latex?C">), given vax (<img valign="middle" src="https://latex.codecogs.com/svg.latex?V">) or non-vax (<img valign="middle" src="https://latex.codecogs.com/svg.latex?\sim\!\!&space;V">):  
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|V)&space;=&space;\frac{n_\text{c1}}{np(V)}">  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!&space;V)&space;=&space;\frac{n_\text{c0}}{n(1-p(V))}">  
+<img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\!\!&space;V)&space;=&space;\frac{n_\text{c0}}{n(1-p(V))}">  
   
 Calculating probability of hospitalization (<img valign="middle" src="https://latex.codecogs.com/svg.latex?H">) given vax and covid infection:  
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(V,C)&space;=&space;p(C|V)p(V)"> // both are now known  
@@ -401,7 +401,7 @@ Same as above but for <img valign="middle" src="https://latex.codecogs.com/svg.l
 * Given <img valign="middle" src="https://latex.codecogs.com/svg.latex?A,C">: 10.5x worse than 10-19 stud, more C among studs makes ratio worse  
   - <img valign="middle" src="https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})}">  
 * Given just <img valign="middle" src="https://latex.codecogs.com/svg.latex?A">: only 6.8x worse b/c more people my age brings this down  
-* For vacc, just use the above number and realize the <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|V,A)&space;=&space;0.01"> and <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!&space;V,A)&space;=&space;0.025">.  
+* For vacc, just use the above number and realize the <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|V,A)&space;=&space;0.01"> and <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\!\!&space;V,A)&space;=&space;0.025">.  
   - But not so straightforward given <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(V|H)&space;=&space;.45">.  
   
   
