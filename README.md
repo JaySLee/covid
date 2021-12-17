@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 17, 2021  4:07:14 PM</i>
+<i>Last update: Fri, Dec 17, 2021  4:08:17 PM</i>
 
 Table of Contents
 =================
@@ -36,7 +36,8 @@ Table of Contents
 # Links and notes  
   
 * [121021:] [Report is now on GitHub](https://github.com/JaySLee/covid/blob/main/README.md)  
-  - But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.  
+  - ~~But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.~~  
+  - Inline math is now middle vertical-aligned but is still slightly off.  
 * This document will be updated every few days or so.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
 * <ins>New additions:</ins>  
