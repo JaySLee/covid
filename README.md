@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 17, 2021  4:26:03 PM</i>
+<i>Last update: Fri, Dec 17, 2021  4:27:01 PM</i>
 
 Table of Contents
 =================
@@ -224,6 +224,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
 * Probability of getting covid (<img valign="middle" src="https://latex.codecogs.com/svg.latex?C">), given being double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?V">) vs. non-double vaxxed (<img valign="middle" src="https://latex.codecogs.com/svg.latex?\sim\!\!&space;V">):    
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|V)=0.27\%">  
 <img valign="middle" src="https://latex.codecogs.com/svg.latex?p(C|\sim\!\!&space;V)=0.66\%">  
+  
 * For ages 10-19: <img valign="middle" src="https://latex.codecogs.com/svg.latex?1.00\%,&space;2.50\%"> (see `f.cv.bayesv2()`)  
   - Based on Nov. 15, 2021 (peak for age/case data)  
   - Vacc/age v. Case/age groups don't perfectly align (consider interpolation or better data)  
