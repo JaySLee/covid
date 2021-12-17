@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 17, 2021  4:05:57 PM</i>
+<i>Last update: Fri, Dec 17, 2021  4:07:14 PM</i>
 
 Table of Contents
 =================
@@ -334,7 +334,7 @@ We know the ratio of acquiring covid given vaxxed/non-vaxxed:
   
 Let <img valign="middle" src="https://latex.codecogs.com/svg.latex?\frac{x}{y}&space;=&space;\frac{.27}{.66}">  
 Then <img valign="middle" src="https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{.27y}{.66}">  
-Now, leting <img valign="middle" src="https://latex.codecogs.com/svg.latex?a&space;=&space;\frac{.27}{.66}">  
+Now, letting <img valign="middle" src="https://latex.codecogs.com/svg.latex?a&space;=&space;\frac{.27}{.66}">  
 We get <img valign="middle" src="https://latex.codecogs.com/svg.latex?x&space;=&space;ay">  
   
   
