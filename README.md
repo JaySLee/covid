@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 17, 2021  4:33:33 PM</i>
+<i>Last update: Sat, Dec 18, 2021 11:57:09 PM</i>
 
 Table of Contents
 =================
@@ -50,7 +50,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 15367 (RIVMc), 15433 (RIVMn) &rarr; -1006 (from yesterday)  
+* Latest new cases = 14616 (RIVMc), 14742 (RIVMn) &rarr; -691 (from yesterday)  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - Difference may not match graph as numbers seem retroactively updated.  
 * [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
@@ -282,7 +282,7 @@ For JdV with 4 tutorials &rarr; **29.7%** risk.
 3. This gives us conservative estimate of total covid infectious people:  
 ![](https://latex.codecogs.com/svg.latex?n_\text{c}&space;=&space;n_\text{c0}&space;\times&space;m)    
 4. Yielding the proportion of infectious people which estimates the probability of running into an infections person; this doesn't account for clusters of infection (e.g., Limburg):  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?\begin{align*}p_\text{c}&space;&=&space;\frac{n_\text{c}}{n_\text{pop}}\\&=&space;0.00394\end{align*}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}p_\text{c}&space;&=&space;\frac{n_\text{c}}{n_\text{pop}}\\&=&space;0.00394\end{align*}"/>
   
 5. Next, we have the probability of covid's being transmitted (![](https://latex.codecogs.com/svg.latex?T)) from an infected individual (![](https://latex.codecogs.com/svg.latex?C)). I use a more conservative number than the 0.632 reported (for a closed room):  
 ![](https://latex.codecogs.com/svg.latex?p(T|C)&space;=&space;0.2)  
@@ -371,7 +371,7 @@ Let ![](https://latex.codecogs.com/svg.latex?K&space;=&space;\frac{np(V)(1-E)}{n
 Yielding ![](https://latex.codecogs.com/svg.latex?n_\text{c1}&space;=&space;Kn_\text{c0})  
 Given ![](https://latex.codecogs.com/svg.latex?np(C)&space;=&space;n_\text{c1}&space;+&space;n_\text{c0})  
 Then ![](https://latex.codecogs.com/svg.latex?n_\text{c0}&space;=&space;\frac{np(C)}{1+K}) // calculated unvaxxed count given known ![](https://latex.codecogs.com/svg.latex?E,&space;n,&space;p(V),&space;p(C))  
-and &nbsp; <img valign="middle" src="https://latex.codecogs.com/svg.latex?\begin{align*}n_\text{c1}&space;&=&space;np(C)&space;-&space;n_\text{c0}\\&=&space;\frac{Knp(C)}{K+1}\end{align*}"/>
+and &nbsp; <img src="https://latex.codecogs.com/svg.latex?\begin{align*}n_\text{c1}&space;&=&space;np(C)&space;-&space;n_\text{c0}\\&=&space;\frac{Knp(C)}{K+1}\end{align*}"/>
   
 Probability of infection (![](https://latex.codecogs.com/svg.latex?C)), given vax (![](https://latex.codecogs.com/svg.latex?V)) or non-vax (![](https://latex.codecogs.com/svg.latex?\sim\\!\\!&space;V)):  
 ![](https://latex.codecogs.com/svg.latex?p(C|V)&space;=&space;\frac{n_\text{c1}}{np(V)})  
@@ -380,7 +380,7 @@ Probability of infection (![](https://latex.codecogs.com/svg.latex?C)), given va
 Calculating probability of hospitalization (![](https://latex.codecogs.com/svg.latex?H)) given vax and covid infection:  
 ![](https://latex.codecogs.com/svg.latex?p(V,C)&space;=&space;p(C|V)p(V)) // both are now known  
 ![](https://latex.codecogs.com/svg.latex?p(V|H,C)&space;=&space;p(V|H)&space;=&space;0.45) // from NL Times and also we're talking just about covid hospitalizations, i.e. we don't have to worry about non-covid hospitalizations since we have the numbers for covid hospitalizations. This makes ![](https://latex.codecogs.com/svg.latex?p(V|H)&space;=&space;p(V|H,C)). The rest are known.  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?\begin{align*}p(H|V,C)&space;&=&space;\frac{p(V|H,C)p(H,C)}{p(V,C)}&space;\\&=&space;\frac{0.45\times&space;p(H|C)p(C)}{p(C|V)p(V)}\end{align*}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}p(H|V,C)&space;&=&space;\frac{p(V|H,C)p(H,C)}{p(V,C)}&space;\\&=&space;\frac{0.45\times&space;p(H|C)p(C)}{p(C|V)p(V)}\end{align*}"/>
   
   
 ### Hospitalization risk by age   
@@ -393,10 +393,10 @@ Probability of hosp given age and covid
 - page=`f.cv.age()`, cage=111521-112021, summed and normed  
 - ![](https://latex.codecogs.com/svg.latex?a) = age group 10-19  
   
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?\begin{align*}p(H|A=a,C)&space;&=&space;p(A=a|H,C)p(H,C)&space;/&space;p(A=a|C)&space;\\&=&space;(0.003750493+0.009080142)*(432+1785)/(21873)&space;/&space;.164&space;\\&=&space;0.007929789\\p(H|A=a)&space;&=&space;(0.003750493+0.009080142)*(432+1785)/(17.44e6)/(0.055+0.060)&space;\\&=&space;1.418305e-05\end{align*}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}p(H|A=a,C)&space;&=&space;p(A=a|H,C)p(H,C)&space;/&space;p(A=a|C)&space;\\&=&space;(0.003750493+0.009080142)*(432+1785)/(21873)&space;/&space;.164&space;\\&=&space;0.007929789\\p(H|A=a)&space;&=&space;(0.003750493+0.009080142)*(432+1785)/(17.44e6)/(0.055+0.060)&space;\\&=&space;1.418305e-05\end{align*}"/>
   
 Same as above but for ![](https://latex.codecogs.com/svg.latex?a) = ages 50-59  
-<img valign="middle" src="https://latex.codecogs.com/svg.latex?\begin{align*}p(H|A=a,C)&space;&=&space;(0.050927754+0.060205290)*(432+1785)/(21873)&space;/&space;.135&space;\\&=&space;0.08343856&space;\\p(H|A=a)&space;&=&space;(0.050927754+0.060205290)*(432+1785)/(17.44e6)&space;/(.074+.072)&space;\\&=&space;9.676305e-05\end{align*}"/>
+<img src="https://latex.codecogs.com/svg.latex?\begin{align*}p(H|A=a,C)&space;&=&space;(0.050927754+0.060205290)*(432+1785)/(21873)&space;/&space;.135&space;\\&=&space;0.08343856&space;\\p(H|A=a)&space;&=&space;(0.050927754+0.060205290)*(432+1785)/(17.44e6)&space;/(.074+.072)&space;\\&=&space;9.676305e-05\end{align*}"/>
   
 * Given ![](https://latex.codecogs.com/svg.latex?A,C): 10.5x worse than 10-19 stud, more C among studs makes ratio worse  
   - ![](https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})})  
