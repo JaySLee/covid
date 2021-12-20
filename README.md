@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Dec 18, 2021 11:57:09 PM</i>
+<i>Last update: Mon, Dec 20, 2021  3:30:46 PM</i>
 
 Table of Contents
 =================
@@ -50,7 +50,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 14616 (RIVMc), 14742 (RIVMn) &rarr; -691 (from yesterday)  
+* Latest new cases = 12154 (RIVMc), 12220 (RIVMn) &rarr -1111 (from yesterday);  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - Difference may not match graph as numbers seem retroactively updated.  
 * [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
@@ -156,7 +156,7 @@ Table of Contents
   
 ## Hospitalization by age group  
   
-* _Hospitalization data is updated once a week, Wednesdays_.  
+* _New hospitalization data comes out once a week, Wednesdays_.  
 * [112421:] _There was a bug in my code that made these graphs inaccurate; fixed now._  
 * Age groups of just EUR students and lecturers shown here.  
 * LCPS groups age in 5-year bins.  
@@ -197,7 +197,7 @@ Table of Contents
 * Top plot:  
   - New infections per 100K  
   - 7 day moving average, last 60 days, top 25 states  
-  - The <red>red</red>, <div class="OutlineText" display:inline>white</div>, <blue>blue</blue> horizontal line is the national average.  
+  - The <red>red</red>, <div class="OutlineText" display:inline>white</div>, <blue>blue</blue> horizontal line is the US national average.  
 * Lower left plot:  
   - New infections per 1M  
   - 7 day moving average, whole pandemic (for which there is data)  
@@ -411,6 +411,6 @@ Same as above but for ![](https://latex.codecogs.com/svg.latex?a) = ages 50-59
 * `f.cv.bayesv(n=17.44e6,pC=NULL,pVH=.35,pVC=NULL,pV=.676,pE=0.6,npC=13743*5,nH=353+1420)`  
 * `f.cv.plot.sav()`  
 * ~~`electron-pdf cv.html cv.html.pdf`~~  
-* `cp_cv -ci` // Chrome then copy to isa  
+* `cp_cv -cig` // Chrome then copy to isa  
 * `f.cv.bayesv2()`  
   
