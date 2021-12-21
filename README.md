@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Dec 20, 2021  3:30:46 PM</i>
+<i>Last update: Tue, Dec 21, 2021  3:32:32 PM</i>
 
 Table of Contents
 =================
@@ -50,7 +50,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 12154 (RIVMc), 12220 (RIVMn) &rarr -1111 (from yesterday);  
+* Latest new cases = 9304 (RIVMc), 9450 (RIVMn) &rarr; -2770 (from yesterday)  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - Difference may not match graph as numbers seem retroactively updated.  
 * [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
