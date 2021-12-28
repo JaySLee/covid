@@ -1,11 +1,12 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Dec 27, 2021  4:56:54 PM</i>
+<i>Last update: Tue, Dec 28, 2021  2:44:03 PM</i>
 
 Table of Contents
 =================
 
 * [Links and notes](#links-and-notes)
+   * [New reports](#new-reports)
 * [Netherlands](#netherlands)
    * [National trend](#national-trend)
    * [Hospital occupancy trends](#hospital-occupancy-trends)
@@ -24,6 +25,7 @@ Table of Contents
       * [Summary](#summary)
       * [The (wonky) math](#the-wonky-math)
 * [Appendix](#appendix)
+   * [Comparison to Spanish flu in the U.S.](#comparison-to-spanish-flu-in-the-us)
    * [Maths](#maths)
       * [Personal risk calculation math](#personal-risk-calculation-math)
       * [Basis for hospitalization risk](#basis-for-hospitalization-risk)
@@ -39,9 +41,12 @@ Table of Contents
   - But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.  
 * This document will be updated every few days or so.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
-* <ins>New additions:</ins>  
-  - 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
-  - 17.11.21 - [Covid by age](#covid-by-age)  
+  
+## New reports  
+  
+* 28.12.21 - [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
+* 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
+* 17.11.21 - [Covid by age](#covid-by-age)  
   
   
   
@@ -321,6 +326,15 @@ _Across all 8 tutorial instructors_, average risk is:
   
   
 # Appendix  
+  
+## Comparison to Spanish flu in the U.S.  
+  
+<ins>122821:</ins>  
+* Estimated ~675K deaths due to Spanish flu. Population of U.S. at the time was 103M.  
+  - <u>Spanish flu mortality:</u> **0.66%** of the U.S. population  
+  - This estimate seems to include excess mortality, given reports of 590-600 (per 100K) all cause mortality (= ~0.6%)  
+* ~817K (official) deaths due to COVID-19. However, total excess deaths is ~1.7M &rarr;  
+  - <u>COVID-19 mortality:</u> **0.51%** of the U.S. population (so far)  
   
 ## Maths  
   
