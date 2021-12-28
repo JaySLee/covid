@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Dec 28, 2021  2:44:45 PM</i>
+<i>Last update: Tue, Dec 28, 2021  2:45:56 PM</i>
 
 Table of Contents
 =================
@@ -331,7 +331,7 @@ _Across all 8 tutorial instructors_, average risk is:
   
 <ins>122821:</ins>  
 * Estimated ~675K deaths due to Spanish flu. Population of U.S. at the time was 103M.  
-  - <u>Spanish flu mortality:</u> **0.66%** of the U.S. population  
+  - <ins>Spanish flu mortality:</ins> **0.66%** of the U.S. population  
   - This estimate seems to include excess mortality, given reports of 590-600 (per 100K) all cause mortality (= ~0.6%)  
 * ~817K (official) deaths due to COVID-19. However, total excess deaths is ~1.7M &rarr;  
   - <u>COVID-19 mortality:</u> **0.51%** of the U.S. population (so far)  
