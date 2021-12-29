@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Dec 29, 2021  1:03:42 PM</i>
+<i>Last update: Wed, Dec 29, 2021  1:08:03 PM</i>
 
 Table of Contents
 =================
@@ -98,7 +98,8 @@ Table of Contents
   
 ### Lockdown prediction  
   
-* [122821:] As described above for infections/cases, _non-gray vertical lines in the above plots indicate when lockdowns are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
+* [122821:] _<red>The findings here pertain to the above hospital plots.</red>_  
+* As described above for infections/cases, _non-gray vertical lines in the above plots indicate when lockdowns are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
   - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
 * Lockdown observations and prediction:  
   - Interestingly (and probably verifiable through LCPS), (hard) lockdowns appear to occur when non-ICU hospital bed occupancy is ~1750 and/or ICU bed occupancy is about 500.  
