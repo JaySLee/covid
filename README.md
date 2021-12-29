@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Dec 29, 2021 12:47:22 PM</i>
+<i>Last update: Wed, Dec 29, 2021 12:49:17 PM</i>
 
 Table of Contents
 =================
@@ -45,7 +45,7 @@ Table of Contents
   
 ## Updates  
   
-* 29.12.21: Sources include (some) direct links to csv data files.  
+* 29.12.21: Sources now include direct links to (some) csv data files.  
 * 28.12.21:  
   1. [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
   2. [Lockdown prediction/expectation](#lockdown-prediction)  
