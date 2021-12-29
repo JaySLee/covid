@@ -1,12 +1,12 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Dec 28, 2021  2:45:56 PM</i>
+<i>Last update: Wed, Dec 29, 2021  3:58:55 AM</i>
 
 Table of Contents
 =================
 
 * [Links and notes](#links-and-notes)
-   * [New reports](#new-reports)
+   * [Added reports](#added-reports)
 * [Netherlands](#netherlands)
    * [National trend](#national-trend)
    * [Hospital occupancy trends](#hospital-occupancy-trends)
@@ -42,9 +42,11 @@ Table of Contents
 * This document will be updated every few days or so.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
   
-## New reports  
+## Added reports  
   
-* 28.12.21 - [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
+* 28.12.21:  
+  1. [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
+  2. [Lockdown prediction/expectation](#lockdown-prediction)  
 * 20.11.21 - [Hospitalization risk by age](#hospitalization-risk-by-age)  
 * 17.11.21 - [Covid by age](#covid-by-age)  
   
@@ -55,8 +57,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* Latest new cases = 11886 (RIVMc), 11962 (RIVMn) &rarr; -555 (since yesterday)   
-  
+* Latest new cases = 9111 (RIVMc), 9213 (RIVMn) &rarr; -2749 (since yesterday)  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - Difference may not match graph as numbers seem retroactively updated.  
 * [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
@@ -67,7 +68,9 @@ Table of Contents
   - [111821:] 23591*10 = ~236K = 1.35% of NL population  
   - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
-* Red line indicates last count; green line = 7 day moving average  
+* Red horizontal line indicates last count; green horizontal line = 7 day moving average  
+* [122821:] _Vertical lines indicate when lockdowns are enacted_ (solid <red>red</red> line) or lifted (dashed <green>green</green> line).  
+  - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
   
 <p align="center"> <img src="/fig/cv_nl_nat.png" width="80%"> </p>  
   
@@ -82,6 +85,12 @@ Table of Contents
   - The latter includes "the number of COVID patients moved abroad from the Netherlands. This currently concerns COVID IC patients who have gone from the Netherlands to a hospital in Germany."  
 * [112721:] Hospitalizations are &#128543;.  
 * [111621:] Hospitalizations are not as dire as earlier this year and last year, but almost there :-/.  
+* [122821:] Just like above, _vertical lines indicate when lockdowns are enacted_ (solid <red>red</red> line) or lifted (dashed <green>green</green> line).<a name="lockdown-prediction"></a>  
+  - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
+* [122821:] Lockdown observations to predictions:  
+  - Interestingly (and probably verifiable through LCPS), hard lockdowns appear to occur when (regular) hospital bed occupancy is between 1500-1800 and ICU bed occupancy is about 500.  
+  - Signficant ease of lockdowns occur when regular bed occupancy is 500.  
+  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of lockdowns near the end of January 2022.**  
   
   
   
@@ -334,7 +343,8 @@ _Across all 8 tutorial instructors_, average risk is:
   - <ins>Spanish flu mortality:</ins> **0.66%** of the U.S. population  
   - This estimate seems to include excess mortality, given reports of 590-600 (per 100K) all cause mortality (= ~0.6%)  
 * ~817K (official) deaths due to COVID-19. However, total excess deaths is ~1.7M &rarr;  
-  - <u>COVID-19 mortality:</u> **0.51%** of the U.S. population (so far)  
+  - <ins>COVID-19 mortality:</ins> **0.51%** of the U.S. population (so far)  
+  - Macabre humor: Covid has four more months to catch up in U.S. deaths to the Spanish flu, which lasted 2 years and 2 months (2.17 years).  
   
 ## Maths  
   
