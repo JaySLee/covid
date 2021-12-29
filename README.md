@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Dec 29, 2021  3:42:21 PM</i>
+<i>Last update: Wed, Dec 29, 2021  4:04:35 PM</i>
 
 Table of Contents
 =================
@@ -61,16 +61,16 @@ Table of Contents
 ## National trend  
   
 * [122921:] Latest new cases = 15708 (RIVMc), 15804 (RIVMn) &rarr; +6591 (since yesterday)   
-w  
+* <ins>Caveats:</ins>  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
-* [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
+  - [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
 > However, changes in the testing regime may have had an impact on the number of official cases. People with mild symptoms are now being told to take a self test first and only report to the regional health board testing centres if that test is positive. It is not yet clear if everyone who has a positive self test is following the new guidelines and requesting a confirmation check.  
-* [122921:] For occasional sudden drops then sudden increase on consecutive days (NLTimes):  
+  - [122921:] For occasional sudden drops then sudden increase on consecutive days (NLTimes):  
 > ... it was about xxxx below average due to an IT error.   
+  - Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.  
+    + [111821:] 23591*10 = ~236K = 1.35% of NL population  
+    + [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * [ca.120121:] We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
-* Just remember: there are about 10x as many infectious ~~zombies~~ people wandering about compared to the latest reported daily new cases.  
-  - [111821:] 23591*10 = ~236K = 1.35% of NL population  
-  - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
 * Red horizontal line indicates last count; green horizontal line = 7 day moving average  
 * [122821:] _Non-gray Vertical lines indicate when restrictions are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
@@ -105,7 +105,7 @@ w
 * Lockdown observations and prediction:  
   - Interestingly (and probably verifiable through LCPS), (hard) lockdowns appear to occur when non-ICU hospital bed occupancy is ~1750 and/or ICU bed occupancy is about 500.  
   - Significant ease of lockdowns seems to occur when non-ICU bed occupancy decreases to 500.  
-  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown near the end of January 2022.**  
+  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown (at the earliest) near the end of January 2022.**  
     + Note that the announcement of a lockdown (or its removal) occurs a few days prior to the actual lockdown. Still, the observed intersections may not be entirely coincidental since one can assume policy is partly based on predictive models.  
   
 * Source: [LCPS](https://lcps.nu/wp-content/uploads/covid-19-datafeed.csv) _(releases data daily between 1pm-2pm CET)_ and [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_Netherlands) for lockdown moments  
