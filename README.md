@@ -1,15 +1,16 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Dec 29, 2021  3:58:55 AM</i>
+<i>Last update: Wed, Dec 29, 2021 12:45:30 PM</i>
 
 Table of Contents
 =================
 
 * [Links and notes](#links-and-notes)
-   * [Added reports](#added-reports)
+   * [Updates](#updates)
 * [Netherlands](#netherlands)
    * [National trend](#national-trend)
    * [Hospital occupancy trends](#hospital-occupancy-trends)
+      * [Lockdown prediction](#lockdown-prediction)
    * [Within NL cities/towns/provinces](#within-nl-citiestownsprovinces)
 * [Trends in nearby countries](#trends-in-nearby-countries)
 * [Covid by age](#covid-by-age)
@@ -42,8 +43,9 @@ Table of Contents
 * This document will be updated every few days or so.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
   
-## Added reports  
+## Updates  
   
+* 29.12.21: Sources include (some) direct links to csv data files.  
 * 28.12.21:  
   1. [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
   2. [Lockdown prediction/expectation](#lockdown-prediction)  
@@ -69,14 +71,15 @@ Table of Contents
   - [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
 * Red horizontal line indicates last count; green horizontal line = 7 day moving average  
-* [122821:] _Vertical lines indicate when lockdowns are enacted_ (solid <red>red</red> line) or lifted (dashed <green>green</green> line).  
+* [122821:] _Non-gray Vertical lines indicate when restrictions are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
   - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
+  - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
   
 <p align="center"> <img src="/fig/cv_nl_nat.png" width="80%"> </p>  
   
 <p align="center"><img src="/fig/cv_nl_nat_60.png" width="40%"><img src="/fig/cv_nl_deaths.png" width="40%"></p>  
   
-* Source: RIVM _(releases updated data daily at 15:15 CET)_  
+* Source: [RIVM](https://data.rivm.nl/covid-19/COVID-19_aantallen_gemeente_per_dag.csv) _(releases updated data daily at 15:15 CET, clicking on link acquires the new cases/city csv)_.  
   
   
   
@@ -85,12 +88,6 @@ Table of Contents
   - The latter includes "the number of COVID patients moved abroad from the Netherlands. This currently concerns COVID IC patients who have gone from the Netherlands to a hospital in Germany."  
 * [112721:] Hospitalizations are &#128543;.  
 * [111621:] Hospitalizations are not as dire as earlier this year and last year, but almost there :-/.  
-* [122821:] Just like above, _vertical lines indicate when lockdowns are enacted_ (solid <red>red</red> line) or lifted (dashed <green>green</green> line).<a name="lockdown-prediction"></a>  
-  - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
-* [122821:] Lockdown observations to predictions:  
-  - Interestingly (and probably verifiable through LCPS), hard lockdowns appear to occur when (regular) hospital bed occupancy is between 1500-1800 and ICU bed occupancy is about 500.  
-  - Signficant ease of lockdowns occur when regular bed occupancy is 500.  
-  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of lockdowns near the end of January 2022.**  
   
   
   
@@ -98,7 +95,18 @@ Table of Contents
   
 <p align="center"><img src="/fig/cv_lcps_60.png" width="40%"></p>  
   
-* Source: LCPS _(releases data daily between 1pm-2pm CET)_  
+### Lockdown prediction  
+  
+* [122821:] As described above for infections/cases, _non-gray vertical lines in the above plots indicate when lockdowns are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
+  - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
+* Lockdown observations and prediction:  
+  - Interestingly (and probably verifiable through LCPS), (hard) lockdowns appear to occur when (regular) hospital bed occupancy is ~1750 and/or ICU bed occupancy is about 500.  
+  - Significant ease of lockdowns occurs when regular bed occupancy is 500.  
+  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown near the end of January 2022.**  
+    + Note that the announcement of a lockdown (or its removal) occurs a few days prior to the actual lockdown. Still, the observed intersections may not be entirely coincidental since one can assume policy is partly based on predictive models.  
+  
+* Source: [LCPS](https://lcps.nu/wp-content/uploads/covid-19-datafeed.csv) _(releases data daily between 1pm-2pm CET)_ and [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_Netherlands) for lockdown moments  
+  
   
   
   
@@ -124,7 +132,7 @@ Table of Contents
 <p align="center"><img src="/fig/cv_nearby.png" width="80%"></p>  
 <p align="center"><img src="/fig/cv_nearby_60.png" width="40%"></p>  
   
-* Source: CSSE (data is one day behind the RIVM and LCPS data)  
+* Source: [CSSE](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv) _(data is one day behind the RIVM and LCPS data, clicking on link acquires the global confirmed cases csv)_  
   
   
   
@@ -151,6 +159,8 @@ Table of Contents
   
 <p align="center"><img src="/fig/cv_age_case.png" width="40%"> <img src="/fig/cv_age_case2.png" width="40%"></p>  
 <p align="center"><img src="/fig/cv_age_case3.png" width="40%"> <img src="/fig/cv_age_case4.png" width="40%"></p>  
+  
+Source: RIVM ([case/age csv](https://data.rivm.nl/covid-19/COVID-19_casus_landelijk.csv))  
   
   
   
@@ -190,6 +200,8 @@ Table of Contents
   
 <p align="center"><img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%"></p>  
 <p align="center"><img src="/fig/cv_age_hosp2.png" width="40%"> <img src="/fig/cv_age_hosp_loess.png" width="40%"></p>  
+  
+Source: RIVM ([hospital/age csv](https://data.rivm.nl/covid-19/COVID-19_ziekenhuis_ic_opnames_per_leeftijdsgroep.csv))  
   
   
 # Other countries  
