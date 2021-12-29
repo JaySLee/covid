@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Dec 29, 2021  1:08:03 PM</i>
+<i>Last update: Wed, Dec 29, 2021  1:39:57 PM</i>
 
 Table of Contents
 =================
@@ -103,7 +103,7 @@ Table of Contents
   - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
 * Lockdown observations and prediction:  
   - Interestingly (and probably verifiable through LCPS), (hard) lockdowns appear to occur when non-ICU hospital bed occupancy is ~1750 and/or ICU bed occupancy is about 500.  
-  - Significant ease of lockdowns seems to occur when non-ICU bed occupancy decreases 500.  
+  - Significant ease of lockdowns seems to occur when non-ICU bed occupancy decreases to 500.  
   - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown near the end of January 2022.**  
     + Note that the announcement of a lockdown (or its removal) occurs a few days prior to the actual lockdown. Still, the observed intersections may not be entirely coincidental since one can assume policy is partly based on predictive models.  
   
