@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Dec 29, 2021  4:04:35 PM</i>
+<i>Last update: Wed, Dec 29, 2021  4:20:34 PM</i>
 
 Table of Contents
 =================
@@ -294,7 +294,7 @@ These calculations are based on Nov. 13, 2021 numbers and some simplifying assum
   
 For those with 2 tutorials, the risk is a **18.1%** chance of catching covid over 8 weeks, conditioned on your being vaxxed.  
 For those with 3 tutorials &rarr; **24.5%** risk.  
-For JdV with 4 tutorials &rarr; **29.7%** risk.  
+For JvD with 4 tutorials &rarr; **29.7%** risk.  
   
 **85.0% chance at least one of the tutorial instructors will get covid sometime throughout Term 2.**  
 * Remember these are pessimistic/upper bounds and don't fully consider students' self-quarantining.  
