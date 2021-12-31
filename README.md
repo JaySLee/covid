@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Dec 31, 2021  3:49:48 PM</i>
+<i>Last update: Fri, Dec 31, 2021  3:52:56 PM</i>
 
 Table of Contents
 =================
@@ -445,10 +445,8 @@ Same as above but for ![](https://latex.codecogs.com/svg.latex?a) = ages 50-59
   
 ## Code  
   
-* `f.cv.plot.sav()` // defaults to all modes 0-4  
+* `f.cv.reset(); plot.cv.sav(yest=<number>)`  
+* `cp_cv -cigo` // Chrome then copy to isa, dt, and gh  
 * `f.cv.bayesv(n=17.44e6,pC=NULL,pVH=.35,pVC=NULL,pV=.676,pE=0.6,npC=13743*5,nH=353+1420)`  
-* `f.cv.plot.sav()`  
-* ~~`electron-pdf cv.html cv.html.pdf`~~  
-* `cp_cv -cig` // Chrome then copy to isa  
 * `f.cv.bayesv2()`  
   
