@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan  3, 2022  3:47:44 PM</i>
+<i>Last update: Tue, Jan  4, 2022  3:28:02 PM</i>
 
 Table of Contents
 =================
@@ -38,10 +38,10 @@ Table of Contents
   
 # Links and notes  
   
+* This document will be updated every few days or so.  
 * [121021:] [Report is now on GitHub](https://github.com/JaySLee/covid/blob/main/README.md)  
   - But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.  
   - Also, in-text color isn't rendered  
-* This document will be updated every few days or so.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
   
 ## Updates  
@@ -60,7 +60,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* [010322:] Latest new cases = 14536 (RIVMc), 14623 (RIVMn) &rarr; -2908 (since yesterday)  
+* [010422:] Latest new cases = 18506 (RIVMc), 18616 (RIVMn) &rarr; +3993 (since yesterday)   
 * <ins>Caveats:</ins>  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
