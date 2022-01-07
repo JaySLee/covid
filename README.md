@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Jan  6, 2022  3:57:53 PM</i>
+<i>Last update: Fri Jan  7 15:59:59 CET 2022</i>
 
 Table of Contents
 =================
@@ -41,7 +41,7 @@ Table of Contents
 * This document will be updated every few days or so.  
 * [121021:] [Report is now on GitHub](https://github.com/JaySLee/covid/blob/main/README.md)  
   - But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.  
-  - Also, in-text color isn't rendered  
+  - Also, colored text isn't rendered on GitHub.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
   
 ## Updates  
@@ -60,7 +60,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* [010622:] Latest new cases = 24575 (RIVMc), 24700 (RIVMn) &rarr; +110 (since yesterday)   
+* [010722:] Latest new cases = 34872 (RIVMc), 34954 (RIVMn) &rarr; +10254 (since yesterday)   
 * <ins>Caveats:</ins>  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
@@ -71,11 +71,16 @@ Table of Contents
     + [111821:] 23591*10 = ~236K = 1.35% of NL population  
     + [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * [ca.120121:] We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
-* The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
-* Red horizontal line indicates last count; green horizontal line = 7 day moving average  
-* [122821:] _Non-gray Vertical lines indicate when restrictions are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
-  - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
-  - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
+* <ins>Legend:</ins>  
+  - The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
+  - Thin <red>red</red> horizontal line indicates last count of new cases.  
+  - [010722:] Thick <green>green</green> line indicates % of total population double vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
+    + Dashed green line indicates % with only single dose.  
+  - [010722:] Thick <blue>blue</blue> line indicates % of 18+ population boostered. Numbers are updated twice a week (so some flat areas in the graph). I started collecting this only recently and RIVM does not publish historical numbers.  
+  - [122821:] Lockdowns/measures (vertical lines):  
+    - _**Non-gray vertical lines** indicate when restrictions are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
+    - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
+    - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
   
 <p align="center"> <img src="/fig/cv_nl_nat.png" width="80%"> </p>  
   
