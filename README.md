@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat Jan  8 13:06:36 CET 2022</i>
+<i>Last update: Sat, Jan  8, 2022  4:01:40 PM</i>
 
 Table of Contents
 =================
@@ -60,7 +60,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* [010722:] Latest new cases = 34872 (RIVMc), 34954 (RIVMn) &rarr; +10254 (since yesterday)   
+* [010822:] Latest new cases = 27890 (RIVMc), 28003 (RIVMn) &rarr; -6951 (since yesterday)   
 * <ins>Caveats:</ins>  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
@@ -76,7 +76,7 @@ Table of Contents
   - Thin <red>red</red> horizontal line indicates last count of new cases.  
   - [010722:] Thick <green>green</green> line indicates % of total population double vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
     + Dashed green line indicates % with only single dose.  
-  - [010722:] Thick <blue>blue</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week. I started collecting this only recently and RIVM does not publish historical numbers.  
+  - [010722:] Thick <blue>blue</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
   - [122821:] Lockdowns/measures (vertical lines):  
     - _**Non-gray vertical lines** indicate when restrictions are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
