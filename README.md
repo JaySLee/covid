@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  2:45:37 AM</i>
+<i>Last update: Mon, Jan 17, 2022  2:47:03 AM</i>
 
 Table of Contents
 =================
@@ -34,6 +34,8 @@ Table of Contents
       * [Hospitalization risk by age](#hospitalization-risk-by-age)
    * [Code](#code)
 
+  
+  
   
   
   
@@ -124,6 +126,7 @@ Table of Contents
   
 * The colors indicate the date:  
   - Dark <blue>blue</blue> points are the earliest days of the pandemic  
+  - Light green/yellow points are the middle of the pandemic.  
   - Dark <red>red</red>/brown points are the most recent dates.  
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
