@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  1:42:59 AM</i>
+<i>Last update: Mon, Jan 17, 2022  2:40:14 AM</i>
 
 Table of Contents
 =================
@@ -128,9 +128,9 @@ Table of Contents
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
 * <ins>Observations:</ins>  
-  - The blue arm (one o'clock) represents the early days of the pandemic when fewer infections caused more hospitalizations and deaths  
-  - The red arm (two o'clock) represents vaccination era, when infections caused fewer hospitalizations and deths.  
-  - **The dark red arm (three o'clock) represents the omicron era, in which hospitalizations and deaths seem invariant to number of infections.**  
+  - The blue arm -- at one o'clock -- represents the early days of the pandemic when fewer infections caused more hospitalizations and deaths  
+  - The red arm -- at two o'clock, near the diagonal line -- represents vaccination era, when infections caused fewer hospitalizations and deths.  
+  - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to number of infections.**  
     
 <p align="center"><img src="/fig/cv_n_knoc.png" width="40%"></p>  
   
