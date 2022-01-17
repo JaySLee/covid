@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sun, Jan 16, 2022  6:15:15 PM</i>
+<i>Last update: Mon, Jan 17, 2022  1:29:21 AM</i>
 
 Table of Contents
 =================
@@ -11,6 +11,7 @@ Table of Contents
    * [National trend](#national-trend)
    * [Hospital occupancy trends](#hospital-occupancy-trends)
       * [Lockdown prediction](#lockdown-prediction)
+   * [Omicron](#omicron)
    * [Within NL cities/towns/provinces](#within-nl-citiestownsprovinces)
 * [Trends in nearby countries](#trends-in-nearby-countries)
 * [Covid by age](#covid-by-age)
@@ -46,6 +47,7 @@ Table of Contents
   
 ## Updates  
   
+* 16.01.22: [Omicron seems to definitively cause fewer hospitalizations and deaths](#omicron)  
 * 29.12.21: Sources now include direct links to (some) csv data files.  
 * 28.12.21:  
   1. [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
@@ -116,6 +118,21 @@ Table of Contents
   
 * Source: [LCPS](https://lcps.nu/wp-content/uploads/covid-19-datafeed.csv) _(releases data daily between 1pm-2pm CET)_ and [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_Netherlands) for lockdown moments  
   
+  
+  
+## Omicron  
+  
+* The colors indicate the date:  
+  - Dark <blue>blue</blue> points are the earliest days of the pandemic  
+  - Dark <red>red</red>/brown points are the most recent dates.  
+* The points are sized by new daily deaths.  
+* The grey, dashed diagonal bisects the plot.  
+* <ins>Observations:</ins>  
+  - The blue arm (one o'clock) represents the early days of the pandemic when fewer infections caused more hospitalizations and deaths  
+  - The red arm (two o'clock) represents vaccination era, when infections caused fewer hospitalizations and deths.  
+  - **The dark red arm (three o'clock) represents the omicron era, in which hospitalizations and deaths seem invariant to number of infections.**  
+    
+<p align="center"><img src="/fig/cv_n_knoc.png" width="40%"></p>  
   
   
   
