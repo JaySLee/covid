@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  2:51:05 AM</i>
+<i>Last update: Mon, Jan 17, 2022  4:05:40 PM</i>
 
 Table of Contents
 =================
@@ -64,7 +64,7 @@ Table of Contents
 # Netherlands  
 ## National trend  
   
-* [011622:] Latest new cases = 36231 (RIVMc), 36308 (RIVMn) &rarr; +4345 (since yesterday)   
+* [011722:] Latest new cases = 42352 (RIVMc), 42472 (RIVMn) &rarr; +6164 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe; hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉).  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
@@ -128,6 +128,7 @@ Table of Contents
   - Dark <blue>blue</blue> points are the earliest days of the pandemic  
   - Light green/yellow points are the middle of the pandemic.  
   - Dark <red>red</red>/brown points are the most recent dates.  
+* Faint arrows indicated the temporal trajectory.  
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
 * <ins>Observations:</ins>  
@@ -135,7 +136,7 @@ Table of Contents
   - The red arm -- at two o'clock, near the diagonal line -- represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
   - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: light green to yellow dots whose trajectory is rectangular/counter-clockwise.  
-	+ The daily ICU admissions (as _y_-axis) exhibit a similar pattern (not shown).  
+	+ The daily ICU admissions (as _y_-axis) vexhibit a similar pattern (not shown).  
     
 <p align="center"><img src="/fig/cv_n_knoc.png" width="40%"></p>  
   
