@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  2:47:03 AM</i>
+<i>Last update: Mon, Jan 17, 2022  2:51:05 AM</i>
 
 Table of Contents
 =================
@@ -135,6 +135,7 @@ Table of Contents
   - The red arm -- at two o'clock, near the diagonal line -- represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
   - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: light green to yellow dots whose trajectory is rectangular/counter-clockwise.  
+	+ The daily ICU admissions (as _y_-axis) exhibit a similar pattern (not shown).  
     
 <p align="center"><img src="/fig/cv_n_knoc.png" width="40%"></p>  
   
