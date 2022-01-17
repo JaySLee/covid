@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  4:46:13 PM</i>
+<i>Last update: Mon, Jan 17, 2022 10:17:06 PM</i>
 
 Table of Contents
 =================
@@ -144,7 +144,8 @@ Table of Contents
 <p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
   
 * <ins>Observations for right plot:</ins>  
-  - The blue arm here -- at 12 o'clock -- represents the 1st wave when relatively fewer infections incurred high hospitalization occupancy as well as deathbs.  
+  - The blue arm here -- at 12 o'clock -- represents the 1st wave when seemingly fewer infections incurred high hospitalization occupancy as well as deaths.  
+  - However, covid testing was at its infancy in this period.  
   
   
   
