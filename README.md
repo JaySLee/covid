@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  4:43:03 PM</i>
+<i>Last update: Mon, Jan 17, 2022  4:46:13 PM</i>
 
 Table of Contents
 =================
@@ -142,6 +142,10 @@ Table of Contents
 	+ The daily ICU admissions (as _y_-axis) vexhibit a similar pattern (not shown).  
     
 <p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
+  
+* <ins>Observations for right plot:</ins>  
+  - The blue arm here -- at 12 o'clock -- represents the 1st wave when relatively fewer infections incurred high hospitalization occupancy as well as deathbs.  
+  
   
   
   
