@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 17, 2022  4:10:55 PM</i>
+<i>Last update: Mon, Jan 17, 2022  4:39:57 PM</i>
 
 Table of Contents
 =================
@@ -125,20 +125,23 @@ Table of Contents
 ## Omicron  
   
 * The colors indicate the date:  
-  - Dark <blue>blue</blue> points are the earliest days of the pandemic  
+  - Dark <blue>blue</blue> points are:  
+    + For left plot (new hospitalizations): the start of the 2nd wave (Oct 2020)  
+	+ For right plot (occupancy): the earliest days of the pandemic (from Mar 2020)  
+	+ _Hospital admissions data was unavailable until Oct 2020, while occupancy data was available as early as Mar 2020._  
   - Light green/yellow points are the middle of the pandemic.  
   - Dark <red>red</red>/brown points are the most recent dates.  
 * Faint arrows indicated the temporal trajectory.  
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
-* <ins>Observations:</ins>  
-  - The blue arm -- at one o'clock -- represents the early days of the pandemic when fewer infections caused more hospitalizations and deaths  
+* <ins>Observations for left plot:</ins>  
+  - The blue arm -- at one o'clock -- represents the 2nd wave of the pandemic when fewer infections caused more hospitalizations and deaths  
   - The red arm -- at two o'clock, near the diagonal line -- represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
   - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: light green to yellow dots whose trajectory is rectangular/counter-clockwise.  
 	+ The daily ICU admissions (as _y_-axis) vexhibit a similar pattern (not shown).  
     
-<p align="center"><img src="/fig/cv_n_knoc.png" width="40%"></p>  
+<p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
   
   
   
