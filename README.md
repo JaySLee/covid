@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Jan 18, 2022  4:34:28 PM</i>
+<i>Last update: Tue, Jan 18, 2022  4:46:46 PM</i>
 
 Table of Contents
 =================
@@ -117,6 +117,7 @@ Table of Contents
   - Significant ease of lockdowns seems to occur when non-ICU bed occupancy decreases to 500.  
   - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown (at the earliest) near the beginning of February.** ~~the end of January 2022.~~  
     + Note that the announcement of a lockdown (or its removal) occurs a few days prior to the actual lockdown. Still, the observed intersections is likely not be coincidental since one can assume policy is partly based on predictive models.  
+  - [011822:] Light loosening of restrictions occurred on 011522. The hospitalization numbers interestingly correspond with the 1st loosening back ca. middle of May, 2020.  
   
 * Source: [LCPS](https://lcps.nu/wp-content/uploads/covid-19-datafeed.csv) _(releases data daily between 1pm-2pm CET)_ and [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_Netherlands) for lockdown moments  
   
