@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Jan 20, 2022  3:32:50 PM</i>
+<i>Last update: Thu, Jan 20, 2022  4:58:45 PM</i>
 
 Table of Contents
 =================
@@ -83,7 +83,7 @@ Table of Contents
     + Dashed green line indicates % with only single dose.  
   - [010722:] Thick <blue>**blue**</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
   - [122821:] Lockdowns/measures (vertical lines):  
-    - _**Non-gray vertical lines** indicate when restrictions are enacted_ (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
+	- Colored _Vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
     - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
   
@@ -117,7 +117,7 @@ Table of Contents
   - Significant ease of lockdowns seems to occur when non-ICU bed occupancy decreases to 500.  
   - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown (at the earliest) near the beginning of February.** ~~the end of January 2022.~~  
     + Note that the announcement of a lockdown (or its removal) occurs a few days prior to the actual lockdown. Still, the observed intersections is likely not be coincidental since one can assume policy is partly based on predictive models.  
-  - [011822:] Light loosening of restrictions occurred on 011522. The hospitalization numbers interestingly correspond with the 1st loosening back ca. middle of May, 2020.  
+  - [011822:] Light loosening of restrictions occurred on 011522. The hospitalization numbers interestingly correspond with the 1st loosening back ca. middle of May, 2020 and June, 2021.  
   
 * Source: [LCPS](https://lcps.nu/wp-content/uploads/covid-19-datafeed.csv) _(releases data daily between 1pm-2pm CET)_ and [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_Netherlands) for lockdown moments  
   
