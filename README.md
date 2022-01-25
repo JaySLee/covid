@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Jan 25, 2022 12:41:04 PM</i>
+<i>Last update: Tue, Jan 25, 2022 12:48:49 PM</i>
 
 Table of Contents
 =================
@@ -42,10 +42,14 @@ Table of Contents
 # Links and notes  
   
 * This document will be updated every few days or so.  
+  - [**HTML**](https://bit.ly/covid_nl_html) (download and open in your own browser , easier to navigate since there's no pagination);  
+  - [**PDF**](https://bit.ly/covid_nl_pdf) (view on Dropbox or download from there);  
+  - [**GitHub**](https://github.com/JaySLee/covid/blob/main/README.md) (but in-text color not allowed on GitHub)  
 * [121021:] [Report is now on GitHub](https://github.com/JaySLee/covid/blob/main/README.md)  
   - But the inline math is bottom-aligned with the surrounding text, so looks a bit clumsy.  
   - Also, colored text isn't rendered on GitHub.  
 * Some dates are written U.S. style, so, e.g., 17.11.21 could appear as [111721:]  
+* "Cases" = "infections".  
   
 ## Updates  
   
@@ -146,7 +150,10 @@ Table of Contents
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: <orange>orange</orange> points whose trajectory is rectangular/counter-clockwise.  
 	+ The daily ICU admissions (as _y_-axis, but plot not shown) exhibit a similar pattern.  
   
-The plots below log transform the _x_-axis (# of daily new infections).  
+  
+  
+  
+The plots below log transform the _x_-axis (# of daily new infections), to stretch out those numbers.  
   
 <p align="center"><img src="/fig/cv_n_knoc_log.png" width="40%"><img src="/fig/cv_n_kb_log.png" width="40%"></p>  
   
@@ -237,7 +244,7 @@ Source: RIVM ([case/age csv](https://data.rivm.nl/covid-19/COVID-19_casus_landel
 * The lower two plot shows _percentage_ within population of each age group.  
   - The right plot shows a LOESS regression fit.  
   - Because the recent week's LCPS age data (i.e. most recent date) are incomplete, points are omitted in these two plots.  
-  - _Hospitalizations are going up for all age groups._  
+  - [112521:] _Hospitalizations are going up for all age groups._  
   
   
 <p align="center"><img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%"></p>  
