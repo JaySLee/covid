@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Jan 25, 2022 12:21:00 PM</i>
+<i>Last update: Tue, Jan 25, 2022 12:41:04 PM</i>
 
 Table of Contents
 =================
@@ -65,7 +65,8 @@ Table of Contents
 ## National trend  
 * [012422:] Latest new cases = 64630 (RIVMc), 64757 (RIVMn) &rarr; -636 (since yesterday)   
 * <ins>Caveats:</ins>  
-  - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe; hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉).  
+  - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
+    + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉); see [analysis below](#hospital-occupancy-trends).  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
   - [121421:] Dropping numbers may be deceiving. From Dutchnews.nl:  
 > However, changes in the testing regime may have had an impact on the number of official cases. People with mild symptoms are now being told to take a self test first and only report to the regional health board testing centres if that test is positive. It is not yet clear if everyone who has a positive self test is following the new guidelines and requesting a confirmation check.  
@@ -133,6 +134,9 @@ Table of Contents
 * Faint arrows indicated the temporal trajectory.  
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
+    
+<p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
+  
 * <ins>Observations:</ins>  
   - The dark blue arm -- at 12 o'clock -- represents the 1st wave when seemingly fewer infections incurred high hospitalization occupancy as well as deaths.  
     + However, covid testing was at its infancy in this period.  
@@ -141,8 +145,6 @@ Table of Contents
   - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: <orange>orange</orange> points whose trajectory is rectangular/counter-clockwise.  
 	+ The daily ICU admissions (as _y_-axis, but plot not shown) exhibit a similar pattern.  
-    
-<p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
   
 The plots below log transform the _x_-axis (# of daily new infections).  
   
@@ -361,7 +363,7 @@ For JvD with 4 tutorials &rarr; **29.7%** risk.
 8. <ins>Aside:</ins> let's see what the avg number of contacts across NL would be then:  
 ![](https://latex.codecogs.com/svg.latex?(n_\text{pop}&space;-&space;n_\text{c})(1-(1-p_\text{C})^a)&space;=&space;2n_\text{C}) ... where ![](https://latex.codecogs.com/svg.latex?a) is avg number of daily social contacts (avged across all of NL) and ![](https://latex.codecogs.com/svg.latex?2n_C) is est. of newly infected daily people (2x b/c of unreported)  
 This gives us an average number of contacts (for all in NL):  
-![](https://latex.codecogs.com/svg.latex?a\approx2) ... which seems to be a reasonable avg.  
+![](https://latex.codecogs.com/svg.latex?a\approx2) ... which seems to be a reasonable avg (or even conservative).  
   
 9. If I am proximal to 20 people (inc. students) every time I come to campus over 8 weeks (i.e. 8 instances), my personal risk is:  
 ![](https://latex.codecogs.com/svg.latex?(1-(1-p_\text{C})^{(20\times8)})&space;=&space;.118&space;=&space;11.8\%) ... this is my chance -- assuming my vax status is unknown -- of catching covid during Term 2, giving the once-a-week recap lecture.  
@@ -396,7 +398,7 @@ _Across all 8 tutorial instructors_, average risk is:
   - This estimate seems to include excess mortality, given reports of 590-600 (per 100K) all cause mortality (= ~0.6%)  
 * ~817K (official) deaths due to COVID-19. However, total excess deaths is ~1.7M &rarr;  
   - <ins>COVID-19 mortality:</ins> **0.51%** of the U.S. population (so far)  
-  - Macabre humor: Covid has four more months to catch up in U.S. deaths to the Spanish flu, which lasted 2 years and 2 months (2.17 years).  
+  - Macabre humor: Covid has four more months to catch up (in proportional U.S. deaths) to the Spanish flu, which lasted 2 years and 2 months (2.17 years).  
   
 ## Maths  
   
