@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Jan 25, 2022 12:49:43 PM</i>
+<i>Last update: Tue, Jan 25, 2022 12:51:00 PM</i>
 
 Table of Contents
 =================
@@ -87,7 +87,7 @@ Table of Contents
     - [010722:] Thick <green>**green**</green> line indicates % of total population double vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
     - Dashed green line indicates % with only single dose.  
     - [010722:] Thick <blue>**blue**</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
-  - Vertical lines: Lockdowns/measures: [122821]  
+  - <ins>Vertical lines:</ins>  Lockdowns/measures: [122821]  
 	- Colored _vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
     - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
