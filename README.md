@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Jan 25, 2022  1:07:39 PM</i>
+<i>Last update: Tue, Jan 25, 2022  1:08:22 PM</i>
 
 Table of Contents
 =================
@@ -53,7 +53,7 @@ Table of Contents
   
 ## Updates  
   
-* 16.01.22: [Omicron seems to definitively result in fewer hospitalizations and deaths](#omicron)  
+* 16.01.22: [Omicron seems to result in fewer hospitalizations and deaths](#omicron)  
 * 29.12.21: Sources now include direct links to (some) csv data files.  
 * 28.12.21:  
   1. [Comparison to Spanish flu (U.S.)](#comparison-to-spanish-flu-in-the-us)  
