@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 24, 2022  3:36:18 PM</i>
+<i>Last update: Tue, Jan 25, 2022 12:21:00 PM</i>
 
 Table of Contents
 =================
@@ -77,12 +77,13 @@ Table of Contents
 * [ca.120121:] We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
 * <ins>Legend:</ins>  
   - The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
-  - Thin <red>red</red> horizontal line indicates last count of new cases.  
-  - [010722:] Thick <green>**green**</green> line indicates % of total population double vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
-    + Dashed green line indicates % with only single dose.  
-  - [010722:] Thick <blue>**blue**</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
-  - [122821:] Lockdowns/measures (vertical lines):  
-	- Colored _Vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
+  - <ins>Horizontal lines:</ins> The thin <red>red</red> horizontal line indicates last count of new cases.  
+  - <ins>Other trends:</ins> Vaccinations:  
+    - [010722:] Thick <green>**green**</green> line indicates % of total population double vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
+    - Dashed green line indicates % with only single dose.  
+    - [010722:] Thick <blue>**blue**</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
+  - <ins>Vertical lines:</ins> Lockdowns/measures: <ins>122821]  
+	- Colored _vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
     - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
   
@@ -138,12 +139,12 @@ Table of Contents
   - The light blue arm -- at one o'clock -- represents the 2nd wave of the pandemic when fewer infections caused more hospitalizations and deaths.  
   - The red arm -- at two o'clock, near the diagonal line -- represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
   - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
-    + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: light green to yellow dots whose trajectory is rectangular/counter-clockwise.  
-	+ The daily ICU admissions (as _y_-axis) vexhibit a similar pattern (not shown).  
+    + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: <orange>orange</orange> points whose trajectory is rectangular/counter-clockwise.  
+	+ The daily ICU admissions (as _y_-axis, but plot not shown) exhibit a similar pattern.  
     
 <p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
   
-The plots below log transform the X-axis (# of new infections).  
+The plots below log transform the _x_-axis (# of daily new infections).  
   
 <p align="center"><img src="/fig/cv_n_knoc_log.png" width="40%"><img src="/fig/cv_n_kb_log.png" width="40%"></p>  
   
@@ -188,7 +189,7 @@ The plots below log transform the X-axis (# of new infections).
 * Lower plots no moving average (but dates are more restricted for zooming).  
 * Left plots shows **relative** proportion across all age groups.  
 * Right plots shows absolute percentages within population of the age group.  
-  - Also, in the right plots: <red>**_the last/rightmost 6-8 points are incomplete (data), thus the sharp drop._**</red>  
+  - Also, in the right plots: <red>**_the last few rightmost points are incomplete (data), thus the sharp drop._**</red>  
   - On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds have covid.  
     + They also constitute ~18% of the infected on the same date.  
 * GGD Rotterdam throws up some extreme values for last date.  
