@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Jan 25, 2022  3:31:31 PM</i>
+<i>Last update: Wed, Jan 26, 2022  1:10:47 PM</i>
 
 Table of Contents
 =================
@@ -199,7 +199,7 @@ The plots below log transform the _x_-axis (# of daily new infections), to stret
 * Left plots shows **relative** proportion across all age groups.  
 * Right plots shows absolute percentages within population of the age group.  
   - Also, in the right plots: <red>**_the last few rightmost points are incomplete (data), thus the sharp drop._**</red>  
-  - On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds have covid.  
+  - On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds were newly infected.  
     + They also constitute ~18% of the infected on the same date.  
 * GGD Rotterdam throws up some extreme values for last date.  
 * <ins>Observations:</ins>  
@@ -385,7 +385,7 @@ _For those with 2 tutorials:_
 _For those with 3 tutorials_ &rarr; **24.5%** risk.  
 - Overall risk (for both vaxxed and non-vaxxed) is 48.4%.  
   
-_For JdV with 4 tutorials_ &rarr; **29.7%** risk.  
+_For JvD with 4 tutorials_ &rarr; **29.7%** risk.  
 - Overall risk (for both vaxxed and non-vaxxed) is 58.5%  
   
 _Across all 8 tutorial instructors_, average risk is:  
@@ -484,7 +484,7 @@ Same as above but for ![](https://latex.codecogs.com/svg.latex?a) = ages 50-59
   
 * Given ![](https://latex.codecogs.com/svg.latex?A,C): 10.5x worse than 10-19 stud, more C among studs makes ratio worse  
   - ![](https://latex.codecogs.com/svg.latex?\frac{p(H|C,A=a_\text{teach})}{p(H|C,A=a_\text{students})})  
-* Given just ![](https://latex.codecogs.com/svg.latex?A): only 6.8x worse b/c more people my age brings this down  
+* Given just ![](https://latex.codecogs.com/svg.latex?A): only 6.8x worse b/c more people in older age group brings this down  
 * For vacc, just use the above number and realize the ![](https://latex.codecogs.com/svg.latex?p(C|V,A)&space;=&space;0.01) and ![](https://latex.codecogs.com/svg.latex?p(C|\sim\\!\\!&space;V,A)&space;=&space;0.025).  
   - But not so straightforward given ![](https://latex.codecogs.com/svg.latex?p(V|H)&space;=&space;.45).  
   
