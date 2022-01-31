@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 31, 2022  6:50:54 PM</i>
+<i>Last update: Mon, Jan 31, 2022  7:01:22 PM</i>
 
 Table of Contents
 =================
@@ -166,8 +166,8 @@ The plots below log transform the _x_-axis (# of daily new infections), to stret
   
 Here, non-ICU hospital bed occupancy (_x_-axis) plotted against ICU bed occupancy (_y_-axis).  
 - Points left of the diagonal could indicate more severe covid.  
-- The unidimensional ratio can be seen in the purple line of plots of [2.2](#hospital-occupancy-trends)  
-  - But this doesn't easily explain (to me) the semi-circular trajectories.  
+- The unidimensional ratio can be seen in the purple line of plots of [2.2](#hospital-occupancy-trends).  
+- Semi-circular trajectories might be explained by time gap for those moved from hospital to ICU bed.  
   
 <p align="center"><img src="/fig/cv_kb_ibc.png" width="40%"><img src="/fig/cv_kb_ibc_log.png" width="40%"></p>  
   
