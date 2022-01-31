@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 31, 2022  3:28:51 PM</i>
+<i>Last update: Mon, Jan 31, 2022  6:45:15 PM</i>
 
 Table of Contents
 =================
@@ -12,6 +12,7 @@ Table of Contents
    * [Hospital occupancy trends](#hospital-occupancy-trends)
       * [Lockdown prediction](#lockdown-prediction)
    * [Omicron](#omicron)
+      * [ICU v. non-ICU](#icu-v-non-icu)
    * [Within NL cities/towns/provinces](#within-nl-citiestownsprovinces)
 * [Trends in nearby countries](#trends-in-nearby-countries)
 * [Covid by age](#covid-by-age)
@@ -139,14 +140,17 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
 * Faint arrows indicated the temporal trajectory.  
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
+* Y-axis:  
+  - Left plot: New daily hospitalizations (regular+ICU)  
+  - Right plot: Hospital bed occupancy (regular+IC)  
     
-<p align="center"><img src="/fig/cv_n_knoc.png" width="40%"><img src="/fig/cv_n_kb.png" width="40%"></p>  
+<p align="center"><img src="/fig/cv_n_noc.png" width="40%"><img src="/fig/cv_n_kib.png" width="40%"></p>  
   
 * <ins>Observations:</ins>  
   - The dark blue arm -- at 12 o'clock -- represents the 1st wave when seemingly fewer infections incurred high hospitalization occupancy as well as deaths.  
     + However, covid testing was at its infancy in this period.  
-  - The light blue arm -- at one o'clock -- represents the 2nd wave of the pandemic when fewer infections caused more hospitalizations and deaths.  
-  - The red arm -- at two o'clock, near the diagonal line -- represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
+  - The light blue arm represents the 2nd wave of the pandemic when fewer infections caused more hospitalizations and deaths.  
+  - The red arm represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
   - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: <orange>orange</orange> points whose trajectory is rectangular/counter-clockwise.  
 	+ The daily ICU admissions (as _y_-axis, but plot not shown) exhibit a similar pattern.  
@@ -156,7 +160,17 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 The plots below log transform the _x_-axis (# of daily new infections), to stretch out those numbers.  
   
-<p align="center"><img src="/fig/cv_n_knoc_log.png" width="40%"><img src="/fig/cv_n_kb_log.png" width="40%"></p>  
+<p align="center"><img src="/fig/cv_n_noc_log.png" width="40%"><img src="/fig/cv_n_kib_log.png" width="40%"></p>  
+  
+### ICU v. non-ICU  
+  
+Here, non-ICU hospital bed occupancy (_x_-axis) plotted against ICU bed occupancy (_y_-axis).  
+- Points left of the diagonal could indicate more severe covid.  
+- The unidimensional ratio can be seen in the purple line of plots of [2.2](#hospital-occupancy-trends)  
+  - But this doesn't easily explain (to me) the semi-circular trajectories.  
+  
+<p align="center"><img src="/fig/cv_kb_ibc.png" width="40%"><img src="/fig/cv_kb_ibc_log.png" width="40%"></p>  
+  
   
   
   
