@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Jan 31, 2022  6:45:15 PM</i>
+<i>Last update: Mon, Jan 31, 2022  6:50:54 PM</i>
 
 Table of Contents
 =================
