@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Feb  1, 2022  3:44:09 PM</i>
+<i>Last update: Tue, Feb  1, 2022  3:57:40 PM</i>
 
 Table of Contents
 =================
@@ -135,23 +135,25 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
 * The colors indicate the date:  
   - Dark <blue>blue</blue> points are the earliest days of the pandemic (Mar 2020)  
   - _Hospital admissions data was unavailable until Oct 2020, while occupancy data was available as early as Mar 2020._  
-  - Light green/yellow points are the middle of the pandemic.  
+  - Light <green>green</green>/yellow points are the middle of the pandemic.  
   - Dark <red>red</red>/brown points are the most recent dates.  
 * Faint arrows indicated the temporal trajectory.  
 * The points are sized by new daily deaths.  
 * The grey, dashed diagonal bisects the plot.  
 * Y-axis:  
   - Left plot: New daily hospitalizations (regular+ICU)  
-  - Right plot: Hospital bed occupancy (regular+IC)  
+  - Right plot: Hospital bed occupancy (regular+ICU)  
     
 <p align="center"><img src="/fig/cv_n_noc.png" width="40%"><img src="/fig/cv_n_kib.png" width="40%"></p>  
   
 * <ins>Observations:</ins>  
+  - **[020122:] Sudden uptick of admissions (ICU+non-ICU).**  
+    - Either this is an artifact of data (collection) numbers or something more troubling, like an omicron variant or its penetrating a vulnerable subpopulation. Hospital by age data (published this Wednesday/020222) may tell us more.  
   - The dark blue arm -- at 12 o'clock -- represents the 1st wave when seemingly fewer infections incurred high hospitalization occupancy as well as deaths.  
     + However, covid testing was at its infancy in this period.  
   - The light blue arm represents the 2nd wave of the pandemic when fewer infections caused more hospitalizations and deaths.  
   - The red arm represents vaccination era, when infections led to fewer hospitalizations and deaths, than in the earlier days.  
-  - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths seem invariant to (even high) number of infections.**  
+  - **The dark red arm -- at three o'clock -- represents the omicron era, in which hospitalizations and deaths have seemed invariant to (even high) number of infections.**  
     + Interesting: there appears to be a similar horizontal invariance around the middle of the pandemic: <orange>orange</orange> points whose trajectory is rectangular/counter-clockwise.  
 	+ The daily ICU admissions (as _y_-axis, but plot not shown) exhibit a similar pattern.  
   
