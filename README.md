@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Feb  1, 2022  3:39:44 PM</i>
+<i>Last update: Tue, Feb  1, 2022  3:44:09 PM</i>
 
 Table of Contents
 =================
@@ -216,7 +216,8 @@ Here, non-ICU hospital bed occupancy (_x_-axis) plotted against ICU bed occupanc
   - Also, in the right plots: <red>**_the last few rightmost points are incomplete (data), thus the sharp drop._**</red>  
   - On Nov 15, 2021, ~0.15% of all NL 20-29 year-olds were newly infected.  
     + They also constitute ~18% of the infected on the same date.  
-* GGD Rotterdam throws up some extreme values for last date.  
+  - Note: The denominator for the right plots is all youths in each age group across NL, for all three sources. Thus, the Province and Local percentages are less informative.  
+* Sometimes, GGD Rotterdam throws up some extreme (high or low) values for last date.  
 * <ins>Observations:</ins>  
   - A recent relative uptick of cases in the two relevant age groups.  
   - The percentages within age groups are more striking.  
