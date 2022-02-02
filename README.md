@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Feb  1, 2022  3:57:40 PM</i>
+<i>Last update: Wed, Feb  2, 2022  5:23:55 PM</i>
 
 Table of Contents
 =================
@@ -69,7 +69,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [020122:] Latest new cases = 105795 (RIVMc), 105840 (RIVMn) &rarr; -6438 (since yesterday)   
+* [020222:] Latest new cases = 66969 (RIVMc), 67045 (RIVMn) &rarr; -38795 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉); see [analysis below](#hospital-occupancy-trends).  
@@ -86,9 +86,10 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   - The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
   - <ins>Horizontal lines:</ins> The thin <red>red</red> horizontal line indicates last count of new cases.  
   - <ins>Other trends:</ins> Vaccinations:  
-    - [010722:] Thick <green>**green**</green> line indicates % of total population double vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
+    - [010722:] Thick <green>**green**</green> line indicates % of total population ~~double~~ vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
     - Dashed green line indicates % with only single dose.  
     - [010722:] Thick <blue>**blue**</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
+	- [020222:] It seems double vaxxed numbers drops in the past month, probably taking into account waning effectiveness of vax. So, now green line depict _any_ vax.  
   - <ins>Vertical lines:</ins>  Lockdowns/measures: [122821]  
 	- Colored _vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
