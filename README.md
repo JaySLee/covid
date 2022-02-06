@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Feb  4, 2022  5:50:55 PM</i>
+<i>Last update: Sun, Feb  6, 2022  2:31:10 PM</i>
 
 Table of Contents
 =================
@@ -13,6 +13,7 @@ Table of Contents
       * [Lockdown prediction](#lockdown-prediction)
    * [Omicron](#omicron)
       * [ICU v. non-ICU](#icu-v-non-icu)
+      * [Infections vs. new deaths](#infections-vs-new-deaths)
    * [Within NL cities/towns/provinces](#within-nl-citiestownsprovinces)
 * [Trends in nearby countries](#trends-in-nearby-countries)
 * [Covid by age](#covid-by-age)
@@ -69,7 +70,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [020422:] Latest new cases = 68916 (RIVMc), 72162 (RIVMn) &rarr; -10799 (since yesterday)   
+* [020522:] Latest new cases = 40122 (RIVMc), 40133 (RIVMn) &rarr; -32029 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉); see [analysis below](#hospital-occupancy-trends).  
@@ -174,6 +175,9 @@ Here, non-ICU hospital bed occupancy (_x_-axis) plotted against ICU bed occupanc
   
 <p align="center"><img src="/fig/cv_kb_ibc.png" width="40%"><img src="/fig/cv_kb_ibc_log.png" width="40%"></p>  
   
+### Infections vs. new deaths  
+  
+<p align="center"><img src="/fig/cv_n_nd.png" width="40%"><img src="/fig/cv_n_nd_log.png" width="40%"></p>  
   
   
   
