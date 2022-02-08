@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sun, Feb  6, 2022  3:59:26 PM</i>
+<i>Last update: Tue, Feb  8, 2022  8:27:36 PM</i>
 
 Table of Contents
 =================
@@ -70,7 +70,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [020622:] Latest new cases = 94884 (RIVMc), 80946 (RIVMn) &rarr; +26936 (since yesterday)   
+* [020822:] Latest new cases = 380388 (RIVMc), 394759 (RIVMn) &rarr; +316902 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉); see [analysis below](#hospital-occupancy-trends).  
@@ -84,19 +84,20 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
     + [112121:] Looking at the infectious estimates produced by RIVM (that they kept updated until July, 2021), it seems this multiplier is more like 15x -- 20x.  
 * [ca.120121:] We're ~~25%~~ ~~50% higher~~ nearly double than the last highest peak (Christmas/New Years 2020-21).  
 * <ins>Legend:</ins>  
-  - The figures below show raw new case counts (no moving average) and deaths (7 day moving average).  
-  - <ins>Horizontal lines:</ins> The thin <red>red</red> horizontal line indicates last count of new cases.  
-  - <ins>Other trends:</ins> Vaccinations:  
+  - The figures below show raw (and log10) new case counts and deaths.  
+    - Orange line is 7-day moving average.  
+  - <ins>Horizontal lines:</ins> The dashed gray horizontal line indicates last count of new cases.  
+  - <ins>Vaccinations:</ins>  
     - [010722:] Thick <green>**green**</green> line indicates % of total population ~~double~~ vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
     - Dashed green line indicates % with only single dose.  
     - [010722:] Thick <blue>**blue**</blue> line indicates % of 18+ population boostered. RIVM updates numbers twice a week, so some flat areas will appear in the plot. I started collecting this only recently and RIVM does not publish historical numbers.  
 	- [020222:] It seems double vaxxed numbers drops in the past month, ~~probably taking into account waning effectiveness of vax~~ because booster numbers seem to account for those double vaxxed, so double vaxxed numbers exclude boostered individuals. So, now green line depict _any_ vax.  
-  - <ins>Vertical lines:</ins>  Lockdowns/measures: [122821]  
+  - <ins>Lockdowns/measures:</ins>  
 	- Colored _vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
     - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
   
-<p align="center"> <img src="/fig/cv_nl_nat.png" width="80%"> </p>  
+<p align="center"> <img src="/fig/cv_nl_nat.png" width="40%"> <img src="/fig/cv_nl_nat_log10.png" width="40%"> </p>  
   
 <p align="center"><img src="/fig/cv_nl_nat_60.png" width="40%"><img src="/fig/cv_nl_deaths.png" width="40%"></p>  
   
@@ -272,6 +273,9 @@ Source: RIVM ([case/age csv](https://data.rivm.nl/covid-19/COVID-19_casus_landel
   
 <p align="center"><img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%"></p>  
 <p align="center"><img src="/fig/cv_age_hosp2.png" width="40%"> <img src="/fig/cv_age_hosp_loess.png" width="40%"></p>  
+  
+Full time line (7-day moving average)  
+<p align="center"><img src="/fig/cv_age_hosp2_full.png" width="90%"></p>  
   
 Source: RIVM ([hospital/age csv](https://data.rivm.nl/covid-19/COVID-19_ziekenhuis_ic_opnames_per_leeftijdsgroep.csv))  
   
