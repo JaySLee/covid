@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Feb 10, 2022  4:18:40 PM</i>
+<i>Last update: Thu, Feb 10, 2022  5:04:53 PM</i>
 
 Table of Contents
 =================
@@ -274,7 +274,7 @@ Source: RIVM ([case/age csv](https://data.rivm.nl/covid-19/COVID-19_casus_landel
 <p align="center"><img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%"></p>  
 <p align="center"><img src="/fig/cv_age_hosp2.png" width="40%"> <img src="/fig/cv_age_hosp_loess.png" width="40%"></p>  
   
-Full time line (7-day moving average)  
+Full time line (no moving average)  
 <p align="center"><img src="/fig/cv_age_hosp2_full.png" width="90%"></p>  
   
 Source: RIVM ([hospital/age csv](https://data.rivm.nl/covid-19/COVID-19_ziekenhuis_ic_opnames_per_leeftijdsgroep.csv))  
