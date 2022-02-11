@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Feb 10, 2022  5:04:53 PM</i>
+<i>Last update: Fri, Feb 11, 2022  3:44:17 PM</i>
 
 Table of Contents
 =================
@@ -70,7 +70,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [021022:] Latest new cases = 86779 (RIVMc), 86862 (RIVMn) &rarr; +299 (since yesterday)   
+* [021122:] Latest new cases = 80610 (RIVMc), 80723 (RIVMn) &rarr; -6044 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day 😉); see [analysis below](#hospital-occupancy-trends).  
@@ -260,15 +260,16 @@ Source: RIVM ([case/age csv](https://data.rivm.nl/covid-19/COVID-19_casus_landel
 * First two plots show 7-day moving average.  
 * Upper left plot shows relative proportion across all age groups.  
   - Young age groups are merged due to misalignment between hospital and case data.  
-  - _Relative proportion generally going down largely because of (relatively) more hospitizalizations in the older (not shown) age groups._  
+  - [112521:] _Relative proportion generally going down largely because of (relatively) more hospitizalizations in the older (not shown) age groups._  
 * Upper right plot shows ratio of hospitalizations to number of cases.  
   - These proportions is an upper bound, as there are far more contagious cases thanindicated by a daily case number and also considering not all cases are registered by RIVM.  
-  - _Under that assumption, there is currently < 1% chance of hospitalization after infection._  
-  - _The diminishing curves for the older age groups may be indicative of the vaccine's effectiveness._  
+  - [112521:]  
+    - _Under that assumption, there is currently < 1% chance of hospitalization after infection._  
+    - _The diminishing curves for the older age groups may be indicative of the vaccine's effectiveness._  
 * The lower two plot shows _percentage_ within population of each age group.  
   - The right plot shows a LOESS regression fit.  
   - Because the recent week's LCPS age data (i.e. most recent date) are incomplete, points are omitted in these two plots.  
-  - [112521:] _Hospitalizations are going up for all age groups._  
+  - [112521:] _Hospitalizations (within age group) are going up for all age groups._  
   
   
 <p align="center"><img src="/fig/cv_age_hosp.png" width="40%"> <img src="/fig/cv_age_hosp_covid.png" width="40%"></p>  
