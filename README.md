@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Feb 17, 2022  3:56:56 PM</i>
+<i>Last update: Fri, Feb 18, 2022  5:53:39 PM</i>
 
 Table of Contents
 =================
@@ -24,6 +24,7 @@ Table of Contents
    * [Global and other countries](#global-and-other-countries)
    * [USA v. NL](#usa-v-nl)
 * [Risk calculations](#risk-calculations)
+   * [Booster protection](#booster-protection)
    * [Hospitalization risk](#hospitalization-risk)
    * [Personal risk](#personal-risk)
       * [Summary](#summary)
@@ -70,7 +71,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [021722:] Latest new cases = 56378 (RIVMc), 56390 (RIVMn) &rarr; -7375 (since yesterday)   
+* [021822:] Latest new cases = 49283 (RIVMc), 49296 (RIVMn) &rarr; -7079 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day :wink:); see [analysis below](#hospital-occupancy-trends).  
@@ -146,6 +147,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
 * Y-axis:  
   - Left plot: New daily hospitalizations (regular+ICU)  
   - Right plot: Hospital bed occupancy (regular+ICU)  
+* [021722:] Visual space clipped to not show 400K new infections point (GGD catching up on delayed data).   
     
 <p align="center"><img src="/fig/cv_n_noc.png" width="40%"><img src="/fig/cv_n_kib.png" width="40%"></p>  
   
@@ -313,6 +315,15 @@ Source: RIVM ([hospital/age csv](https://data.rivm.nl/covid-19/COVID-19_ziekenhu
   
   
 # Risk calculations  
+## Booster protection  
+  
+<ins>021722:</ins>  
+- Based on information presented in this [RIVM page](https://www.rivm.nl/en/news/booster-vaccination-prevents-many-hospital-and-ICU-admissions) ...  
+  
+![](https://latex.codecogs.com/svg.latex?p(H\\&C|\text{booster})&space;=&space;.0032\%)  
+![](https://latex.codecogs.com/svg.latex?p(H\\&C|\text{vaxx&space;only})&space;=&space;.014\%)  
+![](https://latex.codecogs.com/svg.latex?p(H\\&C|\text{unvaxxed})&space;=&space;.033\%)  
+  
 ## Hospitalization risk  
   
 <ins>**tl;dr:**</ins> (based on Nov 13, 2021 numbers)  
