@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sun, Feb 20, 2022 10:52:40 AM</i>
+<i>Last update: Sun, Feb 20, 2022  5:28:50 PM</i>
 
 Table of Contents
 =================
@@ -71,7 +71,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [021922:] Latest new cases = 33597 (RIVMc), 33629 (RIVMn) &rarr; -15648 (since yesterday)   
+* [022022:] Latest new cases = 36437 (RIVMc), 36448 (RIVMn) &rarr; +2819 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day :wink:); see [analysis below](#hospital-occupancy-trends).  
@@ -87,6 +87,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
 * <ins>Legend:</ins>  
   - The figures below show raw (and log10) new case counts and deaths.  
     - Orange line is 7-day moving average.  
+	- [022022:] GGD catch-up peak (400K) clipped in some of the plots.  
   - <ins>Horizontal lines:</ins> The dashed gray horizontal line indicates last count of new cases.  
   - <ins>Vaccinations:</ins>  
     - [010722:] Thick <green>**green**</green> line indicates % of total population ~~double~~ vaxxed (where 100% is level with the highest new cases point on the graph). Numbers are weekly.  
