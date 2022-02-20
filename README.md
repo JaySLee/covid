@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Feb 18, 2022  5:53:39 PM</i>
+<i>Last update: Sun, Feb 20, 2022 10:52:40 AM</i>
 
 Table of Contents
 =================
@@ -71,7 +71,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [021822:] Latest new cases = 49283 (RIVMc), 49296 (RIVMn) &rarr; -7079 (since yesterday)   
+* [021922:] Latest new cases = 33597 (RIVMc), 33629 (RIVMn) &rarr; -15648 (since yesterday)   
 * <ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day :wink:); see [analysis below](#hospital-occupancy-trends).  
