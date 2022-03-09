@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sat, Mar  5, 2022  6:01:11 PM</i>
+<i>Last update: Wed, Mar  9, 2022  3:08:02 PM</i>
 
 Table of Contents
 =================
@@ -71,7 +71,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [030522:] Latest new cases = 67208 (RIVMc), 67229 (RIVMn) &rarr; -1091 (since yesterday)   
+* [030822:] Latest new cases = 66231 (RIVMc), 66257 (RIVMn) &rarr; +2166 (since yesterday)   
 *<ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day :wink:); see [analysis below](#hospital-occupancy-trends).  
@@ -246,10 +246,11 @@ Source: RIVM ([case/age csv](https://data.rivm.nl/covid-19/COVID-19_casus_landel
   
   
   
-* Dates of case/age data are offset by +3 days in the plot below.  
+* Dates of case/age data are offset by ~~+3~~ +1 day in the plot below.  
 * So two kinds of delays:  
-  - RIVM country totals data (of all new cases) is behind the age data by 3 days.  
+  - RIVM country totals data (of all new cases) is behind the age data by ~~3~~ 1 days.  
   - But comprehensive age data for the past week is incomplete/delayed significantly.  
+* Mid-Feb 2022 spike seems back-distributed.  
   
   
   
