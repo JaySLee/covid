@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Tue, Apr  5, 2022  3:36:08 PM</i>
+<i>Last update: Thu, Apr  7, 2022  4:13:41 PM</i>
 
 Table of Contents
 =================
@@ -71,7 +71,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [040522:] Latest new cases = 14018 (RIVMc), 14081 (RIVMn) &rarr; +3277 (since yesterday)   
+* [040722:] Latest new cases = 12851 (RIVMc), 12840 (RIVMn) &rarr; -221 (since yesterday)   
 *<ins>Caveats:</ins>  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day :wink:); see [analysis below](#hospital-occupancy-trends).  
@@ -450,6 +450,7 @@ _Across all 8 tutorial instructors_, average risk is:
 * ~817K (official) deaths due to COVID-19. However, total excess deaths is ~1.7M &rarr;  
   - <ins>COVID-19 mortality:</ins> **0.51%** of the U.S. population (so far)  
   - Macabre humor: Covid has four more months to catch up (in proportional U.S. deaths) to the Spanish flu, which lasted 2 years and 2 months (2.17 years).  
+  - [040722:] So it's now April and we have ~982K &rarr; (assuming proportional excess deaths) &rarr; 0.62% COVID mortality for the U.S. population. So, COVID has almost caught up to Spanish flu levels of (relative) deaths in the U.S.  
   
 ## Maths  
   
