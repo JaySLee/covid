@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Apr  7, 2022  4:13:41 PM</i>
+<i>Last update: Tue, Apr 12, 2022  5:36:04 PM</i>
 
 Table of Contents
 =================
@@ -71,8 +71,9 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [040722:] Latest new cases = 12851 (RIVMc), 12840 (RIVMn) &rarr; -221 (since yesterday)   
+* [041222:] Latest new cases = 6293 (RIVMc), 6291 (RIVMn) &rarr; -330 (since yesterday)   
 *<ins>Caveats:</ins>  
+  - [040922:] RIVM no longer updating during the weekend; LCPS is however.  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
     + Hence, one might want to focus on hospitalization numbers (to determine how much one should be alarmed or not on a given day :wink:); see [analysis below](#hospital-occupancy-trends).  
   - RIVMc is computed from the cumulative file while RIVMn is specifically new cases data. Not sure why there's a difference.  
