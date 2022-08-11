@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Thu, Aug 11, 2022 10:13:24 AM</i>
+<i>Last update: Thu, Aug 11, 2022 10:15:01 AM</i>
 
 Table of Contents
 =================
@@ -452,7 +452,7 @@ _Across all 8 tutorial instructors_, average risk is:
 * ~817K (official) deaths due to COVID-19. However, total excess deaths is ~1.7M &rarr;  
   - <ins>COVID-19 mortality:</ins> **0.51%** of the U.S. population (so far)  
   - Macabre humor: Covid has four more months to catch up (in proportional U.S. deaths) to the Spanish flu, which lasted 2 years and 2 months (2.17 years).  
-  - [040722:] So it's now April and we have ~982K &rarr; (assuming proportional excess deaths) &rarr; 0.62% COVID mortality for the U.S. population. So, COVID has almost caught up to Spanish flu levels of (relative) deaths in the U.S.  
+  - [040722:] So it's now April and we have ~982K &rarr; (assuming proportional excess deaths) &rarr; 0.62% COVID mortality for the U.S. population. So, COVID has almost caught up to Spanish flu levels of (proportional) deaths in the U.S.  
   
 ## Maths  
   
