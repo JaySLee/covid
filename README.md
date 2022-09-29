@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Mon, Sep 19, 2022  4:14:04 PM</i>
+<i>Last update: Thu, Sep 29, 2022  4:40:31 PM</i>
 
 Table of Contents
 =================
@@ -71,7 +71,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [091922:] Latest new cases = 1383 (RIVMc), 1383 (RIVMn) &rarr; -139 (since yesterday)  
+* [092922:] Latest new cases = 2614 (RIVMc), 2614 (RIVMn) &rarr; +1425 (since yesterday)  
 * <ins>Caveats:</ins>  
   - [041522:] LCPS (NL hospital data) no longer updated over the weekend.  
   - [040922:] RIVM no longer updated over the weekend. ~~LCPS is however.~~ Also, PCR testing not as common from this point forward, so less reliable of an indicator of infections.  
