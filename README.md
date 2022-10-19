@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Oct 19, 2022  6:41:52 PM</i>
+<i>Last update: Wed, Oct 19, 2022  6:48:58 PM</i>
 
 Table of Contents
 =================
@@ -58,6 +58,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 ## Updates  
   
+* 19.10.22: [Possible new behavior or waning vax efficacy](#interesting)  
 * 16.01.22: [Omicron seems to result in fewer hospitalizations and deaths](#omicron)  
 * 29.12.21: Sources now include direct links to (some) csv data files.  
 * 28.12.21:  
