@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Oct 19, 2022 12:16:57 PM</i>
+<i>Last update: Wed, Oct 19, 2022  6:24:12 PM</i>
 
 Table of Contents
 =================
@@ -11,6 +11,7 @@ Table of Contents
    * [National trend](#national-trend)
    * [Hospital occupancy trends](#hospital-occupancy-trends)
       * [Lockdown prediction](#lockdown-prediction)
+      * [Interesting](#interesting)
    * [Omicron](#omicron)
       * [ICU v. non-ICU](#icu-v-non-icu)
       * [Infections vs. new deaths](#infections-vs-new-deaths)
@@ -71,8 +72,9 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [101822:] Latest new cases = 3967 (RIVMc), 3967 (RIVMn) &rarr; +2013 (since yesterday)  
-* <ins>Caveats:</ins>  
+* [101922:] Latest new cases = 3967 (RIVMc), 3967 (RIVMn) &rarr; +2013 (since yesterday)  
+* <ins>Updates:</ins>  
+  - [101922:] Added 60 day new deaths plot, given recent up-tick.  
   - [041522:] LCPS (NL hospital data) no longer updated over the weekend.  
   - [040922:] RIVM no longer updated over the weekend. ~~LCPS is however.~~ Also, PCR testing not as common from this point forward, so less reliable of an indicator of infections.  
   - [011422:] It looks pretty clear -- given the lowering hospitalizations despite massive increase in infections -- that omicron is indeed less severe.  
@@ -100,10 +102,13 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
 	- Colored _vertical lines_ indicate when restrictions are enacted (solid <red>red</red> vertical line) or lifted (dashed <green>green</green> vertical line).  
     - Thickness of line indicates severity of lockdown or extent of the loosening of restrictions.  
     - Based on observations farther below (and emphasis by the Prime Minister on hospital beds), it would seem that restrictions are imposed or lifted according to hospital occupancy and not number of infections. [See below](#lockdown-prediction).  
+	  
   
 <p align="center"> <img src="/fig/cv_nl_nat.png" width="40%"> <img src="/fig/cv_nl_nat_log10.png" width="40%"> </p>  
   
 <p align="center"><img src="/fig/cv_nl_nat_60.png" width="40%"><img src="/fig/cv_nl_deaths.png" width="40%"></p>  
+  
+<p align="center"><img src="/fig/cv_nl_deaths_60.png" width="40%"></p>  
   
 * Source: [RIVM](https://data.rivm.nl/covid-19/COVID-19_aantallen_gemeente_per_dag.csv) _(releases updated data daily at 15:15 CET, clicking on link acquires the new cases/city csv)_.  
   
@@ -129,11 +134,19 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
 * Lockdown observations and prediction:  
   - Interestingly (and probably verifiable through LCPS), (hard) lockdowns appear to occur when non-ICU hospital bed occupancy is ~1750 and/or ICU bed occupancy is about 500.  
   - Significant ease of lockdowns seems to occur when non-ICU bed occupancy decreases to 500.  
-  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown (at the earliest) near the beginning of February.** ~~the end of January 2022.~~  
+  - [122821:] **Based on this pattern and assuming the occupancy trends continue, we can expect ease of current lockdown (at the earliest) near the beginning of February 2022** ~~the end of January~~.  
     + Note that the announcement of a lockdown (or its removal) occurs a few days prior to the actual lockdown. Still, the observed intersections is likely not be coincidental since one can assume policy is partly based on predictive models.  
   - [011822:] Light loosening of restrictions occurred on 011522. The hospitalization numbers interestingly correspond with the 1st loosening back ca. middle of May, 2020 and June, 2021.  
   
 * Source: [LCPS](https://lcps.nu/wp-content/uploads/covid-19-datafeed.csv) _(releases data daily between 1pm-2pm CET)_ and [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_Netherlands) for lockdown moments  
+  
+### Interesting  
+  
+* [101822:] I just noticed a spike in recent deaths (relative to number of bed occupancy); maybe it's just noise. But if it isn't, then this could be indicative new variant behavior.  
+* <ins>Legend:</ins>  
+  - The colors correspond to the ratio between new deaths to ICU bed occupancy (<red>red</red>) and to regular bed occupancy (<green>green</green>)  
+  
+<p align="center"><img src="/fig/cv_nd_per_beds.png" width="40%"></p>  
   
   
   
