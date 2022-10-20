@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Wed, Oct 19, 2022  6:48:58 PM</i>
+<i>Last update: Thu, Oct 20, 2022  5:45:52 PM</i>
 
 Table of Contents
 =================
@@ -73,7 +73,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [101922:] Latest new cases = 3967 (RIVMc), 3967 (RIVMn) &rarr; +2013 (since yesterday or last RIVM data update)  
+* [102022:] Latest new cases = 3967 (RIVMc), 3967 (RIVMn) &rarr; +2013 (since yesterday or last RIVM data update)  
 * <ins>Updates:</ins>  
   - [101922:]  
     - Added 60 day new deaths plot, given recent up-tick.  
@@ -146,7 +146,8 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 ### Interesting  
   
-* [101822:] I just noticed a spike in recent deaths (relative to number of bed occupancy); maybe it's just noise. But if it isn't, then this could be indicative of new variant behavior or waning efficacy of vax (for a subpopulation).  
+* [101822:] I just noticed a spike in recent deaths (relative to number of ICU beds occupancy); maybe it's just noise or due to delayed reporting of deaths.  
+* But if it isn't, then this could be indicative of new variant behavior or waning efficacy of vax (for a subpopulation).  
 * <ins>Legend:</ins>  
   - The colors correspond to the ratio between new deaths to ICU bed occupancy (<red>red</red>) and to regular bed occupancy (<green>green</green>)  
   - Lower levels of red could indicate higher survival rate (of people in the ICU).  
