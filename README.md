@@ -1,6 +1,6 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Sun, Nov  6, 2022  4:11:57 PM</i>
+<i>Last update: Mon, Nov  7, 2022  6:01:33 PM</i>
 
 Table of Contents
 =================
@@ -73,7 +73,7 @@ header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/p
   
 # Netherlands  
 ## National trend  
-* [110622:] Latest new cases = 1225 (RIVMc), 1225 (RIVMn) &rarr; -120 (since yesterday or last RIVM data update)  
+* [110722:] Latest new cases = 1225 (RIVMc), 1225 (RIVMn) &rarr; -120 (since yesterday or last RIVM data update)  
 * <ins>Updates:</ins>  
   - [101922:]  
     - Added 60 day new deaths plot, given recent up-tick.  
