@@ -1,11 +1,42 @@
 # COVID-19 in the Netherlands
 _Author: Jay Lee_  
-<i>Last update: Fri, Sep 29, 2023  7:34:35 PM</i>
+<i>Last update: Sun, Jan  7, 2024  7:51:37 PM</i>
 
 Table of Contents
 =================
 
-
+* [Links and notes](#links-and-notes)
+   * [Updates](#updates)
+* [Netherlands](#netherlands)
+   * [National trend](#national-trend)
+   * [Hospital occupancy trends](#hospital-occupancy-trends)
+      * [Lockdown prediction](#lockdown-prediction)
+      * [Interesting](#interesting)
+   * [Omicron](#omicron)
+      * [ICU v. non-ICU](#icu-v-non-icu)
+      * [Infections vs. new deaths](#infections-vs-new-deaths)
+   * [Within NL cities/towns/provinces](#within-nl-citiestownsprovinces)
+* [Trends in nearby countries](#trends-in-nearby-countries)
+* [Covid by age](#covid-by-age)
+   * [Cases by age group](#cases-by-age-group)
+      * [Delay of age data](#delay-of-age-data)
+   * [Hospitalization by age group](#hospitalization-by-age-group)
+* [Other countries](#other-countries)
+   * [Global and other countries](#global-and-other-countries)
+   * [USA v. NL](#usa-v-nl)
+* [Risk calculations](#risk-calculations)
+   * [Booster protection](#booster-protection)
+   * [Hospitalization risk](#hospitalization-risk)
+   * [Personal risk](#personal-risk)
+      * [Summary](#summary)
+      * [The (wonky) math](#the-wonky-math)
+* [Appendix](#appendix)
+   * [Comparison to Spanish flu in the U.S.](#comparison-to-spanish-flu-in-the-us)
+   * [Maths](#maths)
+      * [Personal risk calculation math](#personal-risk-calculation-math)
+      * [Basis for hospitalization risk](#basis-for-hospitalization-risk)
+      * [Hospitalization risk by age](#hospitalization-risk-by-age)
+   * [Code](#code)
 
 header-includes: <link rel="icon" href="file:///C:/Users/60140jle/DROPBO~1/usr/proj/logos/cv.logo.png">  
   
